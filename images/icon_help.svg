@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-icon_help">
+      <rect width="26" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="icon_help" clip-path="url(#clip-icon_help)">
+    <g id="Icon_ionic-ios-help-circle-outline" data-name="Icon ionic-ios-help-circle-outline" transform="translate(-2.375 -2.375)">
+      <path id="Path_108" data-name="Path 108" d="M15.09,4.952A10.134,10.134,0,1,1,7.92,7.92a10.071,10.071,0,0,1,7.17-2.968m0-1.577A11.715,11.715,0,1,0,26.8,15.09,11.713,11.713,0,0,0,15.09,3.375Z" transform="translate(0 0)" fill="#9da6af"/>
+      <path id="Path_109" data-name="Path 109" d="M17.144,11.25c2.112,0,3.565,1.171,3.565,2.856a2.755,2.755,0,0,1-1.583,2.5c-.98.569-1.312.986-1.312,1.707v.445H15.86l-.017-.484A2.345,2.345,0,0,1,17.172,15.8c.952-.569,1.352-.929,1.352-1.628a1.367,1.367,0,0,0-1.515-1.211A1.425,1.425,0,0,0,15.5,14.342h-2C13.539,12.529,14.88,11.25,17.144,11.25ZM15.663,20.9a1.209,1.209,0,1,1,1.205,1.16A1.18,1.18,0,0,1,15.663,20.9Z" transform="translate(-2.015 -1.567)" fill="#9da6af"/>
+    </g>
+  </g>
+</svg>

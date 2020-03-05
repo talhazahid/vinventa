@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-_Reports_off">
+      <rect width="26" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="_Reports_off" data-name=" Reports_off" clip-path="url(#clip-_Reports_off)">
+    <g id="Vector_Smart_Object1" data-name="Vector Smart Object1" transform="translate(-9.806 2)" opacity="0.4" style="isolation: isolate">
+      <g id="Group_2" data-name="Group 2">
+        <path id="Path_35" data-name="Path 35" d="M29.524,22.3H16.733a1.956,1.956,0,0,1-1.927-1.982V5.452a1.956,1.956,0,0,1,1.927-1.983h12.79a1.956,1.956,0,0,1,1.927,1.983V20.321A1.956,1.956,0,0,1,29.524,22.3Z" fill="#9a9a9a" stroke="#000" stroke-miterlimit="10" stroke-width="1.374"/>
+      </g>
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_36" data-name="Path 36" d="M25.538,17.842H20.719a1.487,1.487,0,0,1,0-2.974h4.818a1.487,1.487,0,0,1,0,2.974Z"/>
+      </g>
+      <g id="Group_4" data-name="Group 4">
+        <path id="Path_37" data-name="Path 37" d="M25.538,11.895H20.719a1.487,1.487,0,0,1,0-2.974h4.818a1.487,1.487,0,0,1,0,2.974Z"/>
+      </g>
+      <g id="Group_5" data-name="Group 5" style="isolation: isolate">
+        <path id="Path_38" data-name="Path 38" d="M26.02,5.947a1.467,1.467,0,0,1-1.446-1.487V1.487a1.446,1.446,0,1,1,2.891,0V4.461A1.467,1.467,0,0,1,26.02,5.947Z"/>
+      </g>
+      <g id="Group_6" data-name="Group 6" style="isolation: isolate">
+        <path id="Path_39" data-name="Path 39" d="M20.237,5.947a1.467,1.467,0,0,1-1.446-1.487V1.487a1.446,1.446,0,1,1,2.891,0V4.461A1.467,1.467,0,0,1,20.237,5.947Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

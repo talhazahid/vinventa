@@ -1,0 +1,51 @@
+input, 
+button, 
+select {
+    border-radius: 40px;
+}
+
+
+.table-pagination {
+    background: none;
+    align-items: center;
+    border: 0px;
+    .page-link {
+
+        color: #776FFF;
+        background: none;
+        border: 0px;
+    }
+}
+
+
+a {
+    color: #776FFF;
+    text-decoration: none;
+    &:hover {
+        color: #776FFF;
+    }
+    &:focus {
+        color: #776FFF;
+    }
+}
+
+
+
+.graydient-secondary-btn {
+    background-image: linear-gradient(to right bottom, #5e5e5e, #565656, #4f4e4f, #484747, #413f3f);
+    
+}
+
+.graydient-primary-btn {
+    background-image: linear-gradient(to right bottom, #a57dff, #9b79ff, #9076ff, #8472ff, #776fff);
+}
+
+
+
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    background: white;
+    height: 18px;
+    width: 18px;
+}
