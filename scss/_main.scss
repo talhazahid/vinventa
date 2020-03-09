@@ -184,6 +184,10 @@ header {
   -webkit-box-shadow:0px -2px 15px 5px rgba(0, 0, 0, 0.1);
   box-shadow:0px -2px 15px 5px rgba(0, 0, 0, 0.1);
 
+  button {
+    box-shadow: none;
+  }
+
 
   .logo {
     img {
@@ -1249,7 +1253,7 @@ footer {
 
   td {
     font-size: 14px;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
     vertical-align: inherit;
     color: #4C4C4C;
   }
@@ -1286,8 +1290,8 @@ th {
 .table-logos a {
   display: inline-block;
   background: white;
-  width: 31px;
-  height: 31px;
+  width: 30px;
+  height: 30px;
   margin-right: 5px;
   border: 1px solid #b1b1b1;
   border-radius: 100%;
@@ -1391,7 +1395,7 @@ th {
   height: 27px;
 
   .more-numbers {
-    padding-top: 4px;
+    padding-top: 3px;
   }
   .dots-row {
     width: 100%;
@@ -1400,6 +1404,7 @@ th {
     justify-content: center;
     position: relative;
     top: -1px;
+    
 
   }
 
@@ -1885,7 +1890,7 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  margin-top: 43px;
+  margin-top: 30px;
   flex-direction: column;
 
   .search-wrap {
@@ -1930,6 +1935,7 @@ a {
 
   .search-section {
     width: 100%;
+    padding: 0px 20px;
 
     .search-section-box {
       margin: auto;
@@ -2038,6 +2044,8 @@ a {
 .device-results {
   font-size: 16px;
   flex: 1;
+  font-family: 'proxima-semi-bold';
+  color: #4C4C4C;
 
   a {
     color: #776fff;
@@ -2050,13 +2058,14 @@ a {
 
 
 .edit-column-export {
+  margin-right: 20px;
   a {
     text-decoration: underline;
     color: #776fff;
   }
 
   span {
-    color: #776FFF;
+    color: #4C4C4C;
     margin: 0px 15px;
   }
 }
@@ -2064,12 +2073,14 @@ a {
 
 .device-result-export-row {
   display: flex;
+  padding: 0px 20px;
 }
 
 
 .results-per-page {
   flex: 1;
   text-align: right;
+  padding: 0.5rem 0.75rem;
 }
 
 
@@ -2123,6 +2134,11 @@ a {
 
 
 
+.page-heading {
+  font-family: 'proxima-semi-bold';
+  font-size: 24px;
+  margin-top: 30px;
+}
 
 
 
@@ -2165,6 +2181,11 @@ a {
 .menu-btn {
   background: none;
   border: 0px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
   img {
     width: 24px;
   }
@@ -2178,4 +2199,45 @@ a {
 }
 
 
+.parent-row  td:first-child {
+    input {
+      position: relative;
+      top: 6px;
+    }
+}
 
+.parent-row  td:nth-child(2) {
+  padding: 10px 0px 10px 10px !important;
+}
+.parent-row  td:nth-child(1) {
+  padding: 10px 0px 10px 10px !important;
+}
+
+.child-row  td:nth-child(2) {
+  padding: 10px 0px 10px 10px !important;
+}
+.child-row  td:nth-child(2) {
+  padding: 10px 0px 10px 10px !important;
+}
+
+.abso-center {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  margin: auto;
+}
+
+table .bold-heading {
+  font-family: 'proxima-semi-bold';
+}
+
+.bottom-page {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.relative {
+  position: relative;
+}

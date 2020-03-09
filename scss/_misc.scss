@@ -127,6 +127,9 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 
 }
 
@@ -490,6 +493,30 @@ input[type="checkbox"] {
   &:hover {
     background-image: url(../images/Analytic_on.svg);
   }
+
+  
+}
+
+
+
+.help-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/icon_help.svg);
+}
+
+.settings-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/settings.svg);
+}
+.user-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Users_off.svg);
 }
 
 
