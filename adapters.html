@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css"
@@ -33,6 +33,110 @@
 
 <body>
 
+
+
+  <!-- Pushy Menu -->
+  <nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+      <ul>
+        <li class="pushy-submenu pushy-link">
+          <a href="#">
+            <div class="menu-img active dashbord-icon">  
+            </div>
+            <div>
+              Dashboard
+            </div>
+          </a>
+          <!-- <button id="first-link">Dashboard</button> -->
+          <!-- <ul>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 1</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 2</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-link"><a href="#">Item 1</a></li>
+                    <li class="pushy-link"><a href="#">Item 2</a></li>
+                </ul> -->
+        </li>
+
+        <li class="pushy-link"> 
+          <a href="#">
+          <div class="menu-img devices-icon">
+          </div>
+          <div>
+            Devices
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img users-icon">  
+          </div>
+          <div>
+            Users
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img policy-icon">
+          </div>
+          <div>
+            Policy Center
+          </div>  
+        </a>
+
+        
+        </li>
+        <li class="pushy-link">
+          
+            <a href="#">
+              <div class="menu-img connectors-icon"></div>
+            
+          <div>
+            Connectors
+          </div>
+            </a>
+         
+        </li>
+        <li class="pushy-link">
+        
+            <a href="#">
+              <div class="menu-img reports-icon"> </div>
+              <div>
+                Reports
+              </div>
+            </a>
+          
+        </li>
+        <li class="pushy-link">
+        
+            <a href="#">
+              <div class="menu-img analytic-icon">  </div>
+            <div>
+              Analytic
+            </div>
+            </a>
+        
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Site Overlay -->
+  <div class="site-overlay"></div>
+
+
+
   <div class="container-fluid main-wrapper p-0">
 
     <header>
@@ -55,7 +159,7 @@
             <div class="menu-img dashbord-icon">
 
             </div>
-           
+
             <a href="#">Dashboard</a>
             <ul class="header-submenu">
               <li><a href="#">SubMenu 2</a></li>
@@ -67,7 +171,7 @@
 
           </li>
           <li>
-            <div class="menu-img devices-icon">
+            <div class="menu-img  active devices-icon">
 
             </div>
             <a href="#">Devices</a>
@@ -183,14 +287,14 @@
         </div>
 
 
-        <div class="dropdown">
+        <div class="dropdown d-flex">
           <a href="#" class="dropdown-toggle menu-notification" type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
             <div class="user-profile">
               JD
             </div>
-            <span>3</span>       
+            <span>3</span>
 
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -206,7 +310,7 @@
           </div>
 
           <div class="user-role">
-           Admin
+            Admin
           </div>
         </div>
 
@@ -216,7 +320,9 @@
 
 
 
-
+      <button class="menu-btn">
+        <img src="images/menu.svg">
+      </button>
 
 
 
@@ -240,13 +346,17 @@
                 <div class="search-wrap">
                   <input type="text" placeholder="Insert your query or start typing to filter recent Queries"
                     class="search-field">
-               
+
+                  <a href="#" class="search-query-dropdown-btn">
+                    <img src="images/down-arrow.svg">
+                  </a>
+
                 </div>
 
 
                 <div class="search-section">
 
-                  <div class="search-section-box">          
+                  <div class="search-section-box">
 
                     <div class="search-section-filter">
 
@@ -269,16 +379,16 @@
                       </div>
                     </div>
 
-                    
-                  <div class="search-section-buttons">
-                    <button type="button" class="theme-btn graydient-secondary-btn">Saved Query</button>
-                    <button type="button" class="theme-btn graydient-primary-btn">Query Wizard</button>
-                  </div>
-                   
+
+                    <div class="search-section-buttons">
+                      <button type="button" class="theme-btn graydient-secondary-btn">Saved Query</button>
+                      <button type="button" class="theme-btn graydient-primary-btn">Query Wizard</button>
+                    </div>
+
                   </div>
 
 
-               
+
 
 
 
@@ -290,13 +400,13 @@
 
 
 
-              <div class="row">
+              <div class="row m-0">
 
 
 
 
 
-                <div class="col-lg-12 inner-tab-right-section">
+                <div class="col-lg-12 inner-tab-right-section p-0">
 
 
 
@@ -314,18 +424,18 @@
                            <img src="images/vertical-dots.svg">
                           </a> -->
                         </div>
-  
-  
+
+
                         <div class="edit-column-export">
                           <a href="#">Edit Column</a>
                           <span class="split-pipe">|</span>
                           <a href="#">Exporet CSV</a>
                         </div>
-  
-  
+
+
                       </div>
 
-                    
+
 
                       <div class="wrapper">
                         <table>
@@ -337,9 +447,14 @@
                               <th class="bold-heading">Connectors</th>
                               <th class="bold-heading">Asset Name</th>
                               <th class="bold-heading">Host Name</th>
-                              <th class="bold-heading">Last Seen</th>
+                              <th class="bold-heading">
+                                Last Seen
+
+                                <img src="images/down-arrow.svg" class="table-heading-arrow">
+
+                              </th>
                               <th>
-                             
+
                               </th>
                             </tr>
 
@@ -375,7 +490,15 @@
                                   </span>
 
                                   <span class="plus-more-data">
-                                    +2
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
                                   </span>
 
                                 </div>
@@ -387,26 +510,58 @@
 
 
                               <td>
-                                <span>DFSFS-9F-SDF9SDF9SD-F9-</span>
+
+
+                                <div class="table-innerbox">
+
+
+                                  <span>DFSFS-9F-SDF9SDF9SD-F9-</span>
+
+
+                                </div>
+
                               </td>
 
                               <td>
 
-                                <span>
-                                  2019-10-20:11:25:45
-                                </span>
 
-                                <span class="pipe">
-                                  |
-                                </span>
+                                <div class="table-innerbox">
 
-                                <span>
-                                  2019-05-16 21 08
-                                </span>
 
-                                <span class="plus-more-data">
-                                  +2
-                                </span>
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
+                                </div>
+
+
+
+
+
+
+
 
                               </td>
 
@@ -474,7 +629,7 @@
                               <td class="white-spacer">
 
                               </td>
-  
+
 
                             </tr>
 
@@ -524,14 +679,14 @@
                               <td class="white-spacer">
 
                               </td>
-  
+
 
                             </tr>
-                         
+
 
                             <tr class="empty-row-white">
                               <td class="border-bottom-left">
-                          
+
                               </td>
                               <td></td>
                               <td></td>
@@ -543,14 +698,179 @@
                             </tr>
 
                             <tr class="empty-row">
+
+                              <td colspan="6" class="border-bottom-left border-bottom-right">
+
+
+                                <div class="empty-row-shadow"></div>
+
+                              </td>
+
+
+
+
+                            </tr>
+
+
+                            <tr class="parent-row">
+
+                              <td class="border-top-left border-bottom-left"><input type="checkbox"></td>
+
                               <td>
-                           <div class="empty-row-shadow"></div>
-                          </td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+
+                                <div class="table-innerbox">
+
+
+                                  <div class="table-logos">
+                                    <a href="#"><img src="images/deep_security_logo.png"></a>
+                                    <a href="#"><img src="images/eset_logo.png"></a>
+                                    <a href="#"><img src="images/fortigate_logo.png"></a>
+                                    <a href="#"><img src="images/nexpose_logo.png"></a>
+                                  </div>
+
+                                </div>
+
+                              </td>
+
+
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <div class="table-innerbox">
+
+
+                                    <span>
+                                      2019-10-20:11:25:45
+                                    </span>
+
+
+                                    <span class="pipe">
+                                      |
+                                    </span>
+
+                                    <span>
+                                      2019-05-16 21 08
+                                    </span>
+
+
+                                    <span class="plus-more-data">
+                                      <div class="more-numbers">
+                                        2
+                                      </div>
+                                      <div class="dots-row">
+                                        <span class="dots">.</span>
+                                        <span class="dots">.</span>
+                                        <span class="dots">.</span>
+                                      </div>
+
+                                    </span>
+
+                                  </div>
+
+
+
+                                </div>
+
+                              </td>
+
+
+
+
+
+                              <td>
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+
+
+                                </div>
+
+                              </td>
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
+                                </div>
+
+
+                              </td>
+
+
+
+
+
+                              <td class="border-top-right border-bottom-right">
+                                <a href="#" class="acord-arrow">
+                                  <img src="images/down-arrow.svg">
+                                </a>
+
+                              </td>
+
+
+
+
+
+
+                            </tr>
+
+
+                            <tr class="empty-row">
+
+                              <td colspan="6" class="border-bottom-left border-bottom-right">
+
+
+                                <div class="empty-row-shadow"></div>
+
+                              </td>
+
+
+
+
                             </tr>
 
 
@@ -582,7 +902,37 @@
 
 
                                   <span>
-                                    Testsecemoain Test WIN-D89F7SD9F90FS90
+                                    <div class="table-innerbox">
+
+
+                                      <span>
+                                        2019-10-20:11:25:45
+                                      </span>
+
+
+                                      <span class="pipe">
+                                        |
+                                      </span>
+
+                                      <span>
+                                        2019-05-16 21 08
+                                      </span>
+
+
+                                      <span class="plus-more-data">
+                                        <div class="more-numbers">
+                                          2
+                                        </div>
+                                        <div class="dots-row">
+                                          <span class="dots">.</span>
+                                          <span class="dots">.</span>
+                                          <span class="dots">.</span>
+                                        </div>
+
+                                      </span>
+
+                                    </div>
+
                                   </span>
 
 
@@ -595,81 +945,38 @@
 
 
                               <td>
-                                <span>DFSFS-9F-SDF9SDF9SD-F9-</span>
-                              </td>
-
-                              <td>
-
-                                <span>
-                                  2019-10-20:11:25:45
-                                </span>
-
-                                <span class="pipe">
-                                  |
-                                </span>
-
-                                <span>
-                                  2019-05-16 21 08
-                                </span>
-
-                                <span class="plus-more-data">
-                                  +2
-                                </span>
-
-                              </td>
-
-
-
-
-
-                              <td class="border-top-right border-bottom-right">
-                                <a href="#" class="acord-arrow">
-                                  <img src="images/down-arrow.svg">
-                                </a>
-
-                              </td>
-
-
-
-
-
-
-                            </tr>
-
-
-                            <tr class="empty-row">
-                              <td>
-                                <div class="empty-row-shadow"></div>
-                               </td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-
-
-                            <tr class="parent-row">
-
-                              <td class="border-top-left border-bottom-left"><input type="checkbox"></td>
-
-                              <td>
-
                                 <div class="table-innerbox">
 
 
-                                  <div class="table-logos">
-                                    <a href="#"><img src="images/deep_security_logo.png"></a>
-                                    <a href="#"><img src="images/eset_logo.png"></a>
-                                    <a href="#"><img src="images/fortigate_logo.png"></a>
-                                    <a href="#"><img src="images/nexpose_logo.png"></a>
-                                  </div>
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
 
                                 </div>
 
                               </td>
-
-
 
                               <td>
 
@@ -677,39 +984,33 @@
 
 
                                   <span>
-                                    Testsecemoain Test WIN-D89F7SD9F90FS90
+                                    2019-10-20:11:25:45
                                   </span>
 
 
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
                                 </div>
 
-                              </td>
-
-
-
-
-
-                              <td>
-                                <span>DFSFS-9F-SDF9SDF9SD-F9-</span>
-                              </td>
-
-                              <td>
-
-                                <span>
-                                  2019-10-20:11:25:45
-                                </span>
-
-                                <span class="pipe">
-                                  |
-                                </span>
-
-                                <span>
-                                  2019-05-16 21 08
-                                </span>
-
-                                <span class="plus-more-data">
-                                  +2
-                                </span>
 
                               </td>
 
@@ -727,25 +1028,24 @@
 
 
 
-
-
                             </tr>
 
 
-                            
+
                             <tr class="empty-row">
-                              <td>
+
+                              <td colspan="6" class="border-bottom-left border-bottom-right">
+
+
                                 <div class="empty-row-shadow"></div>
-                               </td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+
+                              </td>
+
+
+
+
                             </tr>
 
-
-                          
 
                             <!-- second row-->
 
@@ -773,8 +1073,15 @@
                     <div class="results-per-page">
                       <a href="#" class="mr-4">Results Per Page</a>
                       <a href="#">20</a>
+
+                      <a href="#" class="acord-arrow result-dropdown">
+                        <img src="images/down-arrow.svg">
+                      </a>
+
+                      
+
                     </div>
-                
+
                   </ul>
 
 

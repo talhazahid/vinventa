@@ -9680,7 +9680,7 @@ section {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003110}}
 body {
   line-height: 1;
-  font-family: 'proxima-regular';
+  font-family: "PT Sans", sans-serif;
   background: #ecedf2; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003116}}
@@ -9691,31 +9691,17 @@ body {
   --heading-small-font: 18px;
   --body-text-color: #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003125}}
-::-webkit-input-placeholder {
-  /* Edge */
-  color: #B4B4B4; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003129}}
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #B4B4B4; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003133}}
-::placeholder {
-  color: #B4B4B4; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003124}}
 ol,
 ul {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003129}}
 blockquote,
 q {
   quotes: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003134}}
 blockquote:before,
 blockquote:after,
 q:before,
@@ -9723,24 +9709,24 @@ q:after {
   content: "";
   content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003142}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003147}}
 .btn:focus,
 .btn.focus {
   outline: 0;
   box-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003153}}
 html,
 body {
   width: 100%;
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003159}}
 header {
   background: #ffffff;
   /* height: 60px; */
@@ -9749,14 +9735,14 @@ header {
   z-index: 2;
   align-items: center;
   border-bottom: 1px solid #e0e0e0;
-  padding: 15px 35px;
+  padding: 15px 20px;
   -webkit-box-shadow: 0px -2px 15px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0px -2px 15px 5px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003173}}
   header .logo img {
     height: 60px;
     margin: 0px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003179}}
   header .header-menu ul li {
     display: flex;
     flex-direction: column;
@@ -9766,185 +9752,164 @@ header {
     width: 85px;
     text-align: center;
     align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003189}}
     header .header-menu ul li:hover {
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003192}}
       header .header-menu ul li:hover .dashbord-icon {
         background-image: url(../images/Dashboard_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003196}}
       header .header-menu ul li:hover .devices-icon {
         background-image: url(../images/Devices_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003200}}
       header .header-menu ul li:hover .users-icon {
         background-image: url(../images/Users_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003204}}
       header .header-menu ul li:hover .policy-icon {
         background-image: url(../images/Policy-Center_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003208}}
       header .header-menu ul li:hover .reports-icon {
         background-image: url(../images/Reports_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003212}}
       header .header-menu ul li:hover .connectors-icon {
         background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003216}}
       header .header-menu ul li:hover .analytic-icon {
         background-image: url(../images/Analytic_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003225}}
     header .header-menu ul li .menu-img {
       margin: 0 auto 10px;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003246}}
-    header .header-menu ul li .active.dashbord-icon {
-      background-image: url(../images/Dashboard_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003249}}
-    header .header-menu ul li .active.devices-icon {
-      background-image: url(../images/Devices_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003252}}
-    header .header-menu ul li .active.users-icon {
-      background-image: url(../images/Users_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003255}}
-    header .header-menu ul li .active.policy-icon {
-      background-image: url(../images/Policy-Center_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003258}}
-    header .header-menu ul li .active.reports-icon {
-      background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003261}}
-    header .header-menu ul li .active.connectors-icon {
-      background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003265}}
-    header .header-menu ul li .active.analytic-icon {
-      background-image: url(../images/Analytic_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003229}}
     header .header-menu ul li .dashbord-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Dashboard_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003234}}
       header .header-menu ul li .dashbord-icon:hover {
         background-image: url(../images/Dashboard_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003240}}
     header .header-menu ul li .devices-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Devices_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003245}}
       header .header-menu ul li .devices-icon:hover {
         background-image: url(../images/Devices_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003250}}
     header .header-menu ul li .users-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Users_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003255}}
       header .header-menu ul li .users-icon:hover {
         background-image: url(../images/Users_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003260}}
     header .header-menu ul li .policy-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Policy-Center_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003265}}
       header .header-menu ul li .policy-icon:hover {
         background-image: url(../images/Policy-Center_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003270}}
     header .header-menu ul li .reports-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Reports_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003275}}
       header .header-menu ul li .reports-icon:hover {
         background-image: url(../images/Reports_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003280}}
     header .header-menu ul li .connectors-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Connectors_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003285}}
       header .header-menu ul li .connectors-icon:hover {
         background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003290}}
     header .header-menu ul li .analytic-icon {
       width: 24px;
       height: 24px;
       display: inline-block;
       background-image: url(../images/Analytic_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003295}}
       header .header-menu ul li .analytic-icon:hover {
         background-image: url(../images/Analytic_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003305}}
   header .header-menu ul li img {
     width: 24px;
     margin: 0px auto 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003312}}
 .dropdown img {
   width: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003316}}
 aside {
   background: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003320}}
   aside ul li:hover {
     background: #e6e6e6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003324}}
   aside ul li .active {
     background: #e6e6e6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003328}}
   aside ul li a {
     color: #5d5d5d;
     padding: 10px;
     display: block;
     font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003334}}
     aside ul li a:hover {
       color: #5d5d5d;
       text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003348}}
 .main-wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: stretch; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003355}}
 .full-width {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003364}}
 .label-form {
   background: #9c9c9c; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003368}}
 label {
   display: inline-block;
   margin-bottom: 0.5rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003373}}
 .section-heading {
   background: #9c9c9c;
   padding: 10px;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003379}}
 .no-bg-btn {
   background: none;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003383}}
   .no-bg-btn:hover {
     color: white; }
 
 /*
   Side Menu  
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003436}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003392}}
 #slide-menu {
   position: absolute;
   top: 0;
@@ -9959,21 +9924,21 @@ label {
   -webkit-transition: all 300ms;
   transition: all 300ms; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003407}}
 body.menu-active #slide-menu {
   left: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003411}}
 body.menu-active #slide-menu ul {
   left: 0px;
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003416}}
 #content {
   padding: 0px 20px;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003433}}
 .menu-trigger {
   position: relative;
   left: 10px;
@@ -9983,29 +9948,29 @@ body.menu-active #slide-menu ul {
   -webkit-transition: all 300ms;
   transition: all 300ms;
   margin-right: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003443}}
   .menu-trigger img {
     width: 36px;
     height: 36px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003449}}
 body.menu-active #content {
   left: 284px;
   border-radius: 7px 0 0 7px;
   width: calc(100% - 100px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003455}}
 body.menu-active #content .menu-trigger {
   left: 294px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003459}}
 .relative {
   position: relative; }
 
 /*
   Side Menu  
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003467}}
 .full-width-heading {
   color: #5c5d66;
   font-size: 28px;
@@ -10014,54 +9979,54 @@ body.menu-active #content .menu-trigger {
   text-transform: capitalize;
   border-bottom: 1px solid #cdd0db; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003476}}
 .dashboard-right-section {
   padding: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003480}}
 .inner-tab-side-section {
   padding: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003483}}
   .inner-tab-side-section ul {
     padding: 0;
     margin: 0;
     background: #eff1f2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003488}}
     .inner-tab-side-section ul li {
       padding: 0;
       margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003492}}
       .inner-tab-side-section ul li a {
         width: 100%;
         padding: 10px;
         display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003501}}
 .inner-tab-right-section {
   padding: 10px;
-  margin-top: 32px; }
+  margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003506}}
 .table-top-options-row {
   display: flex;
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003510}}
   .table-top-options-row div {
     flex: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003514}}
   .table-top-options-row div:last-child {
     text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003519}}
 .pagination {
   justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003524}}
 thead tr th .form-control {
   display: inline-block;
   width: 90%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003531}}
 .side-menu-accordion button {
   width: 100%;
   padding: 10px;
@@ -10071,45 +10036,46 @@ thead tr th .form-control {
   border: 0px;
   border-radius: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003542}}
 .filter-dropdown {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003545}}
   .filter-dropdown .btn {
     background: none;
     border: none;
     padding: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003550}}
     .filter-dropdown .btn:hover {
       background: none !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003554}}
     .filter-dropdown .btn::after {
       content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003560}}
 .top-menu {
   margin-left: 20px;
   display: flex;
   flex: 1;
   justify-content: center;
+  height: 100%;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003568}}
   .top-menu ul {
     display: flex;
     height: 100%;
     position: relative;
     top: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003575}}
   .top-menu ul li {
     height: 100%;
     position: relative;
     height: 100%;
     display: flex;
     /******* Sub menu *********/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003581}}
     .top-menu ul li:hover {
       color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003585}}
     .top-menu ul li a {
       color: gray;
       height: 100%;
@@ -10119,12 +10085,12 @@ thead tr th .form-control {
       padding: 0px 10px;
       text-decoration: none;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003598}}
     .top-menu ul li .header-submenu {
       position: absolute;
       visibility: hidden;
       height: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003605}}
     .top-menu ul li:hover .header-submenu {
       display: none;
       background: black;
@@ -10134,22 +10100,22 @@ thead tr th .form-control {
       flex-direction: column;
       visibility: visible;
       height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003615}}
       .top-menu ul li:hover .header-submenu li a {
         background: black;
         width: 100%;
         padding: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003620}}
         .top-menu ul li:hover .header-submenu li a:hover {
           background: #cacaca;
           color: black;
           cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003630}}
 .bg {
   background-color: #d6d6d6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003634}}
 .top-widgets-box-row {
   margin-bottom: 30px;
   display: flex;
@@ -10157,219 +10123,219 @@ thead tr th .form-control {
   justify-content: space-between;
   flex-wrap: wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003642}}
 .top-widgets-box-container {
   padding: 20px;
   align-items: center;
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003648}}
 .top-widgets-box {
   width: 24%;
   background-color: #efefef; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003653}}
 .top-widgets-box-left-section {
   margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003655}}
   .top-widgets-box-left-section img {
     width: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003661}}
 .top-widgets-box-right-section div {
   margin: 5px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003665}}
 .top-widgets-box-right-section div:nth-child(1) {
   font-size: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003712}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003669}}
 .top-widgets-box-right-section div:nth-child(2) {
   font-size: 17px;
   font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003717}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003674}}
 .top-widgets-box-right-section div:nth-child(3) {
   font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003679}}
 .empty-padding {
   padding: 50px;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003727}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003684}}
 .fa-filter:before {
   content: "\f0b0";
   color: #868686; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003733}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003690}}
 .dashbaord-table thead tr th .form-control {
   width: 90%;
   margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003738}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003695}}
 .dashbaord-table tbody {
   display: flex;
   flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003742}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003699}}
   .dashbaord-table tbody td {
     vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003706}}
 .table-head-fullwidth .checkbox-th {
   display: flex;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003711}}
 .table-head-fullwidth tr {
   display: grid;
   grid-template-columns: fit-content(100px) repeat(4, auto); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003760}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003717}}
 .theme-green {
   color: #28a745; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003721}}
 .gridbox-with-center-heading {
   padding: 20px;
   text-align: left;
   background: #fff;
   border: 1px solid #bababa; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003727}}
   .gridbox-with-center-heading div:first-child {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003733}}
   .gridbox-with-center-heading div:last-child {
     color: #757575;
     font-size: 14px;
     text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003740}}
 .grid-two-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003789}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003746}}
 .grid-three-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003795}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003752}}
 .grid-four-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003801}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003758}}
 .gridbox-three-column-box {
   background: #fff;
   padding: 20px;
   border: 1px solid #bababa;
   flex-basis: calc(33.33333333333333% - 20px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003764}}
 .gridbox-head {
   color: #424242;
   font-size: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003769}}
 .gridbox-middle {
   text-align: center;
   padding: 50px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003816}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003773}}
   .gridbox-middle div {
     text-transform: uppercase;
     margin-bottom: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003822}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003779}}
 .files-analyzed-box {
   background: #d3d3d3;
   padding: 35px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003827}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003784}}
 .small-widget-box {
   padding: 50px 20px;
   border: 1px solid #bababa; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003789}}
 .right-widget-big {
   padding: 50px 20px;
   border: 1px solid #bababa;
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003838}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003795}}
 .widget-box {
   padding: 50px 20px;
   border: 1px solid #bababa; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003843}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003800}}
 .threat-filter-column {
   border: 1px solid #a2a2a2;
   background: #d8dee2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003847}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003804}}
   .threat-filter-column h2 {
     background: #949494;
     padding: 20px;
     font-weight: 400;
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003854}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003811}}
   .threat-filter-column .threat-section {
     background: #d8dee2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003858}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003815}}
   .threat-filter-column .threat-section-heading {
     background: #9ea7ad;
     padding: 20px;
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003821}}
   .threat-filter-column .threat-section-details {
     padding: 10px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003867}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003824}}
     .threat-filter-column .threat-section-details div {
       margin: 10px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003873}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003830}}
 .threat-detail-data-box {
   padding: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003877}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003834}}
 .threat-details-data-column {
   display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003880}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003837}}
   .threat-details-data-column .t-details-left-col {
     margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003884}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003841}}
   .threat-details-data-column .t-details-right-col {
     resize: unset; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003889}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003846}}
 strong {
   font-weight: bold;
   line-height: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003894}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003851}}
 .divider {
   height: 1px;
   width: 100%;
   background: #9ea7ad; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003900}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003857}}
 .dflex-align-center {
   display: flex;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003905}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003862}}
 .flex-column {
   flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003909}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003866}}
 small {
   font-size: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003913}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003870}}
 .row table {
   margin-bottom: 0px;
   border: 1px solid #c2c3c7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003918}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003875}}
 .table-pagination {
   justify-content: left;
   background: #e3e4e8;
@@ -10377,58 +10343,58 @@ small {
   border-left: 1px solid #c2c3c7;
   border-right: 1px solid #c2c3c7;
   border-radius: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003926}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003883}}
   .table-pagination a {
     border-radius: 0px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003931}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003888}}
 .table .thead-light th {
   color: #495057;
   background: none;
   border-color: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003937}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003894}}
 table thead {
   background: #e3e4e8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003898}}
 th .filter-dropdown {
   display: inline-block;
   margin-left: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003946}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003903}}
 .login-container {
   border: 1px solid #bababa;
   padding: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003951}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003908}}
 .login-container-img {
   width: 100%;
   margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003956}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003913}}
 .flex-height-full {
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003960}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003917}}
 .login-products-heading {
   font-size: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003964}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003921}}
 .two-column-flex-container {
   display: flex;
   justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003968}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003925}}
   .two-column-flex-container .two-column-flex-box {
     flex: 1;
     border: 1px solid #bababa;
     padding: 20px;
     margin: 20px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003975}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003932}}
     .two-column-flex-container .two-column-flex-box div {
       margin: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003980}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003937}}
   .two-column-flex-container .flexbox-with-center-heading {
     padding: 50px;
     text-align: center;
@@ -10436,21 +10402,21 @@ th .filter-dropdown {
     border: 1px solid #bababa;
     flex-basis: calc(45% - 20px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003989}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003946}}
 .three-column-flex-container {
   display: flex;
   justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003993}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003950}}
   .three-column-flex-container .three-column-flex-box {
     flex: 1;
     border: 1px solid #bababa;
     padding: 20px;
     margin: 20px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031000}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003957}}
     .three-column-flex-container .three-column-flex-box div {
       margin: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031005}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003962}}
   .three-column-flex-container .flexbox-with-center-heading {
     padding: 50px;
     text-align: center;
@@ -10458,21 +10424,21 @@ th .filter-dropdown {
     border: 1px solid #bababa;
     flex-basis: calc(33.33333333333333% - 20px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031014}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003971}}
 .four-column-flex-container {
   display: flex;
   justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031018}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003975}}
   .four-column-flex-container .four-column-flex-box {
     flex: 1;
     border: 1px solid #bababa;
     padding: 20px;
     margin: 20px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031025}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003982}}
     .four-column-flex-container .four-column-flex-box div {
       margin: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031030}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003987}}
   .four-column-flex-container .flexbox-with-center-heading {
     padding: 50px;
     text-align: center;
@@ -10480,88 +10446,88 @@ th .filter-dropdown {
     border: 1px solid #bababa;
     flex-basis: calc(25% - 20px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\00003996}}
 footer {
   padding: 20px;
   background: #eee;
   display: flex;
   flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031045}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031002}}
   footer ul {
     display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031049}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031006}}
     footer ul li a {
       padding: 10px;
       text-decoration: none;
       color: gray;
       font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031058}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031015}}
   footer .copyright {
     padding: 10px 10px 0px 10px;
     text-decoration: none;
     color: gray;
     font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031067}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031024}}
 .medium-heading-link a {
   font-size: 20px;
   color: #1c9ae4;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031074}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031031}}
 .section-heading-row {
   background: #d8d8d8;
   color: black;
   font-size: 18x;
   padding: 5px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031081}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031038}}
 .scrollable-table {
   position: relative;
   margin: auto;
   overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031086}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031043}}
   .scrollable-table table {
     width: 100%;
     margin: auto;
     border-collapse: separate;
     border-spacing: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031088}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031045}}
     .scrollable-table table th .input-field {
       width: 190px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031099}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031056}}
 .th-flex-box {
   display: flex;
   flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031061}}
 .th-flex-row {
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031065}}
 .th-flex-auto {
   flex: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031069}}
 .small-tall-box {
   height: 350px;
   overflow-y: scroll;
   padding: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031075}}
 .full-virus-link {
   width: 100%;
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031080}}
 .vertical-tab-heading {
   padding: 8px 24px;
   color: #424242;
   background-color: #eeeeee;
   font-size: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031087}}
 .threat-details-full-row {
   word-break: break-all; }
 
@@ -10570,19 +10536,19 @@ footer {
     background-position: -468px 0; }
   100% {
     background-position: 468px 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031100}}
 .tooltip-parent {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031104}}
 .tooltip-parent:hover .menu-hover-tooltip {
   visibility: visible;
   opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031108}}
   .tooltip-parent:hover .menu-hover-tooltip span {
     font-size: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031114}}
 .menu-hover-tooltip {
   position: absolute;
   background: #2b2b2b;
@@ -10595,12 +10561,12 @@ footer {
   display: flex;
   transition: all 0.2s ease-in-out;
   opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031127}}
   .menu-hover-tooltip span {
     font-size: 10px;
     transition: all 0.2s ease-in-out;
     padding: 6px 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031133}}
   .menu-hover-tooltip:before {
     width: 0;
     height: 0;
@@ -10612,14 +10578,14 @@ footer {
     content: "";
     top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031146}}
 .animation-test {
   background: #353535;
   border: 0px;
   overflow: hidden;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031153}}
 .animation-test::after {
   content: "";
   display: block;
@@ -10634,12 +10600,12 @@ footer {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031168}}
 .animation-test:nth-child(1)::after {
   -webkit-animation-delay: 2s;
   animation-delay: 2s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031173}}
 .animation-test:nth-child(2)::after {
   -webkit-animation-delay: 3.5s;
   animation-delay: 3.5s; }
@@ -10654,49 +10620,44 @@ footer {
     top: -50%; }
   100% {
     top: 110%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031198}}
 .table-full-scroll .wrapper {
   overflow-x: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031202}}
 .table-full-scroll .wrapper table {
   white-space: nowrap;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031207}}
   .table-full-scroll .wrapper table td {
     font-size: 14px;
-    padding: 10px 0px 10px 10px;
-    vertical-align: inherit;
-    color: #4C4C4C; }
+    padding: 10px 0px 10px 10px; }
 
 /** Only for demo */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031214}}
 .table-full-scroll table,
 td,
 th {
   border-collapse: collapse;
   border: 0px solid #777; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031221}}
 .table-full-scroll th {
   padding: 25px 4px 15px;
   background: #ecedf2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031226}}
 .table-full-scroll td {
   padding: 5px;
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031231}}
 .table-innerbox {
   display: flex;
   margin-right: 10px;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031281}}
-  .table-innerbox .pipe {
-    margin: 0px 7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031237}}
 .table-logos a {
   display: inline-block;
   background: white;
@@ -10709,7 +10670,7 @@ th {
   vertical-align: middle;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031256}}
 .table-logos img {
   width: 20px;
   margin: auto;
@@ -10719,458 +10680,435 @@ th {
   top: 0;
   bottom: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031266}}
 .highlighted-tablets {
   padding: 5px;
   border-radius: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031273}}
 .child-hidden-table {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031277}}
 .right-section-heading {
   border-top: 1px solid #bababa;
   border-bottom: 1px solid #bababa;
   padding: 10px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031283}}
 .grid-table-flow {
   border: 0px solid #d6d6d6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031288}}
 .right-section-query-reset-action-row {
   margin: 15px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031293}}
 .right-section-query-reset-action-row div {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031298}}
 .new-query {
   font-size: 15px;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031303}}
 .disabled-link {
   opacity: 0.6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031307}}
 .table-search-row {
   display: flex;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031312}}
 .search-field-table {
   flex: 1;
   margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031315}}
   .search-field-table input {
     width: 100%;
     padding: 7px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031321}}
 .edit-export-row {
   display: flex;
   justify-content: space-between; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031326}}
 .plus-more-data {
   border-radius: 6px;
-  color: #9A9A9A;
+  color: #656565;
   background-color: #efefef;
   padding: 2px 5px;
-  margin-left: 10px;
-  text-align: center;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  padding-bottom: 5px;
-  border-radius: 100%;
-  width: 27px;
-  height: 27px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031393}}
-  .plus-more-data .more-numbers {
-    padding-top: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031396}}
-  .plus-more-data .dots-row {
-    width: 100%;
-    line-height: 0px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031406}}
-  .plus-more-data .dots {
-    margin-bottom: 2px;
-    font-size: 16px; }
+  margin-left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031335}}
 .acord-arrow img {
   width: 14px;
   margin-right: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031342}}
 .empty-row-white td {
   background: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031349}}
 .empty-row-shadow {
-  -webkit-box-shadow: 0px -5px 3px 0px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px -5px 3px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px -5px 3px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px -4px 6px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px -4px 6px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px -4px 6px 0px rgba(0, 0, 0, 0.4);
   position: absolute;
   /* border: 1px solid; */
-  width: calc(100% - 30px);
+  width: 98%;
   box-sizing: border-box;
   left: 0px;
   margin: auto;
   display: flex;
   right: 0;
-  margin-top: 1px;
+  margin-top: -4px;
   height: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031365}}
 .child-row {
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031368}}
   .child-row td {
     background: #efefef;
     background-image: linear-gradient(to right, #c5c5c5 70%, rgba(255, 255, 255, 0) 0%);
     background-position: bottom;
     background-size: 10px 1px;
     background-repeat: repeat-x; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031375}}
   .child-row .white-spacer {
     background: white;
     border-bottom: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031383}}
 .child-row-no-td-border td {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031388}}
 .hidden {
   visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(0) td:nth-child(2) .table-innerbox:after {
-  background: #8157ac; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #e58ba6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(1) td:nth-child(2) .table-innerbox:after {
-  background: #485748; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #545422; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(2) td:nth-child(2) .table-innerbox:after {
-  background: #11d946; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #846c16; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(3) td:nth-child(2) .table-innerbox:after {
-  background: #8a7ce4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b66ac2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(4) td:nth-child(2) .table-innerbox:after {
-  background: #27ac7c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #0297e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(5) td:nth-child(2) .table-innerbox:after {
-  background: #0ece04; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #bf9794; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(6) td:nth-child(2) .table-innerbox:after {
-  background: #c5704b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #79fd7a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(7) td:nth-child(2) .table-innerbox:after {
-  background: #50ea1d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d290f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(8) td:nth-child(2) .table-innerbox:after {
-  background: #11b005; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #4e91b6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(9) td:nth-child(2) .table-innerbox:after {
-  background: #ac225a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #af335e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(10) td:nth-child(2) .table-innerbox:after {
-  background: #b8ece8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #0190eb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(11) td:nth-child(2) .table-innerbox:after {
-  background: #385939; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #736309; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(12) td:nth-child(2) .table-innerbox:after {
-  background: #233f84; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #af2b10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(13) td:nth-child(2) .table-innerbox:after {
-  background: #05165f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #88f3c7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(14) td:nth-child(2) .table-innerbox:after {
-  background: #65cb50; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #ca7fd3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(15) td:nth-child(2) .table-innerbox:after {
-  background: #80f8a4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #a6430e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(16) td:nth-child(2) .table-innerbox:after {
-  background: #4adba4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #858cac; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(17) td:nth-child(2) .table-innerbox:after {
-  background: #e1830c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #785935; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(18) td:nth-child(2) .table-innerbox:after {
-  background: #0b0d03; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #92368b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(19) td:nth-child(2) .table-innerbox:after {
-  background: #a3feda; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #7b170c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(20) td:nth-child(2) .table-innerbox:after {
-  background: #064d4c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #969a4c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(21) td:nth-child(2) .table-innerbox:after {
-  background: #cc4ed6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #602e2c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(22) td:nth-child(2) .table-innerbox:after {
-  background: #3a6a7d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #3fffaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(23) td:nth-child(2) .table-innerbox:after {
-  background: #044c8b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #11a66e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(24) td:nth-child(2) .table-innerbox:after {
-  background: #306d79; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #79d333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(25) td:nth-child(2) .table-innerbox:after {
-  background: #6b095d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d56f24; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(26) td:nth-child(2) .table-innerbox:after {
-  background: #fc3fae; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #4daaf2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(27) td:nth-child(2) .table-innerbox:after {
-  background: #9b6a33; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #69cfb7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(28) td:nth-child(2) .table-innerbox:after {
-  background: #d4cabe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #640309; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(29) td:nth-child(2) .table-innerbox:after {
-  background: #551ca0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #36f2f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(30) td:nth-child(2) .table-innerbox:after {
-  background: #cbd20e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #65890c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(31) td:nth-child(2) .table-innerbox:after {
-  background: #cf6c39; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d17331; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(32) td:nth-child(2) .table-innerbox:after {
-  background: #e80235; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #f2adc0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(33) td:nth-child(2) .table-innerbox:after {
-  background: #37994b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #33a4e2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(34) td:nth-child(2) .table-innerbox:after {
-  background: #2b5190; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #5852e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(35) td:nth-child(2) .table-innerbox:after {
-  background: #6a7c2b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #9f708a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(36) td:nth-child(2) .table-innerbox:after {
-  background: #733191; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #f662e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(37) td:nth-child(2) .table-innerbox:after {
-  background: #991473; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #05bb62; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(38) td:nth-child(2) .table-innerbox:after {
-  background: #2028f6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #bcf090; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(39) td:nth-child(2) .table-innerbox:after {
-  background: #cdc670; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #ec2a0b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(40) td:nth-child(2) .table-innerbox:after {
-  background: #6e4a71; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #346f88; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(41) td:nth-child(2) .table-innerbox:after {
-  background: #2289a6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #a009e7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(42) td:nth-child(2) .table-innerbox:after {
-  background: #5fef01; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #e12ba0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(43) td:nth-child(2) .table-innerbox:after {
-  background: #44ff82; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d4df09; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(44) td:nth-child(2) .table-innerbox:after {
-  background: #cdc91e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #6a579c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(45) td:nth-child(2) .table-innerbox:after {
-  background: #dd6c65; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #29dcb3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(46) td:nth-child(2) .table-innerbox:after {
-  background: #5ccb7d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #6b90fb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(47) td:nth-child(2) .table-innerbox:after {
-  background: #ffc2f5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #645118; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(48) td:nth-child(2) .table-innerbox:after {
-  background: #31dd14; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #586f12; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(49) td:nth-child(2) .table-innerbox:after {
-  background: #d6a179; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #68bc4e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(50) td:nth-child(2) .table-innerbox:after {
-  background: #13a7ba; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #e926a0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(51) td:nth-child(2) .table-innerbox:after {
-  background: #903a76; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #4ed41c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(52) td:nth-child(2) .table-innerbox:after {
-  background: #cfd694; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #0622ee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(53) td:nth-child(2) .table-innerbox:after {
-  background: #f4498a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #40e72b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(54) td:nth-child(2) .table-innerbox:after {
-  background: #085def; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #58f79a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(55) td:nth-child(2) .table-innerbox:after {
-  background: #05fc36; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #36a6f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(56) td:nth-child(2) .table-innerbox:after {
-  background: #ce56e8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d8e113; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(57) td:nth-child(2) .table-innerbox:after {
-  background: #1cde33; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #19ba6f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(58) td:nth-child(2) .table-innerbox:after {
-  background: #ce73a1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #9c385a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(59) td:nth-child(2) .table-innerbox:after {
-  background: #e7d665; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b3565b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(60) td:nth-child(2) .table-innerbox:after {
-  background: #d9b03f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b81af7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(61) td:nth-child(2) .table-innerbox:after {
-  background: #46d7be; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #73dcc4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(62) td:nth-child(2) .table-innerbox:after {
-  background: #2e9768; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #593af1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(63) td:nth-child(2) .table-innerbox:after {
-  background: #380341; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #79c073; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(64) td:nth-child(2) .table-innerbox:after {
-  background: #543d2f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #dc7e8d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(65) td:nth-child(2) .table-innerbox:after {
-  background: #a13e02; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #eb4a0b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(66) td:nth-child(2) .table-innerbox:after {
-  background: #d98734; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #3af571; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(67) td:nth-child(2) .table-innerbox:after {
-  background: #dba923; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #dc2c2d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(68) td:nth-child(2) .table-innerbox:after {
-  background: #59febe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #1af44e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(69) td:nth-child(2) .table-innerbox:after {
-  background: #943ed3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #970749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(70) td:nth-child(2) .table-innerbox:after {
-  background: #2e41ab; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #c4a7fd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(71) td:nth-child(2) .table-innerbox:after {
-  background: #50aa57; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b1c333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(72) td:nth-child(2) .table-innerbox:after {
-  background: #74ed97; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d92521; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(73) td:nth-child(2) .table-innerbox:after {
-  background: #582396; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #0318ee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(74) td:nth-child(2) .table-innerbox:after {
-  background: #1115f9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #9380de; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(75) td:nth-child(2) .table-innerbox:after {
-  background: #0f1ebe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #3ceda3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(76) td:nth-child(2) .table-innerbox:after {
-  background: #70043a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b9bfd9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(77) td:nth-child(2) .table-innerbox:after {
-  background: #ef9aef; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #f41c98; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(78) td:nth-child(2) .table-innerbox:after {
-  background: #ca92da; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #8136a5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(79) td:nth-child(2) .table-innerbox:after {
-  background: #c59574; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #276699; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(80) td:nth-child(2) .table-innerbox:after {
-  background: #f342cb; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #af4776; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(81) td:nth-child(2) .table-innerbox:after {
-  background: #96522e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #f08e3f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(82) td:nth-child(2) .table-innerbox:after {
-  background: #a88abe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #079b3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(83) td:nth-child(2) .table-innerbox:after {
-  background: #f43cff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #94b423; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(84) td:nth-child(2) .table-innerbox:after {
-  background: #b145d9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #a45002; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(85) td:nth-child(2) .table-innerbox:after {
-  background: #012ec4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #84219b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(86) td:nth-child(2) .table-innerbox:after {
-  background: #bae493; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #c7e078; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(87) td:nth-child(2) .table-innerbox:after {
-  background: #5cf4a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #96c23c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(88) td:nth-child(2) .table-innerbox:after {
-  background: #268e03; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #ad7053; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(89) td:nth-child(2) .table-innerbox:after {
-  background: #09e10b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #599866; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(90) td:nth-child(2) .table-innerbox:after {
-  background: #6e3044; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #d491ef; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(91) td:nth-child(2) .table-innerbox:after {
-  background: #1d390c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #488e86; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(92) td:nth-child(2) .table-innerbox:after {
-  background: #9e149a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #75cade; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(93) td:nth-child(2) .table-innerbox:after {
-  background: #a7c3a2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #764f66; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(94) td:nth-child(2) .table-innerbox:after {
-  background: #4a3293; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #40ba2c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(95) td:nth-child(2) .table-innerbox:after {
-  background: #174fb7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #71acce; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(96) td:nth-child(2) .table-innerbox:after {
-  background: #37e563; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #21ee02; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(97) td:nth-child(2) .table-innerbox:after {
-  background: #81324f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #b9046a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(98) td:nth-child(2) .table-innerbox:after {
-  background: #45e8e7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031480}}
+  background: #76bc32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031401}}
 .child-row:nth-child(99) td:nth-child(2) .table-innerbox:after {
-  background: #f5afff; }
+  background: #796958; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031424}}
 .child-row td:nth-child(2) .table-innerbox {
   position: relative; }
 
 @media (min-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031456}}
   .modal-dialog {
     max-width: inherit !important;
     margin: 1.75rem auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031542}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031463}}
 .dropdown-with-logos li {
   border-bottom: 1px solid #bababa; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031466}}
 .dropdown-with-logos:hover {
   border: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031471}}
 .dropdown-with-img {
   position: relative;
   width: 200px;
@@ -11180,7 +11118,7 @@ th {
   cursor: pointer;
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031481}}
 .dropdown-with-img:after {
   content: "";
   width: 0;
@@ -11193,7 +11131,7 @@ th {
   border-style: solid;
   border-color: grey transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031494}}
 .dropdown-with-img .dropdown {
   /* Size & position */
   position: absolute;
@@ -11213,7 +11151,7 @@ th {
   opacity: 0;
   pointer-events: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031515}}
 .dropdown-with-img .dropdown li a {
   text-decoration: none;
   color: #333;
@@ -11224,30 +11162,30 @@ th {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031526}}
 .dropdown-with-img .dropdown li i {
   margin-right: 5px;
   color: inherit;
   vertical-align: middle; }
 
 /* Hover state */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031534}}
 .dropdown-with-img .dropdown li:hover a {
   color: grey; }
 
 /* Active state */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031540}}
 .dropdown-with-img.active:after {
   border-width: 0 6px 6px 6px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031544}}
 .dropdown-with-img.active .dropdown {
   opacity: 1;
   pointer-events: auto;
   border: 1px solid #808080; }
 
 /* No CSS3 support */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031552}}
 .no-opacity .dropdown-with-img .dropdown,
 .no-pointerevents .dropdown-with-img .dropdown {
   display: none;
@@ -11256,80 +11194,80 @@ th {
   pointer-events: auto;
   /* If pointer-events support but no pointer-events support */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031559}}
 .no-opacity .dropdown-with-img.active .dropdown,
 .no-pointerevents .dropdown-with-img.active .dropdown {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031643}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031564}}
 .query-wizard-expension {
   display: flex;
   align-items: CENTER; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031647}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031568}}
   .query-wizard-expension div {
     margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031572}}
   .query-wizard-expension select {
     padding: 10px;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031579}}
 .dropdown-with-logos a {
   display: flex;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031583}}
 .dropdown-with-logos img {
   width: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031588}}
 .dropdown-logo {
   margin-right: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031671}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031592}}
 .dropdown-with-img-select {
   display: flex;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031674}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031595}}
   .dropdown-with-img-select img {
     width: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031600}}
 .disabled-input {
   background: #ececec;
   border: 1px solid #b5b5b5;
   padding: 13px 20px;
   color: #9c9c9c; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031607}}
 .close-action {
   text-align: right;
   margin-left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031612}}
 .add-query-btn-row {
   display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031614}}
   .add-query-btn-row a {
     background: #ececec;
     border: 1px solid #b5b5b5;
     padding: 13px 19px;
     color: #9c9c9c; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031622}}
 .query-switch-btn {
   display: flex;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031626}}
 .no-border {
   border: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031630}}
 .modal-heading {
   margin-bottom: 10px;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031636}}
 .tags a {
   background: #9e9e9e;
   color: white;
@@ -11337,41 +11275,42 @@ th {
   border-radius: 20px;
   font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031645}}
 .modal-text-row {
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031728}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031649}}
 .header-heading {
   margin-left: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031653}}
 .dropdown-toggle::after {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031660}}
 .header-icons .dropdown:nth-child(3) a {
   margin-right: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031744}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031665}}
 .header-icons {
+  margin-right: 50px;
   display: flex;
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031750}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031672}}
   .header-icons a {
     text-decoration: none;
     margin: 0px 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031677}}
     .header-icons a:hover {
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031681}}
   .header-icons img {
     width: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031686}}
 .menu-notification {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031767}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031689}}
   .menu-notification span {
     position: absolute;
     right: -6px;
@@ -11382,73 +11321,72 @@ th {
     border-radius: 100%;
     font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031702}}
 .side-menu .active {
   background: #ffb900; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031705}}
   .side-menu .active a {
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031788}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031710}}
 .side-menu a {
   display: flex;
   flex-direction: column;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031792}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031714}}
   .side-menu a img {
     width: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031796}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031718}}
   .side-menu a .menu-title {
     margin-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031724}}
 .devices-discovery-row {
   display: flex;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031728}}
   .devices-discovery-row .discovery-devices-logo img {
     width: 40px;
     margin-right: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031813}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031735}}
 .flex-col {
   display: flex;
   flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031818}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031740}}
 .gridbox-with-center-heading {
   flex-grow: 1;
   margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031743}}
   .gridbox-with-center-heading:last-child {
     margin-bottom: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031826}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031748}}
 .full-img {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031830}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031752}}
 .flex-grow-height {
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031835}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031757}}
 .parent-row td {
   background-color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031840}}
-.table-full-scroll .wrapper table .empty-row {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031762}}
+.empty-row {
   border: none;
   height: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031844}}
-  .table-full-scroll .wrapper table .empty-row td {
-    background: #ecedf2;
-    padding: 5px 0px 5px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031766}}
+  .empty-row td {
+    background: #ecedf2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031771}}
 .search-box {
   width: 650px;
   margin-left: 20px;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031855}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031776}}
   .search-box:before {
     content: " ";
     position: absolute;
@@ -11461,7 +11399,7 @@ th {
     margin: auto;
     bottom: 0;
     left: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031869}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031790}}
   .search-box .search-field {
     padding: 7px 10px;
     width: 100%;
@@ -11470,24 +11408,24 @@ th {
     padding-left: 40px;
     position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031800}}
 .dropdown-menu.show {
   display: block;
   z-index: 99999999; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031884}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031805}}
 .dashboard-top-section-query {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   margin-top: 43px;
   flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031891}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031812}}
   .dashboard-top-section-query .search-wrap {
     display: flex;
     width: 100%;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031896}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031817}}
     .dashboard-top-section-query .search-wrap:before {
       content: " ";
       position: absolute;
@@ -11500,56 +11438,42 @@ th {
       margin: auto;
       bottom: 0;
       left: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031831}}
     .dashboard-top-section-query .search-wrap input {
       width: 100%;
-      padding: 14px 10px;
+      padding: 11px 10px;
       border: 0px solid #bababa;
       padding-left: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031918}}
-    .dashboard-top-section-query .search-wrap .search-query-dropdown-btn {
-      position: absolute;
-      right: 15px;
-      top: 0px;
-      bottom: 0px;
-      margin: auto;
-      display: flex;
-      width: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031931}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031839}}
   .dashboard-top-section-query .search-section {
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031934}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031842}}
     .dashboard-top-section-query .search-section .search-section-box {
       margin: auto;
       display: flex;
       width: 100%;
       margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031849}}
       .dashboard-top-section-query .search-section .search-section-box .search-section-buttons {
         flex: 1;
         text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031945}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031853}}
         .dashboard-top-section-query .search-section .search-section-box .search-section-buttons button:nth-child(1) {
           margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031951}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031859}}
     .dashboard-top-section-query .search-section .search-section-filter {
       display: flex;
-      align-items: center;
-      color: #4C4C4C; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031955}}
-      .dashboard-top-section-query .search-section .search-section-filter a {
-        text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031959}}
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031863}}
       .dashboard-top-section-query .search-section .search-section-filter .split-pipe {
-        margin: 0px 20px;
-        color: #4C4C4C; }
+        margin: 0px 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031967}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031870}}
 .device-disclosure {
   display: flex;
   overflow-x: auto;
   padding: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031972}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031875}}
   .device-disclosure .device-box {
     display: flex;
     flex-direction: column;
@@ -11560,104 +11484,104 @@ th {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.44);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.44);
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.44); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031984}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031887}}
   .device-disclosure .device-box-main-text {
     font-size: 18px;
     font-weight: bold;
     color: #4c4c4c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031990}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031893}}
   .device-disclosure .device-box-small-text {
     font-size: 12px;
     color: #9da6af; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031995}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031898}}
   .device-disclosure .device-box-logo {
     width: 75px;
     text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031998}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031901}}
     .device-disclosure .device-box-logo img {
       width: 15px;
       margin-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032005}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031908}}
 .page-section-heading {
   font-size: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032009}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031912}}
 .theme-btn-primary {
   padding: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032012}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031915}}
 .theme-btn-secondary {
   padding: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032016}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031919}}
 .saved-query-btn {
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031923}}
   .saved-query-btn a {
     text-decoration: none;
     color: #776fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032026}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031929}}
 .theme-btn {
   padding: 14px 34px;
   font-size: 16px;
   background: #a57dff;
   border: 0px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031936}}
   .theme-btn:hover {
     background: #8565d1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031941}}
 .device-results {
   font-size: 16px;
   flex: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032042}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031945}}
   .device-results a {
     color: #776fff;
     margin-left: 10px;
     position: relative;
     top: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032053}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031956}}
 .edit-column-export a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #776fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032058}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031961}}
 .edit-column-export span {
   color: #776FFF;
   margin: 0px 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032065}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031968}}
 .device-result-export-row {
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032070}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031973}}
 .results-per-page {
   flex: 1;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032080}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031983}}
 .border-top-left {
   border-top-left-radius: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032083}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031986}}
 .border-bottom-left {
   border-bottom-left-radius: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032087}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031990}}
 .border-top-right {
   border-top-right-radius: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032091}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000031994}}
 .border-bottom-right {
   border-bottom-right-radius: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032097}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032000}}
 .dashboard-search {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032004}}
   .dashboard-search:before {
     content: " ";
     position: absolute;
@@ -11670,14 +11594,14 @@ th {
     margin: auto;
     bottom: 0;
     right: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032019}}
   .dashboard-search input {
     width: 100%;
     padding: 7px 10px;
     border: 1px solid #bababa;
     padding-right: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032033}}
 .user-profile {
   background: #adadad;
   border: 1px solid #9B9FAB;
@@ -11692,146 +11616,56 @@ th {
   align-items: center;
   font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032051}}
 .username-box {
   text-align: left;
   margin-left: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032055}}
   .username-box .username {
     color: black;
     font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032059}}
   .username-box .user-role {
     color: #9DA6AF;
     font-size: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032165}}
-.menu-btn {
-  background: none;
-  border: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032168}}
-  .menu-btn img {
-    width: 24px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_main\.scss}line{font-family:\000032174}}
-.table-heading-arrow {
-  position: relative;
-  top: -1px;
-  margin-left: 5px; }
-
-@font-face {
-  font-family: 'proxima-semi-bold';
-  src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal; }
-@font-face {
-  font-family: 'proxima-nova-cond';
-  src: url("../fonts/ProximaNovaCond-SemiboldIt.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic; }
-@font-face {
-  font-family: 'proxima-nova-cond-regular';
-  src: url("../fonts/ProximaNovaCond-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'proxima-nova-cond-semibold';
-  src: url("../fonts/ProximaNovaCond-Semibold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal; }
-@font-face {
-  font-family: 'proxima-nova-black';
-  src: url("../fonts/ProximaNova-Black.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal; }
-@font-face {
-  font-family: 'proxima-regular';
-  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'proxima-nova-light';
-  src: url("../fonts/ProximaNova-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proxima Nova Cn Rg';
-  src: url("../fonts/ProximaNovaCond-RegularIt.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'Proxima Nova Cn Lt';
-  src: url("../fonts/ProximaNovaCond-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proxima Nova Lt';
-  src: url("../fonts/ProximaNova-SemiboldIt.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic; }
-@font-face {
-  font-family: 'Proxima Nova Lt';
-  src: url("../fonts/ProximaNova-LightIt.woff2") format("woff2");
-  font-weight: 300;
-  font-style: italic; }
-@font-face {
-  font-family: 'Proxima Nova Cn Lt';
-  src: url("../fonts/ProximaNovaCond-LightIt.woff2") format("woff2");
-  font-weight: 300;
-  font-style: italic; }
-@font-face {
-  font-family: 'Proxima Nova Th';
-  src: url("../fonts/ProximaNova-Extrabld.woff2") format("woff2");
-  font-weight: 800;
-  font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\000031}}
 input,
 button,
 select {
   border-radius: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003126}}
-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\000038}}
 .table-pagination {
   background: none;
   align-items: center;
   border: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000312}}
   .table-pagination .page-link {
     color: #776FFF;
     background: none;
     border: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000321}}
 a {
   color: #776FFF;
-  text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003149}}
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000324}}
   a:hover {
     color: #776FFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000327}}
   a:focus {
     color: #776FFF; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000334}}
 .graydient-secondary-btn {
   background-image: linear-gradient(to right bottom, #5e5e5e, #565656, #4f4e4f, #484747, #413f3f); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000339}}
 .graydient-primary-btn {
   background-image: linear-gradient(to right bottom, #a57dff, #9b79ff, #9076ff, #8472ff, #776fff); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\0000345}}
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
@@ -11839,386 +11673,6 @@ input[type="checkbox"] {
   height: 18px;
   width: 18px; }
 
-/*! Pushy - v1.3.0 - 2019-6-25
-* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
-* https://github.com/christophery/pushy/
-* by Christopher Yee */
-/* Menu Appearance */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003187}}
-.pushy {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  top: 0;
-  z-index: 9999;
-  background: white;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  /* enables momentum scrolling in iOS overflow elements */ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003198}}
-.pushy a {
-  display: block;
-  color: #b3b3b1;
-  padding: 15px 15px;
-  text-decoration: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003204}}
-.pushy a:hover {
-  color: #b3b3b1; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003210}}
-.pushy.pushy-left {
-  left: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003213}}
-.pushy.pushy-right {
-  right: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003217}}
-.pushy-content {
-  visibility: hidden; }
-
-/* Menu Movement */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003222}}
-.pushy-left {
-  -webkit-transform: translate3d(-200px, 0, 0);
-  -ms-transform: translate3d(-200px, 0, 0);
-  transform: translate3d(-200px, 0, 0); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003228}}
-.pushy-open-left #container,
-.pushy-open-left .push {
-  -webkit-transform: translate3d(200px, 0, 0);
-  -ms-transform: translate3d(200px, 0, 0);
-  transform: translate3d(200px, 0, 0); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003235}}
-.pushy-right {
-  -webkit-transform: translate3d(200px, 0, 0);
-  -ms-transform: translate3d(200px, 0, 0);
-  transform: translate3d(200px, 0, 0); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003241}}
-.pushy-open-right #container,
-.pushy-open-right .push {
-  -webkit-transform: translate3d(-200px, 0, 0);
-  -ms-transform: translate3d(-200px, 0, 0);
-  transform: translate3d(-200px, 0, 0); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003248}}
-.pushy-open-left .pushy,
-.pushy-open-right .pushy {
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003254}}
-.pushy-open-left .pushy-content,
-.pushy-open-right .pushy-content {
-  visibility: visible; }
-
-/* Menu Transitions */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003260}}
-#container,
-.pushy,
-.push {
-  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003266}}
-.pushy-content {
-  transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
-
-/* Site Overlay */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003271}}
-.site-overlay {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003275}}
-.pushy-open-left .site-overlay,
-.pushy-open-right .site-overlay {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9998;
-  background-color: rgba(0, 0, 0, 0.5);
-  -webkit-animation: fade 500ms;
-  animation: fade 500ms; }
-
-@keyframes fade {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes fade {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-/* Submenu Appearance */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003306}}
-.pushy-submenu {
-  /* Submenu Buttons */
-  /* Submenu Icon */ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003310}}
-.pushy-submenu > ul {
-  padding-left: 15px;
-  transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003314}}
-.pushy-submenu > ul .pushy-link {
-  transition: opacity 0.2s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003317}}
-.pushy-submenu button {
-  width: 100%;
-  color: #b3b3b1;
-  padding: 15px 30px;
-  text-align: left;
-  background: transparent;
-  border: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003325}}
-.pushy-submenu button:hover {
-  color: #FFF; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003328}}
-.pushy-submenu > a,
-.pushy-submenu > button {
-  position: relative; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003332}}
-.pushy-submenu > a::after,
-.pushy-submenu > button::after {
-  content: '';
-  display: block;
-  height: 11px;
-  width: 8px;
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  background: url("../img/arrow.svg") no-repeat;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  transition: transform 0.2s; }
-
-/* Submenu Movement */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003349}}
-.pushy-submenu-closed > ul {
-  max-height: 0;
-  overflow: hidden;
-  visibility: hidden; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003354}}
-.pushy-submenu-closed .pushy-link {
-  opacity: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003358}}
-.pushy-submenu-open {
-  /* Submenu Icon */ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003361}}
-.pushy-submenu-open > ul {
-  max-height: 1000px;
-  visibility: visible; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003365}}
-.pushy-submenu-open .pushy-link {
-  opacity: 1; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003368}}
-.pushy-submenu-open > a::after,
-.pushy-submenu-open > button::after {
-  -webkit-transform: translateY(-50%) rotate(90deg);
-  -ms-transform: translateY(-50%) rotate(90deg);
-  transform: translateY(-50%) rotate(90deg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003376}}
-.pushy-content ul li a {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  border-top: 1px solid #e4e4e4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003381}}
-  .pushy-content ul li a div:last-child {
-    margin-left: 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003391}}
-.pushy-content .active.dashbord-icon {
-  background-image: url(../images/Dashboard_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003394}}
-.pushy-content .active.devices-icon {
-  background-image: url(../images/Devices_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003397}}
-.pushy-content .active.users-icon {
-  background-image: url(../images/Users_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003400}}
-.pushy-content .active.policy-icon {
-  background-image: url(../images/Policy-Center_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003403}}
-.pushy-content .active.reports-icon {
-  background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003406}}
-.pushy-content .active.connectors-icon {
-  background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003410}}
-.pushy-content .active.analytic-icon {
-  background-image: url(../images/Analytic_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003416}}
-.pushy-content .pushy-link {
-  display: flex;
-  align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003422}}
-.pushy-content .dashbord-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Dashboard_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003427}}
-  .pushy-content .dashbord-icon:hover {
-    background-image: url(../images/Dashboard_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003435}}
-.pushy-content .devices-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Devices_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003440}}
-  .pushy-content .devices-icon:hover {
-    background-image: url(../images/Devices_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003445}}
-.pushy-content .users-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Users_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003450}}
-  .pushy-content .users-icon:hover {
-    background-image: url(../images/Users_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003455}}
-.pushy-content .policy-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Policy-Center_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003460}}
-  .pushy-content .policy-icon:hover {
-    background-image: url(../images/Policy-Center_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003465}}
-.pushy-content .reports-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Reports_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003470}}
-  .pushy-content .reports-icon:hover {
-    background-image: url(../images/Reports_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003475}}
-.pushy-content .connectors-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Connectors_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003480}}
-  .pushy-content .connectors-icon:hover {
-    background-image: url(../images/Connectors_on.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003485}}
-.pushy-content .analytic-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-image: url(../images/Analytic_off.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003490}}
-  .pushy-content .analytic-icon:hover {
-    background-image: url(../images/Analytic_on.svg); }
-
-/*# sourceMappingURL=pushy.css.map */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_misc\.scss}line{font-family:\00003505}}
-.result-dropdown {
-  margin-left: 10px;
-  margin-right: 4px; }
-
-@media screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\000033}}
-  header {
-    padding: 10px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\000036}}
-    header .logo {
-      width: 110px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000310}}
-  .theme-btn {
-    padding: 10px 25px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000316}}
-  .dashboard-top-section-query .search-section .search-section-filter .split-pipe {
-    margin: 0px 8px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000321}}
-  .dashboard-top-section-query .search-section .search-section-filter {
-    font-size: 15px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000325}}
-  #content {
-    padding: 0px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000330}}
-  .top-menu {
-    display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000335}}
-  .header-icons {
-    display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000340}}
-  header {
-    justify-content: space-between;
-    flex-direction: row-reverse; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000346}}
-  .dashboard-top-section-query .search-section
-  .search-section-box {
-    flex-direction: column; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000351}}
-  .dashboard-top-section-query .search-section
-  .search-section-box .search-section-buttons {
-    flex: 1;
-    text-align: left;
-    margin-top: 20px; } }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000367}}
-  .top-menu {
-    display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000372}}
-  .header-icons {
-    display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000377}}
-  header {
-    justify-content: space-between; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000382}}
-  .dashboard-top-section-query .search-section
-  .search-section-box {
-    flex-direction: column; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\0000387}}
-  .dashboard-top-section-query .search-section
-  .search-section-box .search-section-buttons {
-    flex: 1;
-    text-align: left;
-    margin-top: 20px; } }
-@media only screen and (min-width: 1024px) and (max-width: 9000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_responsive\.scss}line{font-family:\00003103}}
-  .menu-btn {
-    display: none; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Projects\/vInventa\/scss\/_font\.scss}line{font-family:\000031}}
 .heading-big {
   font-size: 25px; }

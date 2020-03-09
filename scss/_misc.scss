@@ -1,9 +1,134 @@
+
+
+@font-face {
+    font-family: 'proxima-semi-bold';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-cond';
+    src: url('../fonts/ProximaNovaCond-SemiboldIt.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'proxima-nova-cond';
+//     src: url('../fonts/ProximaNova-BoldIt.woff2') format('woff2');
+//     font-weight: bold;
+//     font-style: italic;
+// }
+
+@font-face {
+    font-family: 'proxima-nova-cond-regular';
+    src: url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-cond-semibold';
+    src: url('../fonts/ProximaNovaCond-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Proxima Nova Rg';
+//     src: url('../fonts/ProximaNova-RegularIt.woff2') format('woff2');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+@font-face {
+    font-family: 'proxima-nova-black';
+    src: url('../fonts/ProximaNova-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-regular';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-light';
+    src: url('../fonts/ProximaNova-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn Rg';
+    src: url('../fonts/ProximaNovaCond-RegularIt.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn Lt';
+    src: url('../fonts/ProximaNovaCond-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-LightIt.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn Lt';
+    src: url('../fonts/ProximaNovaCond-LightIt.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-Extrabld.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+
 input, 
 button, 
 select {
-    border-radius: 40px;
+    border-radius: 40px;     
+  
 }
 
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
 
 .table-pagination {
     background: none;
@@ -20,7 +145,7 @@ select {
 
 a {
     color: #776FFF;
-    text-decoration: none;
+    text-decoration: underline;
     &:hover {
         color: #776FFF;
     }
@@ -49,3 +174,336 @@ input[type="checkbox"] {
     height: 18px;
     width: 18px;
 }
+
+
+
+
+
+/*! Pushy - v1.3.0 - 2019-6-25
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.pushy {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    background: white;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    /* enables momentum scrolling in iOS overflow elements */
+  }
+  .pushy a {
+    display: block;
+    color: #b3b3b1;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  .pushy a:hover {
+    color: #b3b3b1;
+  }
+  // .pushy ul:first-child {
+  //   margin-top: 10px;
+  // }
+  .pushy.pushy-left {
+    left: 0;
+  }
+  .pushy.pushy-right {
+    right: 0;
+  }
+  
+  .pushy-content {
+    visibility: hidden;
+  }
+  
+  /* Menu Movement */
+  .pushy-left {
+    -webkit-transform: translate3d(-200px, 0, 0);
+    -ms-transform: translate3d(-200px, 0, 0);
+    transform: translate3d(-200px, 0, 0);
+  }
+  
+  .pushy-open-left #container,
+  .pushy-open-left .push {
+    -webkit-transform: translate3d(200px, 0, 0);
+    -ms-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+  }
+  
+  .pushy-right {
+    -webkit-transform: translate3d(200px, 0, 0);
+    -ms-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+  }
+  
+  .pushy-open-right #container,
+  .pushy-open-right .push {
+    -webkit-transform: translate3d(-200px, 0, 0);
+    -ms-transform: translate3d(-200px, 0, 0);
+    transform: translate3d(-200px, 0, 0);
+  }
+  
+  .pushy-open-left .pushy,
+  .pushy-open-right .pushy {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .pushy-open-left .pushy-content,
+  .pushy-open-right .pushy-content {
+    visibility: visible;
+  }
+  
+  /* Menu Transitions */
+  #container,
+  .pushy,
+  .push {
+    transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  }
+  
+  .pushy-content {
+    transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  }
+  
+  /* Site Overlay */
+  .site-overlay {
+    display: none;
+  }
+  
+  .pushy-open-left .site-overlay,
+  .pushy-open-right .site-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-animation: fade 500ms;
+    animation: fade 500ms;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Submenu Appearance */
+  .pushy-submenu {
+    /* Submenu Buttons */
+    /* Submenu Icon */
+  }
+  .pushy-submenu > ul {
+    padding-left: 15px;
+    transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  }
+  .pushy-submenu > ul .pushy-link {
+    transition: opacity 0.2s ease-in-out;
+  }
+  .pushy-submenu button {
+    width: 100%;
+    color: #b3b3b1;
+    padding: 15px 30px;
+    text-align: left;
+    background: transparent;
+    border: 0;
+  }
+  .pushy-submenu button:hover {
+    color: #FFF;
+  }
+  .pushy-submenu > a,
+  .pushy-submenu > button {
+    position: relative;
+  }
+  .pushy-submenu > a::after,
+  .pushy-submenu > button::after {
+    content: '';
+    display: block;
+    height: 11px;
+    width: 8px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    background: url("../img/arrow.svg") no-repeat;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+  }
+  
+  /* Submenu Movement */
+  .pushy-submenu-closed > ul {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .pushy-submenu-closed .pushy-link {
+    opacity: 0;
+  }
+  
+  .pushy-submenu-open {
+    /* Submenu Icon */
+  }
+  .pushy-submenu-open > ul {
+    max-height: 1000px;
+    visibility: visible;
+  }
+  .pushy-submenu-open .pushy-link {
+    opacity: 1;
+  }
+  .pushy-submenu-open > a::after,
+  .pushy-submenu-open > button::after {
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+
+  .pushy-content ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    div:last-child {
+      margin-left: 10px;
+    }
+  }
+
+
+
+.pushy-content {
+
+  
+.active.dashbord-icon {
+  background-image: url(../images/Dashboard_on.svg);
+}
+.active.devices-icon {
+  background-image: url(../images/Devices_on.svg);
+}
+.active.users-icon {
+  background-image: url(../images/Users_on.svg);
+}
+.active.policy-icon {
+  background-image: url(../images/Policy-Center_on.svg);
+}
+.active.reports-icon  {
+  background-image: url(../images/Connectors_on.svg);
+}
+.active.connectors-icon {
+  background-image: url(../images/Connectors_on.svg);
+}
+
+.active.analytic-icon {
+  background-image: url(../images/Analytic_on.svg);
+}
+
+
+
+  .pushy-link {    
+
+    display: flex;
+    align-items: center;
+  }
+  
+.dashbord-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Dashboard_off.svg);
+  &:hover {
+    background-image: url(../images/Dashboard_on.svg);
+  }
+
+}
+
+
+
+.devices-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Devices_off.svg);
+  &:hover {
+    background-image: url(../images/Devices_on.svg);
+  }
+}
+
+.users-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Users_off.svg);
+  &:hover {
+    background-image: url(../images/Users_on.svg);
+  }
+}
+
+.policy-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Policy-Center_off.svg);
+  &:hover {
+    background-image: url(../images/Policy-Center_on.svg);
+  }
+}
+
+.reports-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Reports_off.svg);
+  &:hover {
+    background-image: url(../images/Reports_on.svg);
+  }
+}
+
+.connectors-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Connectors_off.svg);
+  &:hover {
+    background-image: url(../images/Connectors_on.svg);
+  }
+}
+
+.analytic-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/Analytic_off.svg);
+  &:hover {
+    background-image: url(../images/Analytic_on.svg);
+  }
+}
+
+
+
+
+
+}
+
+  
+  /*# sourceMappingURL=pushy.css.map */
+  
+
+.result-dropdown {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
