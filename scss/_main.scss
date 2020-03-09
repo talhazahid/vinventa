@@ -202,7 +202,7 @@ header {
     justify-content: center;
     margin: 0px 0px;
     /* border: 1px solid; */
-    width: 85px;
+    width: 95px;
     text-align: center;
     align-items: center;
     
@@ -632,7 +632,7 @@ thead tr th {
     a {
       color: gray;
       height: 100%;
-      font-size: 11px;
+      font-size: 12px;
       display: flex;
       align-items: center;
       padding: 0px 10px;
@@ -1268,7 +1268,7 @@ th {
 }
 
 .table-full-scroll th {
-  padding: 25px 4px 15px;
+  padding: 25px 4px 15px 0px;
   background: #ecedf2;
 }
 
@@ -2240,4 +2240,14 @@ table .bold-heading {
 
 .relative {
   position: relative;
+}
+
+
+.top-menu ul li .active-menu-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+.active-menu-text {
+  color: #000000;
 }

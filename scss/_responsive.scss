@@ -1,9 +1,6 @@
 @media screen and (max-width: 767px) {
 
-    .menu-notification {
-        margin-top: 10px;
-        border-top: 0px; 
-    }
+ 
    
     .menu-notification span {
         position: absolute;
@@ -50,8 +47,8 @@
         }
     }
     .theme-btn {
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 11px 17px;
+        font-size: 15px;
     }
 
 
@@ -107,6 +104,11 @@
     margin-left: 0px;
 }
 
+
+.menu-notification {
+    padding-top: 10px;
+
+}
 
 
   }
