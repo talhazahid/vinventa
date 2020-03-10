@@ -189,7 +189,7 @@ input[type="checkbox"] {
 /* Menu Appearance */
 .pushy {
     position: fixed;
-    width: 200px;
+    width: 250px;
     height: 100%;
     top: 0;
     z-index: 9999;
@@ -223,22 +223,22 @@ input[type="checkbox"] {
   
   /* Menu Movement */
   .pushy-left {
-    -webkit-transform: translate3d(-200px, 0, 0);
-    -ms-transform: translate3d(-200px, 0, 0);
-    transform: translate3d(-200px, 0, 0);
+    -webkit-transform: translate3d(-250px, 0, 0);
+    -ms-transform: translate3d(-250px, 0, 0);
+    transform: translate3d(-250px, 0, 0);
   }
   
   .pushy-open-left #container,
   .pushy-open-left .push {
-    -webkit-transform: translate3d(200px, 0, 0);
-    -ms-transform: translate3d(200px, 0, 0);
-    transform: translate3d(200px, 0, 0);
+    -webkit-transform: translate3d(250px, 0, 0);
+    -ms-transform: translate3d(250px, 0, 0);
+    transform: translate3d(250px, 0, 0);
   }
   
   .pushy-right {
-    -webkit-transform: translate3d(200px, 0, 0);
-    -ms-transform: translate3d(200px, 0, 0);
-    transform: translate3d(200px, 0, 0);
+    -webkit-transform: translate3d(250px, 0, 0);
+    -ms-transform: translate3d(250px, 0, 0);
+    transform: translate3d(250px, 0, 0);
   }
   
   .pushy-open-right #container,
@@ -382,7 +382,7 @@ input[type="checkbox"] {
     width: 100%;
     border-top: 1px solid #e4e4e4;
     div:last-child {
-      margin-left: 10px;
+      margin-left: 15px;
     }
   }
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Icon_ionic-ios-arrow-down" transform="matrix(-1,-1.22465e-16,1.22465e-16,-1,20.1807,19.246)">
+        <path d="M13.19,16.838L18.484,11.538C18.872,11.151 19.509,11.151 19.897,11.538C20.282,11.928 20.282,12.565 19.897,12.955L13.897,18.955C13.521,19.329 12.909,19.342 12.517,18.984L6.477,12.957C6.289,12.769 6.183,12.514 6.183,12.249C6.183,11.7 6.635,11.248 7.184,11.248C7.448,11.248 7.703,11.353 7.89,11.54L13.19,16.838Z" style="fill:rgb(154,154,154);fill-rule:nonzero;"/>
+    </g>
+</svg>
