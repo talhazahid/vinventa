@@ -7,297 +7,772 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </script>
 
 
 
-  <title>Mosis</title>
 
-  <style>
-    .dtHorizontalVerticalExampleWrapper {
-max-width: 600px;
-margin: 0 auto;
-}
-#dtHorizontalVerticalExample th, td {
-white-space: nowrap;
-}
-table.dataTable thead .sorting:after,
-table.dataTable thead .sorting:before,
-table.dataTable thead .sorting_asc:after,
-table.dataTable thead .sorting_asc:before,
-table.dataTable thead .sorting_asc_disabled:after,
-table.dataTable thead .sorting_asc_disabled:before,
-table.dataTable thead .sorting_desc:after,
-table.dataTable thead .sorting_desc:before,
-table.dataTable thead .sorting_desc_disabled:after,
-table.dataTable thead .sorting_desc_disabled:before {
-bottom: .5em;
-}
-  </style>
+  <title>Vinventa</title>
 </head>
 
-<body>
+<body class="">
+
+
+  
+  <!-- Pushy Menu -->
+  <nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+      <ul>
+
+        <li class="pushy-link">        
+          <a href="#" class="menu-notification relative">
+            <div class="user-profile">
+              JD
+              <span>3</span>
+            </div>
+
+            <div class="profile-name-mobile">
+              John Doe
+
+              <div class="profile-category">
+                Admin
+               </div>
+            </div>
+           
+     
+          </a>        
+      </li>
+
+
+        <li class="pushy-submenu pushy-link">
+          <a href="#">
+            <div class="menu-img  dashbord-icon">  
+            </div>
+            <div>
+              Dashboard
+            </div>
+          </a>
+          <!-- <button id="first-link">Dashboard</button> -->
+          <!-- <ul>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 1</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 2</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-link"><a href="#">Item 1</a></li>
+                    <li class="pushy-link"><a href="#">Item 2</a></li>
+                </ul> -->
+        </li>
+
+        <li class="pushy-link"> 
+          <a href="#">
+          <div class="menu-img active devices-icon">
+          </div>
+          <div class="active-menu-text">
+            Devices
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img users-icon">  
+          </div>
+          <div>
+            Users
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img policy-icon">
+          </div>
+          <div>
+            Policy Center
+          </div>  
+        </a>
+
+        
+        </li>
+        <li class="pushy-link">
+          
+            <a href="#">
+              <div class="menu-img connectors-icon"></div>
+            
+          <div>
+            Connectors
+          </div>
+            </a>
+         
+        </li>
+        <li class="pushy-link">
+        
+            <a href="#">
+              <div class="menu-img reports-icon"> </div>
+              <div>
+                Reports
+              </div>
+            </a>
+          
+        </li>
+        <li class="pushy-link">        
+            <a href="#">
+              <div class="menu-img analytic-icon">  </div>
+            <div>
+              Analytic
+            </div>
+            </a>        
+        </li>
+
+
+        <div class="mobile-menu-bottom">
+         
+            <a href="#">
+              <div class="menu-img help-icon">  </div>
+            <div>
+              Help
+            </div>
+            </a>        
+       
+    
+          <a href="#">
+            <div class="menu-img settings-icon">  </div>
+  
+         
+          <div>
+            Settings
+          </div>
+          </a>        
+
+        </div>
+      
+
+
+ 
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Site Overlay -->
+  <div class="site-overlay"></div>
+
+
 
   <div class="container-fluid main-wrapper p-0">
+  <header>
 
-    <header>
-      <div class="menu-trigger"> <img src="images/menu-button.svg"> </div>
-    </header>
+      <div class="menu-trigger" style="display: none;"> <img src="images/menu-button.svg"> </div>
 
-    <div class="main-container ">
 
-      <aside id="slide-menu">
+
+      <div class="header-logo">
+        <img src="images/logo.svg" class="logo">
+
+      </div>
+
+
+      <div class="top-menu header-menu">
+
         <ul>
-          <li><a href="#">Menu 1</a></li>
-          <li><a href="#">Menu 2</a></li>
-          <li><a href="#">Menu 3</a></li>
-          <li><a href="#">Menu 4</a></li>
-          <li><a href="#">Menu 5</a></li>
-          <li><a href="#">Menu 6</a></li>
 
-        </ul>
-      </aside>
-
-      <aside id="slide-menu">
-        <ul>
-          <li><a href="#">Menu 1</a></li>
-          <li><a href="#">Menu 2</a></li>
-          <li><a href="#">Menu 3</a></li>
-          <li><a href="#">Menu 4</a></li>
-          <li><a href="#">Menu 5</a></li>
-          <li><a href="#">Menu 6</a></li>
-
-        </ul>
-      </aside>
-
-      <section id="content">
-
-
-
-        <div class="section-wrapper">
-
-
-
-          <div class="row">
-
-             
-         
-            <div class="col-lg-12 inner-tab-right-section">
-
-
-          
-              <div class="right-section-heading mt-2">
-                Devices  <span>WIN-DF8DSF789SDF89.TestDomain.Test</span>
-              </div>
-
-
-
-              <div class="right-section-tabs mt-3">
-                <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    
-                    <div class="inner-tab-contet">
-
-                      <div class="row">
-                        <div class="col-lg-2">
-                          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-                          </div>
-                        </div>
-                        <div class="col-lg-10">
-                          <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-
-
-                        <div class="row">
-                          <div class="col-lg-6 mt-2"> Left Section</div>
-                          <div class="col-lg-6 mt-2"> Right Section</div>
-                         
-                        </div>
-
-
-
-
-
-                            </div>
-
-
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                           
-                        <div class="row">
-                          <div class="col-lg-6 mt-2"> Left Section</div>
-                          <div class="col-lg-6 mt-2"> Right Section</div>
-                         
-                        </div>
-
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                           
-                        <div class="row">
-                          <div class="col-lg-6 mt-2"> Left Section</div>
-                          <div class="col-lg-6 mt-2"> Right Section</div>
-                         
-                        </div>
-
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                            
-                        <div class="row">
-                          <div class="col-lg-6 mt-2"> Left Section</div>
-                          <div class="col-lg-6 mt-2"> Right Section</div>
-                         
-                        </div>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                   
-                     
-                    </div>
-                  
-                  </div>
-                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    
-                    Section 2
-                  
-                  
-                  </div>
-                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    
-                    Section 3
-                  
-                  </div>
-                </div>
-
-              </div>
-           
-
-             
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <li>
+            <div class="menu-img dashbord-icon">
 
             </div>
 
+            <a href="#">Dashboard</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+
+          </li>
+          <li>
+            <div class="menu-img  active devices-icon">
+
+            </div>
+            <a href="#" class="active-menu-text">Devices</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img users-icon">
+
+            </div>
+            <a href="#">Users</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img policy-icon">
+
+            </div>
+            <a href="#">Policy Center</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img connectors-icon">
+
+            </div>
+            <a href="#">Connectors</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+          <li>
+            <div class="menu-img reports-icon">
+
+            </div>
+            <a href="#">Reports</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+          <li>
+            <div class="menu-img analytic-icon">
+
+            </div>
+            <a href="#">Analaytic</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+
+        </ul>
+
+      </div>
 
 
 
-          </div>
+      <div class="header-icons">
 
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
 
+            <img src="images/icon_help.svg">
 
-
-
-
-        </div> <!-- Section ends here -->
-
-
-
-
-
-
-      </section>
-
-    </div>
-
-    <footer>
-      dsfsdfsdffsd
-    </footer>
-
-
-
-
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </div>
+
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+
+            <img src="images/settings.svg">
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown d-flex">
+          <a href="#" class="dropdown-toggle menu-notification" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            <div class="user-profile">
+              JD
+            </div>
+            <span>3</span>
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+        <div class="username-box">
+          <div class="username">
+            John Deo
+          </div>
+
+          <div class="user-role">
+            Admin
+          </div>
+        </div>
+
+
       </div>
+
+
+
+
+      <button class="menu-btn">
+        <img src="images/menu.svg">
+      </button>
+
+
+
+
+
+    </header>
+
+    <div class="main-container">
+
+
+      <div class="row m-0">
+        <div class="dashboard-left-section mb-5">
+          <section  id="content">
+
+  
+
+            <div class="section-wrapper mt-5">
+
+              
+            <h1 class="page-heading">
+              Devices <span class="heading-small">> WIN-D14VSGS3C0G.TestDomain.Test </span>
+            </h1>
+
+
+            <div class="device-tabs-wrapper">
+              <nav class="header-menu">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Adapter Cotections</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Aggregated</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Notes</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  
+                  <div class="inner-tab-content">
+
+                    <div class="row m-0">
+                      <div class="col-lg-3 inner-tab-content-left-col">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+
+        <div>
+          Trend Micro Deep Security
+        </div>
+        <div> 
+          <img src="images/deep_security_logo.png">
+         </div>
+      </a>
+
+
+       <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+        <div>
+          SolarWinds Netword Performance Monitor
+        </div>
+        <div> 
+          <img src="images/solarwinds_orion_logo.png">
+         </div>
+        
+      
+      </a>
+
+
+        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+          <div>
+            Amazon Web Services(AWS)
+          </div>
+          <div> 
+            <img src="images/aws_logo.png">
+           </div>
+       
+        
+        </a>
+
+
+         <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+          <div>
+            CylancePROT
+          </div>
+          <div> 
+            <img src="images/cylance_logo.png">
+           </div>
+          
+        
+        </a>
+
+
+
+
+
+
+
+
+
+
+        <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+
+          <div>
+            Trend Micro Deep Security
+          </div>
+          <div> 
+            <img src="images/deep_security_logo.png">
+           </div>
+        </a>
+  
+  
+         <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+          <div>
+            SolarWinds Netword Performance Monitor
+          </div>
+          <div> 
+            <img src="images/solarwinds_orion_logo.png">
+           </div>
+          
+        
+        </a>
+  
+  
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+            <div>
+              Amazon Web Services(AWS)
+            </div>
+            <div> 
+              <img src="images/aws_logo.png">
+             </div>
+         
+          
+          </a>
+  
+  
+           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+            <div>
+              CylancePROT
+            </div>
+            <div> 
+              <img src="images/cylance_logo.png">
+             </div>
+            
+          
+          </a>
+
+
+
+                        </div>
+                      </div>
+                      <div class="col-lg-9 white-bg ">
+                        <div class="tab-content" id="v-pills-tabContent">
+                          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+
+                            <div class="devices-tab-right-col-heading">
+                              <div class="circle-company">
+                                VU
+                              </div>
+    
+                              <div class="date-from">
+                                  <div>Data From:</div>       
+                                  <div> vinentauser@vinventa.ia</div>      
+                              </div>
+    
+    
+                              <div class="devices-tab-right-btn-col">
+                                 <button type="button" class="theme-btn graydient-primary-btn">View Advanced</button>
+                              </div>
+                            </div>
+
+                       <div class="row">
+
+                    
+                        <div class="col-lg-4 mt-2">
+                          <div class="device-tab-right-heading">
+                            Asset Name
+                          </div>
+                          <div class="device-tab-norman-txt">
+                            Windows-Server-2012-R2
+                            <br>
+                            (For Blackberry)
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-2"> 
+                          <div class="device-tab-right-heading">
+                          First Fetch Time
+                          </div>
+                          <div class="device-tab-norman-txt">
+                            <span>2012-01-04</span> <span>16:28:42</span>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-2">
+                          <div class="device-tab-right-heading">
+                            First Fetch Time
+                            </div>
+                            <div class="device-tab-norman-txt">
+                              <span>2012-01-04</span> <span>16:28:42</span>
+                            </div>
+                        </div>
+                       
+                      </div>
+
+
+
+                      <div class="tab-inner-expand-collapse-row">
+
+                        <div class="expand-collapse-row-btns">
+                          <a href="#">Expand all</a>
+                          <span class="split-pipe">|</span>
+                          <a href="#">Collapse all</a>
+                        </div>
+
+
+                      </div>
+
+
+
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="tab-right-collapse-box">
+                            <div>
+                             <span>OS</span>
+                             <span><img src="images/minus.png"> </span>
+                            </div>
+                            <div>
+                              <span>Type</span>
+                              <span>Windows</span>
+                            </div>
+                            <div>
+                              <span>Bitness:</span>
+                              <span>64</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="tab-right-collapse-box">
+                            <div>
+                              <span>OS</span>
+                              <span><img src="images/minus.png"> </span>
+                             </div>
+                             <div>
+                               <span>Type</span>
+                               <span>Windows</span>
+                             </div>
+                             <div>
+                               <span>Bitness:</span>
+                               <span>64</span>
+                             </div>
+                        </div>
+                    
+                     
+                      </div>
+
+                      <div class="col-lg-4">
+                        <div class="tab-right-collapse-box">
+                          <div>
+                            <span>OS</span>
+                            <span><img src="images/minus.png"> </span>
+                           </div>
+                           <div>
+                             <span>Type</span>
+                             <span>Windows</span>
+                           </div>
+                           <div>
+                             <span>Bitness:</span>
+                             <span>64</span>
+                           </div>
+                      </div>
+                      </div>
+
+
+
+
+                          </div>
+                          </div>
+
+
+                          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                         
+                      <div class="row">
+                        <div class="col-lg-6 mt-2"> Left Section</div>
+                        <div class="col-lg-6 mt-2"> Right Section</div>
+                       
+                      </div>
+
+                          </div>
+                          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                         
+                      <div class="row">
+                        <div class="col-lg-6 mt-2"> Left Section</div>
+                        <div class="col-lg-6 mt-2"> Right Section</div>
+                       
+                      </div>
+
+                          </div>
+                          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                          
+                      <div class="row">
+                        <div class="col-lg-6 mt-2"> Left Section</div>
+                        <div class="col-lg-6 mt-2"> Right Section</div>
+                       
+                      </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 
+                   
+                  </div>
+                
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  
+                  Section 2
+                
+                
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  
+                  Section 3
+                
+                </div>
+              </div>
+
+            </div>
+  
+            
+            
+  
+  
+  
+  
+  
+  
+            </div> <!-- Section ends here -->
+  
+  
+  
+  
+  
+  
+        </section>
+        </div>
+
+      </div>
+  
+
+
+    
+
+
     </div>
 
-
+  
 
   </div>
 
-  <script>
-    $('#myModal').on('shown.bs.modal', function () {
-      $('#myInput').trigger('focus')
-    })
 
-  </script>
+
+  
+  <script src="js/macy.js"></script>
+
+<script>
+  var masonry = new Macy({
+      container: '#macy-container',
+      trueOrder: false,
+      waitForImages: false,
+      useOwnImageLoader: false,
+      debug: true,
+      mobileFirst: true,
+      columns: 1,
+      margin: {
+          y: 16,
+          x: '2%',
+      },
+      breakAt: {
+          1200: 3,
+          940: 3,
+          520: 3,
+          400: 2
+      },
+  });
+</script>
 
 
 
   <script src="js/custom.js"> </script>
 
-
   <script>
-    $('.toggle-table-content').click(function() {
-    $('.table-innerbox-hidden-content').toggleClass('active');
-   
-});
+
+
+
+
+
+ /*
+  Slidemenu
+*/
+(function() {
+	var $body = document.body
+	, $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+	if ( typeof $menu_trigger !== 'undefined' ) {
+		$menu_trigger.addEventListener('click', function() {
+			$body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
+		});
+	}
+
+}).call(this);
   </script>
+
+
+
+
 
 </body>
 

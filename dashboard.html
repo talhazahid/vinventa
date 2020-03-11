@@ -17,6 +17,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
+
+
+
   <title>Vinventa</title>
 </head>
 
@@ -564,7 +568,7 @@
   
               
 
-              <div class="dashboard-grid-widgets">
+              <div class="dashboard-grid-widgets" id="macy-container">
 
 
                 <div class="widget-box">
@@ -587,9 +591,33 @@
 
                 <div class="widget-box">
                   <div class="widget-heading">
-                    Endpoint
-                    Protection
-                    Coverage
+                    <p>
+                      Endpoint
+                    </p>
+                    <p>
+                      Protection
+                    </p>
+                    <p>
+                      Coverage
+                    </p>
+                    <p>
+                      Endpoint
+                    </p>
+                    <p>
+                      Protection
+                    </p>
+                    <p>
+                      Coverage
+                    </p>
+                    <p>
+                      Endpoint
+                    </p>
+                    <p>
+                      Protection
+                    </p>
+                    <p>
+                      Coverage
+                    </p>
                   </div>
 
                 </div>
@@ -737,6 +765,35 @@
 
   </div>
 
+
+
+  
+  <script src="js/macy.js"></script>
+
+<script>
+  var masonry = new Macy({
+      container: '#macy-container',
+      trueOrder: false,
+      waitForImages: false,
+      useOwnImageLoader: false,
+      debug: true,
+      mobileFirst: true,
+      columns: 1,
+      margin: {
+          y: 16,
+          x: '2%',
+      },
+      breakAt: {
+          1200: 3,
+          940: 3,
+          520: 3,
+          400: 2
+      },
+  });
+</script>
+
+
+
   <script src="js/custom.js"> </script>
 
   <script>
@@ -760,6 +817,9 @@
 
 }).call(this);
   </script>
+
+
+
 
 
 </body>
