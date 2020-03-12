@@ -1165,3 +1165,6 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 }
 
 
+@mixin border-theme {
+  border-radius: 15px;
+}

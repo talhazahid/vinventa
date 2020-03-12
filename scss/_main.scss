@@ -2410,10 +2410,11 @@ font-size: 12px;
 
 .device-tabs-wrapper {
   margin-top: 50px;
+  margin-bottom: 100px;
   background: #f3f4f9;
 
   .header-menu {
-    margin-left: 50px;
+    margin-left: 44px;
 
     .nav-tabs  a {
       background: none;
@@ -2422,10 +2423,13 @@ font-size: 12px;
       margin-right: 60px;
       color: #9a9a9a;
       text-decoration: none;
+      font-size: 19px;
+      
     }
 
     .active {
       color: #776fff !important;
+      font-family: 'proxima-semi-bold';
       text-decoration: none;
       border-bottom: 1px solid #776fff !important;
     }
@@ -2441,22 +2445,22 @@ font-size: 12px;
   .inner-tab-content {
     display: flex;
     flex-direction: column;
-    height: 370px;
+ 
+    padding: 0px 15px;
 
     .inner-tab-content-left-col {
-      height: 370px;
+      flex-grow: 1;
       overflow-y: auto;
       margin-right: 0px;
       padding-right: 0px;
+      padding-left: 0px;
     }
 
-    .nav {
-      margin: 0px 0px 0px 15px;
-  }
+
 
 
     .nav-link.active {
-
+      border-radius: 15px;
       background-color:white;
   }
 
@@ -2465,18 +2469,20 @@ font-size: 12px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 26px;
         text-decoration: none;
         color: #4c4c4c;
+        padding:1rem;
        
 
         div:first-child {
         flex: 1;
+        margin-right: 15px;
         }
 
         div:last-child {
-          width:30px;
+          width: 50px;
         }
           img {
             width: 100%;
@@ -2499,7 +2505,7 @@ font-size: 12px;
 
 .devices-tab-right-col-heading {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 39px;
   width: 100%;
   align-items: center;
   border-bottom: 1px solid #b8b8b8;
@@ -2560,7 +2566,7 @@ font-size: 12px;
 
   .expand-collapse-row-btns {
 
-    margin-top: 50px;
+    margin-top: 125px;
 
     a {
       text-decoration: underline;
@@ -2571,26 +2577,43 @@ font-size: 12px;
 
 
 .tab-right-collapse-box {
-  padding:20px;
+  padding: 10px 15px;
   background-color: #f6f6f6;
   border-radius: 13px;
-  div {
-    display: flex;
-    justify-content: space-between;
 
+
+.collapse-heading-btn-row {
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    span:first-child {
+      flex: 1;
+    }
+  }
+
+  .collapse-devices-box {
+    padding: 5px 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    span:first-child {
+      margin-right: 5px;
+    }
+
+  }
+ .collapse-devices-box {
+    padding: 5px 0px;
    
   }
 
-  div:first-child {
-    border-bottom: 1px solid #bababa;
-    padding-bottom: 10px;
-  }
+}
 
-  div:nth-child(2) {
-    padding: 5px 0px;
-  }
-  div:nth-child(3) {
-    padding: 5px 0px;
-  }
+.border-theme {
+  @include border-theme;
+}
 
+.inner-tab-content-right-col {
+  padding:0px 40px;
 }
