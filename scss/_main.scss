@@ -2619,3 +2619,131 @@ font-size: 12px;
 .inner-tab-content-right-col {
   padding:0px 40px;
 }
+
+
+.no-btn {
+  background: none;
+  border: 0px;
+  
+    box-shadow: none;
+}
+
+.adding-adapter-wrapper {
+  width: 97%;
+  padding: 0px 40px;
+
+  input {  
+    @include input-theme; 
+  }
+}
+
+
+.adapter-modal-content-box {
+
+  margin-bottom: 50px;
+}
+.adding-adapter-modal-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  .adapter-modal-logo {
+    border: 1px solid #E2E2E2;
+    border-radius: 100%;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 33px;
+    }
+  }
+
+
+
+  .adapter-modal-name {
+    color: #4C4C4C;
+    font-size: 24px;
+    font-family: 'proxima-semi-bold';
+    margin-left: 26px;
+    flex: 1;
+  }
+
+  .adapter-modal-help-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .question-icon {
+    border: 1px solid #707070; 
+    padding: 10px;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $theme-link;
+  }
+  .adapter-modal-help-link {
+    color: $theme-link;
+    font-size: 16px;
+    margin-left: 14px;
+  }
+
+
+}
+
+
+
+.adapter-modal-content-box {
+
+
+  .adapter-modal-field-row {
+    display: flex;
+    align-items: center;
+  }
+
+  .modal-field-label {
+    display: flex;
+    font-size: 16px;
+    color: #4C4C4C;
+  }
+
+
+}
+
+
+.adapter-modal-role-row-middle {
+  margin: 0px 20px;
+  display: flex;
+}
+
+.adapter-modal-bottom-row {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 45px;
+
+  div {
+    margin-right:30px;
+  }
+}
+
+
+
+
+
+.choose-file-modal {
+  margin-left: 8px;
+}
+
+
+.region-checkbox {
+  display: flex;
+
+  input {
+    margin-right: 10px;
+  }
+}

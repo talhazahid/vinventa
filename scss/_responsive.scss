@@ -1,6 +1,116 @@
 @media screen and (max-width: 767px) {
 
 
+    .adapter-three-col {
+  
+    }
+
+
+.adapter-modal-content-box {
+
+    [class*="mr"] {
+        margin-right: 0px !important;
+      }
+
+}
+   
+.field-large {
+    width: 100%;
+}
+
+
+
+.field-small {
+    width: 100%;
+}
+
+.region-checkbox {
+    display: flex;
+}
+
+
+
+.adapter-modal-content-box .adapter-modal-field-row {
+  
+    display: grid;
+    grid-row-gap: 20px;
+    /* text-align: left; */
+}
+
+.choose-file-modal {
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.adapter-modal-bottom-row div {
+    margin-right: 0px;
+}
+
+
+.adapter-modal-bottom-row {
+    display: grid;
+    align-items: center;
+    margin-top: 20px;
+    grid-row-gap: 20px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    text-align: center;
+
+    div:first-child {
+        order: 3;
+    }
+}
+
+
+
+.adapter-modal-role-row-middle {
+    margin: 0px;
+    display: flex;
+
+     div:last-child {
+        margin-left: 10px;
+    }
+}
+      
+    .adding-adapter-wrapper {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    .adding-adapter-modal-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .adding-adapter-modal-header .adapter-modal-logo {
+     
+        order: 2;
+    }
+
+    
+    .adding-adapter-modal-header .adapter-modal-name {
+        color: #4C4C4C;
+        font-size: 24px;
+        font-family: 'proxima-semi-bold';
+        margin-left: 0px;
+        flex: 1;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 10px;
+        order: 3;
+    }
+
+    .adding-adapter-modal-header .adapter-modal-help-box {
+        display: flex;
+        align-items: center;
+        order: 1;
+        margin-bottom: 15px;
+    }
+
     .tab-inner-expand-collapse-row .expand-collapse-row-btns {
         margin-top: 35px;
     }
@@ -242,6 +352,108 @@
   @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
 
+    .adapter-three-col {
+  
+    }
+
+.adapter-modal-content-box {
+
+    [class*="mr"] {
+        margin-right: 0px !important;
+      }
+
+}
+   
+.field-large {
+    width: 100%;
+}
+
+
+.region-checkbox {
+    display: flex;
+}
+
+
+
+.adapter-modal-content-box .adapter-modal-field-row {
+  
+    display: grid;
+    grid-row-gap: 20px;
+    /* text-align: left; */
+}
+
+.choose-file-modal {
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+.adapter-modal-bottom-row {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;  
+    justify-content: center;
+    text-align: center;  
+}
+
+
+
+.adapter-modal-role-row-middle {
+
+    margin-top: 13px;
+    display: flex;
+
+     div:last-child {
+        margin-left: 10px;
+    }
+}
+      
+    .adding-adapter-wrapper {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    .adding-adapter-modal-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .adding-adapter-modal-header .adapter-modal-logo {
+     
+        order: 2;
+    }
+
+    
+    .adding-adapter-modal-header .adapter-modal-name {
+        color: #4C4C4C;
+        font-size: 24px;
+        font-family: 'proxima-semi-bold';
+        margin-left: 0px;
+        flex: 1;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 10px;
+        order: 3;
+    }
+
+    .adding-adapter-modal-header .adapter-modal-help-box {
+        display: flex;
+        align-items: center;
+        order: 1;
+        margin-bottom: 15px;
+    }
+
+    .adapter-three-col {
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        align-items: flex-start !important;
+
+    }
 
     .tab-inner-expand-collapse-row .expand-collapse-row-btns {
         margin-top: 35px;

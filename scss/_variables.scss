@@ -1159,7 +1159,6 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 
 
 
-
 @mixin random-bgr(){
   background: rgb(random(255), random(255), random(255));
 }
@@ -1168,3 +1167,13 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 @mixin border-theme {
   border-radius: 15px;
 }
+
+
+@mixin input-theme {
+  padding: 13px 25px;
+  border: 1px solid #707070;
+}
+
+
+
+$theme-link: #776FFF;

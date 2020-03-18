@@ -116,11 +116,10 @@
 
 
 
-input, 
+
 button, 
 select {
-    border-radius: 40px;     
-  
+    border-radius: 40px;       
 }
 
 button {
@@ -534,3 +533,23 @@ input[type="checkbox"] {
   margin-right: 4px;
 }
 
+
+
+.modal-header,
+.modal-footer {
+  border: 0px;
+}
+.modal-body {
+  padding: 0px;
+}
+
+
+
+
+.field-small {
+  width: 240px;
+}
+
+.field-large {
+  width: 360px;
+}
