@@ -1541,8 +1541,7 @@ th {
   .modal-dialog {
     max-width: inherit !important;
     margin: 1.75rem auto;
-  }
-}
+  }}
 
 .dropdown-with-logos {
   li {
@@ -1555,10 +1554,11 @@ th {
 
 .dropdown-with-img {
   position: relative;
-  width: 200px;
+  width: 100px;
   padding: 0px 15px;
   background: #fff;
-  border: 1px solid grey;
+  border: 1px solid #CCCCCC;
+  border-right: 0px;
   cursor: pointer;
   outline: none;
 }
@@ -1649,14 +1649,16 @@ th {
 .query-wizard-expension {
   display: flex;
   align-items: CENTER;
+  justify-content: center;
+  margin-bottom: 10px;
 
-  div {
-    margin-right: 5px;
-  }
+ 
 
   select {
-    padding: 10px;
+    padding: 12px;
     width: 100%;
+    border-radius: 0px;
+    border: 1px solid #CCCCCC;
   }
 }
 
@@ -1683,10 +1685,10 @@ th {
 }
 
 .disabled-input {
-  background: #ececec;
-  border: 1px solid #b5b5b5;
+  background: #F3F5F9;
+  border: 1px solid #CCCCCC;
   padding: 13px 20px;
-  color: #9c9c9c;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .close-action {
@@ -1714,16 +1716,28 @@ th {
 
 .modal-heading {
   margin-bottom: 10px;
-  font-weight: bold;
+  font-family: 'proxima-semi-bold';
 }
 
 .tags {
+  display: flex;
   a {
-    background: #9e9e9e;
-    color: white;
-    padding: 2px 10px;
+    background: hsla(0, 0%, 69%, 0.5);
+    color: black;
+    padding: 8px 20px;
     border-radius: 20px;
     font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    &:hover {
+      color: white;
+    }
   }
 }
 
@@ -2409,12 +2423,19 @@ font-size: 12px;
 
 
 .device-tabs-wrapper {
-  margin-top: 50px;
+  margin-top: 46px;
   margin-bottom: 100px;
+  padding-bottom: 30px;
   background: #f3f4f9;
+  border-radius: 18px;
+
+  .nav-tabs {
+ 
+    padding-left: 44px;
+}
 
   .header-menu {
-    margin-left: 44px;
+ 
 
     .nav-tabs  a {
       background: none;
@@ -2454,6 +2475,12 @@ font-size: 12px;
       margin-right: 0px;
       padding-right: 0px;
       padding-left: 0px;
+
+      .nav-link {
+        margin-bottom: 25px;
+      }
+
+
     }
 
 
@@ -2554,10 +2581,12 @@ font-size: 12px;
   font-size: 18px;
   color: #4c4c4c;
   font-family: 'proxima-semi-bold';
+  margin-bottom: 3px;
 }
 .device-tab-norman-txt {
   font-size: 16px;
   color: #4c4c4c;
+  line-height: 18px;
 }
 
 .tab-inner-expand-collapse-row {
@@ -2566,7 +2595,8 @@ font-size: 12px;
 
   .expand-collapse-row-btns {
 
-    margin-top: 125px;
+    margin-top: 115px;
+    padding: 0px 14px;
 
     a {
       text-decoration: underline;
@@ -2578,6 +2608,7 @@ font-size: 12px;
 
 .tab-right-collapse-box {
   padding: 10px 15px;
+  margin: 4px 14px 0px;
   background-color: #f6f6f6;
   border-radius: 13px;
   cursor: pointer;
@@ -2746,4 +2777,69 @@ font-size: 12px;
   input {
     margin-right: 10px;
   }
+}
+
+
+
+.modal-query-wizard-wrapper {
+
+  padding: 56px;
+}
+
+
+
+.query-wizard-sub-heading-description {
+
+
+  margin-top: 27px;
+  color: #000000;
+  font-size: 15px;
+}
+
+
+.query-wizard-expression-heading {
+  font-size: 20px;
+  font-family: 'proxima-semi-bold';
+  margin-top: 0px;
+  color: #4C4C4C;
+}
+
+
+.modal-close-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #000000;
+}
+
+.query-wizard-expension .and-select {
+  width: 75px;
+  margin-right: 15px;
+}
+
+.query-wizard-expension .all-select {
+  width: 75px;
+}
+
+
+
+.query-wizard-expension select.query-wizard-dropdown-large {
+width: 320px;
+
+}
+
+
+.query-wizard-div-box {
+  margin-right: 5px;
+}
+
+
+.page-heading-breadcrumb {
+  font-size: 20px;
+  font-family: 'proxima-regular';
+}
+
+
+.device-tab-detail-box {
+  padding: 0px 14px
 }
