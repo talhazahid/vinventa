@@ -1,6 +1,17 @@
 @media screen and (max-width: 767px) {
+    .tab-right-collapse-box {      
+        margin-bottom: 20px;
+    }
 
 
+    .results-per-page {
+   
+        padding: 0.5rem 0.35rem;
+    }
+
+.mobile-hidden {
+    display: none;
+}
     .adapter-three-col {
   
     }
@@ -276,9 +287,26 @@
         }
     }
     .theme-btn {
-        padding: 11px 17px;
+        padding: 14px 17px;
         font-size: 15px;
     }
+
+
+    .device-result-export-row {
+            flex-direction: column;
+            padding: 0px 3px;
+    }
+
+    .edit-column-export {
+        margin-right: 0px;
+    }
+
+
+    .device-results {
+  
+        margin-bottom: 14px;
+    }
+
 
 
     .dashboard-top-section-query .search-section .search-section-filter .split-pipe {
@@ -288,6 +316,7 @@
 
     .dashboard-top-section-query .search-section .search-section-filter {
         font-size: 15px;
+        justify-content: center;
     }
 
     #content {
@@ -351,7 +380,9 @@
 
   @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
-
+    .edit-column-export {
+        margin-right: 0px;
+    }
     .adapter-three-col {
   
     }
@@ -522,12 +553,15 @@
     }
 
     .device-tabs-wrapper .inner-tab-content .inner-tab-content-left-col { 
-        overflow-y: auto;    
-        height: auto;
+        overflow-y: auto;
+        max-height: 300px;
+        margin-bottom: 20px;
     }
 
 
-
+    .tab-right-collapse-box {      
+        margin-bottom: 20px;
+    }
 
 
     .profile-section {

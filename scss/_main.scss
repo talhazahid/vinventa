@@ -2155,6 +2155,7 @@ a {
   font-family: 'proxima-semi-bold';
   font-size: 24px;
   margin-top: 30px;
+  display: inline-block
 }
 
 
@@ -2459,7 +2460,7 @@ font-size: 12px;
 
 
   .tab-content {
-    margin-top: 30px;
+    margin-top: 32px;
   }
 
 
@@ -2843,3 +2844,29 @@ width: 320px;
 .device-tab-detail-box {
   padding: 0px 14px
 }
+
+
+.page-heading-with-device-list-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.device-list-settings {
+  flex: 1;
+  text-align: right;
+}
+
+
+.theme-button-small {
+  padding: 14px 16px;
+  font-size: 16px;
+  background: #a57dff;
+  border: 0px;
+  color: white;
+
+  &:hover {
+    background: #8565d1;
+  }
+}
+
+
