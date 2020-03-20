@@ -161,6 +161,10 @@ a {
 
 .graydient-secondary-btn {
     background-image: linear-gradient(to right bottom, #5e5e5e, #565656, #4f4e4f, #484747, #413f3f);
+
+    &:hover {
+      background-image: linear-gradient(to right bottom, #6d6d6d, #5a5a5a, #616061, #484848, #5d5d5d);
+    }
     
 }
 
