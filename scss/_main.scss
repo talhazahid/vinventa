@@ -1649,7 +1649,6 @@ th {
 .query-wizard-expension {
   display: flex;
   align-items: CENTER;
-  justify-content: center;
   margin-bottom: 10px;
 
  
@@ -1698,6 +1697,7 @@ th {
 
 .add-query-btn-row {
   display: flex;
+  margin-bottom: 20px;
   a {
     background: #ececec;
     border: 1px solid #b5b5b5;
@@ -2472,10 +2472,12 @@ font-size: 12px;
 
     .inner-tab-content-left-col {
       flex-grow: 1;
-      overflow-y: auto;
+      overflow: hidden;
       margin-right: 0px;
       padding-right: 0px;
       padding-left: 0px;
+      max-height: 600px;
+      position: relative;
 
       .nav-link {
         margin-bottom: 25px;
@@ -2628,7 +2630,8 @@ font-size: 12px;
 
   .collapse-devices-box {
     padding: 5px 0px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
 
@@ -2639,6 +2642,15 @@ font-size: 12px;
   }
  .collapse-devices-box {
     padding: 5px 0px;
+
+    div span {
+      margin-top: 7px;
+      display: inline-block;
+
+      &:first-child {
+        margin-top: 0px;
+      }
+    }
    
   }
 
@@ -2870,3 +2882,29 @@ width: 320px;
 }
 
 
+
+
+.ps__rail-y {
+  opacity: .7 !important;
+}
+
+
+.two-col-space-between {
+  display: flex;
+}
+
+
+
+.query-wizard-bottom-btns {
+  flex: 1;
+  text-align: right;
+
+  a {
+    margin-right: 10px;
+  }
+}
+
+
+.dashboard-top-section-query .search-field {
+  border-radius: 40px;
+}
