@@ -202,7 +202,7 @@ header {
     justify-content: center;
     margin: 0px 0px;
     /* border: 1px solid; */
-    width: 95px;
+    width: 91px;
     text-align: center;
     align-items: center;
     
@@ -1254,7 +1254,7 @@ footer {
 
   td {
     font-size: 14px;
-    padding: 10px 0px 10px 0px;
+    padding: 8px 0px 8px 0px;
     vertical-align: inherit;
     color: #4C4C4C;
   }
@@ -1454,7 +1454,8 @@ th {
     background: #efefef;
     background-image: linear-gradient(to right, #c5c5c5  70%, rgba(255, 255, 255, 0) 0%);
     background-position: bottom;
-    background-size: 10px 1px;
+    // background-size: 10px 1px;
+    background-size: 1px 1px;
     background-repeat: repeat-x;
   }
   .white-spacer {
@@ -2045,7 +2046,7 @@ a {
 }
 
 .theme-btn {
-  padding: 14px 34px;
+  padding: 14px 21px;
   font-size: 16px;
   background: #a57dff;
   border: 0px;
@@ -2073,7 +2074,7 @@ a {
 
 
 .edit-column-export {
-  margin-right: 20px;
+ 
   a {
     text-decoration: underline;
     color: #776fff;
@@ -2225,17 +2226,17 @@ a {
 }
 
 .parent-row  td:nth-child(2) {
-  padding: 10px 0px 10px 10px !important;
+  padding: 8px 0px 8px 10px !important;
 }
 .parent-row  td:nth-child(1) {
-  padding: 10px 0px 10px 10px !important;
+  padding: 8px 0px 8px 10px !important;
 }
 
 .child-row  td:nth-child(2) {
-  padding: 10px 0px 10px 10px !important;
+  padding: 8px 0px 8px 10px !important;
 }
 .child-row  td:nth-child(2) {
-  padding: 10px 0px 10px 10px !important;
+  padding: 8px 0px 8px 10px !important;
 }
 
 .abso-center {
@@ -2907,4 +2908,12 @@ width: 320px;
 
 .dashboard-top-section-query .search-field {
   border-radius: 40px;
+}
+.result-pg {
+  color: #9DA6AF;
+}
+
+.result-number {
+  color: #4C4C4C;
+  text-decoration: none !important;
 }
