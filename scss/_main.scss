@@ -1546,10 +1546,18 @@ th {
 
 .dropdown-with-logos {
   li {
-    border-bottom: 1px solid #bababa;
+    border-top: 1px solid #bababa;
+    border-left: 1px solid #bababa;
+    border-right: 1px solid #bababa;
+    background: white;
+
+    &:last-child {
+      border-bottom: 1px solid #bababa;
+    }
   }
   &:hover {
     border: 0px;
+ 
   }
 }
 
@@ -1593,6 +1601,12 @@ th {
   transition: all 0.3s ease-out;
   list-style: none;
 
+  display: grid;
+  white-space: nowrap;
+  background: white;
+
+
+
   /* Hiding */
   opacity: 0;
   pointer-events: none;
@@ -1607,6 +1621,10 @@ th {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+
+  &:hover {
+    background: #f8f8f8;
+  }
 }
 
 .dropdown-with-img .dropdown li i {
@@ -1630,7 +1648,7 @@ th {
 .dropdown-with-img.active .dropdown {
   opacity: 1;
   pointer-events: auto;
-  border: 1px solid #808080;
+
 }
 
 /* No CSS3 support */
@@ -1668,7 +1686,7 @@ th {
     align-items: center;
   }
   img {
-    width: 50px;
+    width: 37px;
   }
 }
 
@@ -1702,8 +1720,15 @@ th {
   a {
     background: #ececec;
     border: 1px solid #b5b5b5;
-    padding: 13px 19px;
-    color: #9c9c9c;
+    padding: 12px 19px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+
+    &:hover {
+      color: #000000;
+      text-decoration: none !important;
+    }
   }
 }
 
