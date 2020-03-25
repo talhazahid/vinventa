@@ -1,4 +1,49 @@
 @media screen and (max-width: 767px) {
+
+    .modal-query-wizard-wrapper {
+        padding: 56px 20px;
+    }
+    
+    .query-wizard-expension {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, 118px);
+        background: #f9f9f9;
+        padding: 10px;
+        grid-template-columns: 1fr;
+
+      .all-select {
+            width: 100%;
+        }
+
+        .dropdown-with-img {
+        
+            width: 100%;
+        }
+
+     select.query-wizard-dropdown-large {
+            width: 100%;
+        }
+
+       .exists-dropdown {
+            width: 100%;
+     
+        }
+
+        .close-action {
+            text-align: center;     
+            margin: 10px 0px;
+        }
+
+
+        .hidden {
+            display: none;
+        }
+
+    }
+
+
+
     .tab-right-collapse-box {      
         margin-bottom: 20px;
     }
@@ -95,6 +140,7 @@
         align-items: center;
         margin-bottom: 40px;
         flex-direction: column;
+        margin-top: 30px;
     }
 
     .adding-adapter-modal-header .adapter-modal-logo {
@@ -453,6 +499,7 @@
         align-items: center;
         margin-bottom: 40px;
         flex-direction: column;
+        margin-top: 40px;
     }
 
     .adding-adapter-modal-header .adapter-modal-logo {
@@ -742,6 +789,18 @@
 
     .menu-btn {
         display: none;
+    }
+
+
+  }
+
+
+  @media only screen and (min-width: 1200px) and (max-width: 9000px)  {
+
+   .modal-wrapper-xl {
+
+    width: 980px;
+
     }
 
 

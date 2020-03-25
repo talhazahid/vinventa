@@ -1670,11 +1670,18 @@ th {
   align-items: CENTER;
   margin-bottom: 10px;
 
- 
+ .exists-dropdown {
+   width: 86px;
+   padding: 12px 10px;
+ }
+
+ .medium-dropdown {
+   width: 105px;
+   padding: 12px 10px;
+ }
 
   select {
-    padding: 12px;
-    width: 100%;
+    padding: 12px;    
     border-radius: 0px;
     border: 1px solid #CCCCCC;
   }
@@ -2700,8 +2707,8 @@ font-size: 12px;
 }
 
 .adding-adapter-wrapper {
-  width: 97%;
-  padding: 0px 40px;
+
+
 
   input {  
     @include input-theme; 
