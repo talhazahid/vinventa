@@ -384,9 +384,15 @@
               <div class="section-wrapper">
 
                   <div class="page-heading-with-device-list-btn">
-                      <h1 class="page-heading">
-                          Devices <span class="page-heading-breadcrumb">&gt; WIN-D14VSGS3C0G.TestDomain.Test </span>
-                        </h1>
+                      <div class="page-heading">
+                          Devices &gt; 
+
+                          <div class="breadcumb-flex">
+                            <div class="page-heading-breadcrumb"> AD01 -Windows Server 2016 Standard (64 bit) </div>
+                            <div class="page-heading-breadcrumb"> <span class="green-circle"></span> 192.168.1.20 -VINVENTA </div>
+                          </div>
+                          
+                        </div>
         
                         <div class="device-list-settings">
                             <img src="images/device-detail-list-icon.png">
@@ -400,11 +406,11 @@
                   <nav class="header-menu">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                       <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
-                        role="tab" aria-controls="nav-home" aria-selected="true">Adapter Cotections</a>
+                        role="tab" aria-controls="nav-home" aria-selected="true">Adapter Connections</a>
                       <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
                         aria-controls="nav-profile" aria-selected="false">Aggregated</a>
                       <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-                        aria-controls="nav-contact" aria-selected="false">Notes</a>
+                        aria-controls="nav-contact" aria-selected="false">Comments</a>
                       <a class="nav-item nav-link" id="nav-tags-tab" data-toggle="tab" href="#nav-contact" role="tab"
                         aria-controls="nav-contact" aria-selected="false">Tags</a>
                     </div>
@@ -592,200 +598,206 @@
                             </div>
 
                           </div>
-                          <div class="col-lg-9 white-bg border-theme inner-tab-content-right-col">
-                            <div class="tab-content" id="v-pills-tabContent">
-                              <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
-
-
-                                <div class="devices-tab-right-col-heading">
-                                  <div class="circle-company">
-                                    VU
-                                  </div>
-
-                                  <div class="date-from">
-                                    <div>Data From:</div>
-                                    <div> vinentauser@vinventa.ia</div>
-                                  </div>
-
-
-                                  <div class="devices-tab-right-btn-col">
-                                    <button type="button" data-toggle="modal" data-target="#query-wizard-expression-modal"
-                                      class="theme-button-small graydient-primary-btn">View Advanced</button>
-                                  </div>
-                                </div>
-
-                                <div class="row">
-
-
-                                  <div class="col-lg-4 col-4 mt-2">
-
-                                    <div class="device-tab-detail-box">
-                                        <div class="device-tab-right-heading">
-                                            Asset Name
-                                          </div>
-                                          <div class="device-tab-norman-txt">
-                                            Windows-Server-2012-R2
-                                            <br>
-                                            (For Blackberry)
-                                          </div>
+                          <div class="col-lg-9 tab-right-column-container ">
+                            <div class="white-bg  border-theme inner-tab-content-right-col">
+                              <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel"
+                                  aria-labelledby="v-pills-home-tab">
+  
+  
+                                  <div class="devices-tab-right-col-heading">
+                                    <div class="circle-company">
+                                      VU
                                     </div>
-                                
-                                  </div>
-
-                                  <div class="col-lg-4 col-4 mt-2">
-                                    <div class="device-tab-right-heading">
-                                       Fetch Time
+  
+                                    <div class="date-from">
+                                      <div>Data From:</div>
+                                      <div> vinentauser@vinventa.ia</div>
                                     </div>
-                                    <div class="device-tab-norman-txt">
-                                      <span>2012-01-04</span> <span>16:28:42</span>
+  
+  
+                                    <div class="devices-tab-right-btn-col">
+                                      <button type="button" data-toggle="modal" data-target="#query-wizard-expression-modal"
+                                        class="theme-button-small graydient-primary-btn">View Advanced</button>
                                     </div>
                                   </div>
-
-                                  <div class="col-lg-4 col-4 mt-2">
-                                    <div class="device-tab-right-heading">
-                                      First Fetch Time
-                                    </div>
-                                    <div class="device-tab-norman-txt">
-                                      <span>2012-01-04</span> <span>16:28:42</span>
-                                    </div>
-                                  </div>
-
-                                </div>
-
-
-
-                                <div class="tab-inner-expand-collapse-row">
-
-                                  <div class="expand-collapse-row-btns">
-                                    <a href="#" data-toggle="modal" data-target="#query-wizard-modal">Expand all</a>
-                                    <span class="split-pipe">|</span>
-                                    <a href="#" data-toggle="modal" data-target="#exampleModal">Collapse all</a>
-                                  </div>
-
-
-                                </div>
-
-
-
-                                <div class="row">
-                                  <div class="col-lg-4">
-
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample1" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>OS</span>
-                                        <span><img src="images/minus.png"> </span>
+  
+                                  <div class="row">
+  
+  
+                                    <div class="col-lg-4 col-4 mt-2">
+  
+                                      <div class="device-tab-detail-box">
+                                          <div class="device-tab-right-heading">
+                                              Asset Name
+                                            </div>
+                                            <div class="device-tab-norman-txt">
+                                              Windows-Server-2012-R2
+                                              <br>
+                                              (For Blackberry)
+                                            </div>
                                       </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>Type:</span>
-                                            <span>Windows</span>
-                                          </div>
-                                          <div>
-                                            <span>Bitness:</span>
-                                            <span>64</span>
-                                          </div>
+                                  
+                                    </div>
+  
+                                    <div class="col-lg-4 col-4 mt-2">
+                                      <div class="device-tab-right-heading">
+                                         Fetch Time
+                                      </div>
+                                      <div class="device-tab-norman-txt">
+                                        <span>2012-01-04</span> <span>16:28:42</span>
+                                      </div>
+                                    </div>
+  
+                                    <div class="col-lg-4 col-4 mt-2">
+                                      <div class="device-tab-right-heading">
+                                        First Fetch Time
+                                      </div>
+                                      <div class="device-tab-norman-txt">
+                                        <span>2012-01-04</span> <span>16:28:42</span>
+                                      </div>
+                                    </div>
+  
+                                  </div>
+  
+  
+  
+                                  <div class="tab-inner-expand-collapse-row">
+  
+                                    <div class="expand-collapse-row-btns">
+                                      <a href="#" data-toggle="modal" data-target="#query-wizard-modal">Expand all</a>
+                                      <span class="split-pipe">|</span>
+                                      <a href="#" data-toggle="modal" data-target="#exampleModal">Collapse all</a>
+                                    </div>
+  
+  
+                                  </div>
+  
+  
+  
+                                  <div class="row">
+                                    <div class="col-lg-4">
+  
+                                      <div class="tab-right-collapse-box">
+                                        <div class="collapse-heading-btn-row" data-toggle="collapse"
+                                          href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                          aria-controls="multiCollapseExample1">
+                                          <span>OS</span>
+                                          <span><img src="images/minus.png"> </span>
                                         </div>
-
-                                      </div>
-                                    </div>
-
-
-                                  </div>
-                                  <div class="col-lg-4">
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample2" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>Adapter Properties</span>
-                                        <span><img src="images/minus.png"> </span>
-                                      </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>1</span>
-                                            <span>Endpoint_Protection_Platform</span>
+  
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                          <div class="collapse-devices-box">
+                                            <div>
+                                              <span>Type:</span>
+                                              <span>Windows</span>
+                                            </div>
+                                            <div>
+                                              <span>Bitness:</span>
+                                              <span>64</span>
+                                            </div>
                                           </div>
-                                          <div>
-                                            <span>2</span>
-                                            <span>Agent</span>
-                                          </div>
+  
                                         </div>
-
                                       </div>
+  
+  
                                     </div>
-
-
-                                  </div>
-
-                                  <div class="col-lg-4">
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample3" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>Network Interfaces</span>
-                                        <span><img src="images/minus.png"> </span>
-                                      </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>1:</span>
-                                            <span>IPS</span>
-                                          </div>
-                                          <div>
-                                            <span>2:</span>
-                                            <span>1.10.145.1</span>
-                                          </div>
+                                    <div class="col-lg-4">
+                                      <div class="tab-right-collapse-box">
+                                        <div class="collapse-heading-btn-row" data-toggle="collapse"
+                                          href="#multiCollapseExample2" role="button" aria-expanded="false"
+                                          aria-controls="multiCollapseExample1">
+                                          <span>Adapter Properties</span>
+                                          <span><img src="images/minus.png"> </span>
                                         </div>
-
+  
+                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                          <div class="collapse-devices-box">
+                                            <div>
+                                              <span>1</span>
+                                              <span>Endpoint_Protection_Platform</span>
+                                            </div>
+                                            <div>
+                                              <span>2</span>
+                                              <span>Agent</span>
+                                            </div>
+                                          </div>
+  
+                                        </div>
+                                      </div>
+  
+  
+                                    </div>
+  
+                                    <div class="col-lg-4">
+                                      <div class="tab-right-collapse-box">
+                                        <div class="collapse-heading-btn-row" data-toggle="collapse"
+                                          href="#multiCollapseExample3" role="button" aria-expanded="false"
+                                          aria-controls="multiCollapseExample1">
+                                          <span>Network Interfaces</span>
+                                          <span><img src="images/minus.png"> </span>
+                                        </div>
+  
+                                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                          <div class="collapse-devices-box">
+                                            <div>
+                                              <span>1:</span>
+                                              <span>IPS</span>
+                                            </div>
+                                            <div>
+                                              <span>2:</span>
+                                              <span>1.10.145.1</span>
+                                            </div>
+                                          </div>
+  
+                                        </div>
                                       </div>
                                     </div>
+  
+  
+  
+  
                                   </div>
-
-
-
-
                                 </div>
-                              </div>
-
-
-                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
+  
+  
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                  aria-labelledby="v-pills-profile-tab">
+  
+                                  <div class="row">
+                                    <div class="col-lg-6 mt-2"> Left Section</div>
+                                    <div class="col-lg-6 mt-2"> Right Section</div>
+  
+                                  </div>
+  
                                 </div>
-
-                              </div>
-                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                aria-labelledby="v-pills-messages-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                  aria-labelledby="v-pills-messages-tab">
+  
+                                  <div class="row">
+                                    <div class="col-lg-6 mt-2"> Left Section</div>
+                                    <div class="col-lg-6 mt-2"> Right Section</div>
+  
+                                  </div>
+  
                                 </div>
-
-                              </div>
-                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                  aria-labelledby="v-pills-settings-tab">
+  
+                                  <div class="row">
+                                    <div class="col-lg-6 mt-2"> Left Section</div>
+                                    <div class="col-lg-6 mt-2"> Right Section</div>
+  
+                                  </div>
+  
                                 </div>
-
                               </div>
                             </div>
+                        
+
+                       
+
                           </div>
                         </div>
 
@@ -805,11 +817,11 @@
                                   <div class="nav flex-column nav-pills nav-no-img" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
     
-                                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                    <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                       role="tab" aria-controls="v-pills-home" aria-selected="true">
     
                                       <div>
-                                        OS available Security Patches
+                                       Summary
                                       </div>
 
                                       <div>
@@ -819,10 +831,10 @@
                                     </a>
     
     
-                                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                    <a class="nav-link  active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                       role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                       <div>
-                                        Connected Hardware
+                                       Hardware Installed
                                       </div>
                                    
                                       <div>
@@ -836,7 +848,7 @@
                                       href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
                                       aria-selected="false">
                                       <div>
-                                        Users
+                                       Software Installed
                                       </div>
                                       <div>
                                        
@@ -851,7 +863,7 @@
                                       href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
                                       aria-selected="false">
                                       <div>
-                                        Local Admins
+                                         Admins
                                       </div>
                                    
                                       <div>
@@ -868,7 +880,7 @@
                                       role="tab" aria-controls="v-pills-home" aria-selected="true">
     
                                       <div>
-                                        Agent Versions
+                                        Agent Users
                                       </div>
                                       <div>
                                        
@@ -880,7 +892,7 @@
                                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                       role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                       <div>
-                                        Hard Drives
+                                    Network Cards
                                       </div>
                                       <div>
                                        
@@ -895,7 +907,7 @@
                                       href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
                                       aria-selected="false">
                                       <div>
-                                        Running Processes
+                                      Hard Disks
                                       </div>
                                       <div>
                                        
@@ -910,7 +922,7 @@
                                       href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
                                       aria-selected="false">
                                       <div>
-                                        Services
+                                       Available Patches
                                       </div>
                                       <div>
                                        
@@ -925,7 +937,7 @@
                                       role="tab" aria-controls="v-pills-home" aria-selected="true">
     
                                       <div>
-                                        Shares
+                                       Installed Patches
                                       </div>
                                       <div>
                                        
@@ -937,7 +949,7 @@
                                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                       role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                       <div>
-                                        Firewall Rules
+                                      Shares
                                       </div>
                                       <div>
                                        
@@ -954,7 +966,7 @@
                                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                       role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                       <div>
-                                        Connected Hardware
+                                    Hardware Installed
                                       </div>
                                    
                                       <div>
@@ -1092,167 +1104,191 @@
 
     
                               </div>
-                              <div class="col-lg-9 white-bg border-theme inner-tab-content-right-col">
-                                <div class="tab-content" id="v-pills-tabContent">
-                                  <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel"
-                                    aria-labelledby="v-pills-home-tab">
-    
-    
-                                    <div class="search-wrap-standard search-inverse mb-4">
-                                      <input type="text" placeholder="Insert your query or start typing to filter recent Queries" class="search-field">
-                    
-                                      <a href="#" class="search-query-dropdown-btn">
-                                        <img src="images/down-arrow.svg">
-                                      </a>
-                    
-                                    </div>
+                              <div class="col-lg-9 tab-right-column-container">
 
-
-                                    <div class="device-result-export-row device-result-export-row-standard">
-                                      <div class="device-results">
-                                        Connected Hardware (120)
-                                        <!-- <a href="#">                            
-                                         <img src="images/vertical-dots.svg">
-                                        </a> -->
+                                <div class="white-bg  border-theme inner-tab-content-right-col">
+                                  <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel"
+                                      aria-labelledby="v-pills-home-tab">
+      
+      
+                                      <div class="search-wrap-standard search-inverse mb-4">
+                                        <input type="text" placeholder="Insert your query or start typing to filter recent Queries" class="search-field">
+                      
+                                        <a href="#" class="search-query-dropdown-btn">
+                                          <img src="images/down-arrow.svg">
+                                        </a>
+                      
                                       </div>
-              
-              
-                                      <div class="edit-column-export">
-                                        <!-- <a href="#">Edit Column</a>
-                                        <span class="split-pipe">|</span> -->
-                                        <a href="#">Export CSV</a>
+  
+  
+                                      <div class="device-result-export-row device-result-export-row-standard">
+                                        <div class="device-results">
+                                          Connected Hardware (120)
+                                          <!-- <a href="#">                            
+                                           <img src="images/vertical-dots.svg">
+                                          </a> -->
+                                        </div>
+                
+                
+                                        <div class="edit-column-export">
+                                          <!-- <a href="#">Edit Column</a>
+                                          <span class="split-pipe">|</span> -->
+                                          <a href="#">Export CSV</a>
+                                        </div>
+                
+                
                                       </div>
-              
-              
-                                    </div>
-
-                                    <div class="table-wrap table-wrap-margin">
-                                      <table class="table">                                       
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Name</th>
-                                            <th scope="col">Manufacturer</th>
-                                            <th scope="col">ID</th>
-                                        
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+  
+                                      <div class="table-wrap table-wrap-margin">
+                                    <table class="table table-extra-padding">                                       
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">Name
+                                                <img src="images/table-down-arrow.svg" class="table-down-arrow">
+                                              </th>
+                                              <th scope="col">Manufacturer</th>
+                                              <th scope="col">ID</th>
                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI x64-based PC</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                          
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI x64-based PC</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                          
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI x64-based PC</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                          <tr>
-                                            <td>ACPI Fixes Feature Button</td>
-                                            <td>(Standard system devices)</td>
-                                            <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
-                                           
-                                          </tr>
-                                        </tbody>
-                                      </table>
-
-
-                                      <ul class="pagination table-pagination">
-                                        <li class="page-item"><a class="page-link" href="#">First</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    
-                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Last</a></li>
-                    
-                    
-                                      </ul>
-
-
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                            
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI x64-based PC</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                            
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI x64-based PC</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                            
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI x64-based PC</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                            <tr>
+                                              <td>ACPI Fixes Feature Button</td>
+                                              <td>(Standard system devices)</td>
+                                              <td>ACP\FIXEDBUTTON\2@7FD89F7@1</td>
+                                             
+                                            </tr>
+                                          </tbody>
+                                        </table>
+  
+  
+                                    
+  
+                                      </div>
+                                    
+      
+                                
+      
+      
+      
+      
+      
+                                    
                                     </div>
-                                  
-    
-                              
-    
-    
-    
-    
-    
-                                  
-                                  </div>
-    
-    
-                                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                    aria-labelledby="v-pills-profile-tab">
-    
-                                    <div class="row">
-                                      <div class="col-lg-6 mt-2"> Left Section</div>
-                                      <div class="col-lg-6 mt-2"> Right Section</div>
-    
+      
+      
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                      aria-labelledby="v-pills-profile-tab">
+      
+                                      <div class="row">
+                                        <div class="col-lg-6 mt-2"> Left Section</div>
+                                        <div class="col-lg-6 mt-2"> Right Section</div>
+      
+                                      </div>
+      
                                     </div>
-    
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                    aria-labelledby="v-pills-messages-tab">
-    
-                                    <div class="row">
-                                      <div class="col-lg-6 mt-2"> Left Section</div>
-                                      <div class="col-lg-6 mt-2"> Right Section</div>
-    
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                      aria-labelledby="v-pills-messages-tab">
+      
+                                      <div class="row">
+                                        <div class="col-lg-6 mt-2"> Left Section</div>
+                                        <div class="col-lg-6 mt-2"> Right Section</div>
+      
+                                      </div>
+      
                                     </div>
-    
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                    aria-labelledby="v-pills-settings-tab">
-    
-                                    <div class="row">
-                                      <div class="col-lg-6 mt-2"> Left Section</div>
-                                      <div class="col-lg-6 mt-2"> Right Section</div>
-    
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                      aria-labelledby="v-pills-settings-tab">
+      
+                                      <div class="row">
+                                        <div class="col-lg-6 mt-2"> Left Section</div>
+                                        <div class="col-lg-6 mt-2"> Right Section</div>
+      
+                                      </div>
+      
                                     </div>
-    
                                   </div>
                                 </div>
+                               
+
+                                
+                            <div class="bottom-page">
+                              <ul class="pagination table-pagination">
+                                <li class="page-item"><a class="page-link" href="#">First</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+            
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Last</a></li>
+            
+            
+                              </ul>
+          
+          
+                              <div class="results-per-page">
+                                <span class="mr-4 result-pg">Results Per Page</span>
+                                <a href="#" class="result-number">20</a>
+            
+                                <a href="#" class="acord-arrow result-dropdown">
+                                  <img src="images/down-arrow.svg">
+                                </a>
+            
+                                
+            
+                              </div>
+            
+                            </div>
                               </div>
                             </div>
     
