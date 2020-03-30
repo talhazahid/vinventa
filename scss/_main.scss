@@ -2495,7 +2495,7 @@ font-size: 12px;
 
 
   .tab-content {
-    margin-top: 32px;
+    margin-top: 29px;
   }
 
 
@@ -2515,7 +2515,7 @@ font-size: 12px;
       position: relative;
 
       .nav-link {
-        margin-bottom: 16px;
+        margin-bottom: 14px;
       }
 
 
@@ -2534,7 +2534,7 @@ font-size: 12px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 18px;
+        font-size: 19px;
         line-height: 26px;
         text-decoration: none;
         color: #4c4c4c;
@@ -2572,6 +2572,7 @@ font-size: 12px;
 .devices-tab-right-col-heading {
   display: flex;
   margin-bottom: 39px;
+  padding-top: 7px;
   width: 100%;
   align-items: center;
   border-bottom: 1px solid #b8b8b8;
@@ -2661,15 +2662,18 @@ font-size: 12px;
 
     span:first-child {
       flex: 1;
+      color: #4c4c4c;
+      font-family: 'proxima-semi-bold';
     }
   }
 
   .collapse-devices-box {
     padding: 5px 0px;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-gap: 8px;
+    word-break: break-all;
 
     span:first-child {
       margin-right: 5px;
@@ -2678,10 +2682,12 @@ font-size: 12px;
   }
  .collapse-devices-box {
     padding: 5px 0px;
+    color: #4c4c4c;
+  
 
     div span {
       margin-top: 7px;
-      display: inline-block;
+      display: inline;
 
       &:first-child {
         margin-top: 0px;
