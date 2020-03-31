@@ -409,7 +409,7 @@
                         role="tab" aria-controls="nav-home" aria-selected="true">Adapter Connections</a>
                       <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
                         aria-controls="nav-profile" aria-selected="false">Aggregated</a>
-                      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-comments" role="tab"
                         aria-controls="nav-contact" aria-selected="false">Comments</a>
                       <a class="nav-item nav-link" id="nav-tags-tab" data-toggle="tab" href="#nav-contact" role="tab"
                         aria-controls="nav-contact" aria-selected="false">Tags</a>
@@ -433,7 +433,7 @@
                                   <div>
                                     Trend Micro Deep Security
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/deep_security_logo.png">
                                   </div>
                                 </a>
@@ -444,7 +444,7 @@
                                   <div>
                                     SolarWinds Netword Performance Monitor
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/solarwinds_orion_logo.png">
                                   </div>
 
@@ -458,7 +458,7 @@
                                   <div>
                                     Amazon Web Services(AWS)
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/aws_logo.png">
                                   </div>
 
@@ -472,7 +472,7 @@
                                   <div>
                                     CylancePROT
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/cylance_logo.png">
                                   </div>
 
@@ -488,7 +488,7 @@
                                   <div>
                                     Trend Micro Deep Security
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/deep_security_logo.png">
                                   </div>
                                 </a>
@@ -499,7 +499,7 @@
                                   <div>
                                     SolarWinds Netword Performance Monitor
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/solarwinds_orion_logo.png">
                                   </div>
 
@@ -513,7 +513,7 @@
                                   <div>
                                     Amazon Web Services(AWS)
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/aws_logo.png">
                                   </div>
 
@@ -527,7 +527,7 @@
                                   <div>
                                     CylancePROT
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/cylance_logo.png">
                                   </div>
 
@@ -546,7 +546,7 @@
                                   <div>
                                     Trend Micro Deep Security
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/deep_security_logo.png">
                                   </div>
                                 </a>
@@ -557,7 +557,7 @@
                                   <div>
                                     SolarWinds Netword Performance Monitor
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/solarwinds_orion_logo.png">
                                   </div>
 
@@ -571,7 +571,7 @@
                                   <div>
                                     Amazon Web Services(AWS)
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/aws_logo.png">
                                   </div>
 
@@ -585,7 +585,7 @@
                                   <div>
                                     CylancePROT
                                   </div>
-                                  <div>
+                                  <div class="logo-side-menu">
                                     <img src="images/cylance_logo.png">
                                   </div>
 
@@ -816,44 +816,64 @@
                               <div class="col-lg-3 ">
 
 
-                                <div class="inner-tab-content-left-col" id="scroll2">
+                                <div class="inner-tab-content-left-col" id="side-menu-accord">
                                   <div class="nav flex-column nav-pills nav-no-img" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
     
-                                    <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                    <div class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                       role="tab" aria-controls="v-pills-home" aria-selected="true">
     
                                       <div>
                                        Summary
                                       </div>
 
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
-                                      </div>
+                                      </div>        
+                                                                         
+                                    </div>
+
+
+
+                                
                                    
-                                    </a>
+                                  
     
+                                      <div  id="menu-accord" class="accordion nav-link p-0  active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                      role="tab" aria-controls="v-pills-profile" aria-selected="false" >
+
+                                    <div class="tabs-sidemenu-accord-container">
+                                    
+                                        <button data-toggle="collapse" data-target="#hardware-submenu">
+                                          Hardware Details                                         
+                                        </button>
+                                      
+                                    
+                                      
+ 
+                                       <div id="hardware-submenu" class="collapse" data-parent="#side-menu-accord">
+                                         <div class="card-body table-submenu-list">
+                                          <ul>
+                                            <li><a href="#">Hardware Installed</a></li>
+                                            <li><a href="#">Hard Disks</a></li>
+                                            <li><a href="#">Network Cards</a></li>
+                                          </ul>
+                                         </div>
+                                       </div>
+                                    </div>
+
     
-                                    <a class="nav-link  active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                      role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                      <div>
-                                       Hardware Installed
-                                      </div>
-                                   
-                                      <div>
-                                       
-                                      </div>
-    
-                                    </a>
-    
+                                    </div>
+                                    
+                                
     
                                     <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
                                       href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
                                       aria-selected="false">
                                       <div>
-                                       Software Installed
+                                        Software Details
                                       </div>
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
                                      
@@ -866,10 +886,10 @@
                                       href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
                                       aria-selected="false">
                                       <div>
-                                         Admins
+                                        Security and Compliance
                                       </div>
                                    
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
     
@@ -883,9 +903,9 @@
                                       role="tab" aria-controls="v-pills-home" aria-selected="true">
     
                                       <div>
-                                        Agent Users
+                                        Agent Info
                                       </div>
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
                                      
@@ -897,7 +917,7 @@
                                       <div>
                                     Network Cards
                                       </div>
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
                                      
@@ -912,7 +932,7 @@
                                       <div>
                                       Hard Disks
                                       </div>
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
                                      
@@ -927,7 +947,7 @@
                                       <div>
                                        Available Patches
                                       </div>
-                                      <div>
+                                      <div class="logo-side-menu">
                                        
                                       </div>
                                      
@@ -1300,390 +1320,59 @@
 
 
                     </div>
-                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                    <div class="tab-pane fade" id="nav-comments" role="tabpanel" aria-labelledby="nav-contact-tab">
 
                        <div class="inner-tab-content">
 
                         <div class="row m-0">
-                          <div class="col-lg-3 ">
 
-                            <div class="inner-tab-content-left-col">
-                              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-
-                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                  role="tab" aria-controls="v-pills-home" aria-selected="true">
-
-                                  <div>
-                                    Trend Micro Deep Security
-                                  </div>
-                                  <div>
-                                    <img src="images/deep_security_logo.png">
-                                  </div>
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                  role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                  <div>
-                                    SolarWinds Netword Performance Monitor
-                                  </div>
-                                  <div>
-                                    <img src="images/solarwinds_orion_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
-                                  href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
-                                  aria-selected="false">
-                                  <div>
-                                    Amazon Web Services(AWS)
-                                  </div>
-                                  <div>
-                                    <img src="images/aws_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
-                                  href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
-                                  aria-selected="false">
-                                  <div>
-                                    CylancePROT
-                                  </div>
-                                  <div>
-                                    <img src="images/cylance_logo.png">
-                                  </div>
-
-
-                                </a>
+                          <div class="col-12 total-comments">
+                            15 Comments
+                          </div>
 
 
 
+                          <div class="col-lg-8 white-bg border-theme inner-tab-content-right-col">
+                            
+                            <div class="profile-box">
 
-                                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                  role="tab" aria-controls="v-pills-home" aria-selected="true">
-
-                                  <div>
-                                    Trend Micro Deep Security
-                                  </div>
-                                  <div>
-                                    <img src="images/deep_security_logo.png">
-                                  </div>
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                  role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                  <div>
-                                    SolarWinds Netword Performance Monitor
-                                  </div>
-                                  <div>
-                                    <img src="images/solarwinds_orion_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
-                                  href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
-                                  aria-selected="false">
-                                  <div>
-                                    Amazon Web Services(AWS)
-                                  </div>
-                                  <div>
-                                    <img src="images/aws_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
-                                  href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
-                                  aria-selected="false">
-                                  <div>
-                                    CylancePROT
-                                  </div>
-                                  <div>
-                                    <img src="images/cylance_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-
-
-
-
-
-                                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                  role="tab" aria-controls="v-pills-home" aria-selected="true">
-
-                                  <div>
-                                    Trend Micro Deep Security
-                                  </div>
-                                  <div>
-                                    <img src="images/deep_security_logo.png">
-                                  </div>
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                  role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                  <div>
-                                    SolarWinds Netword Performance Monitor
-                                  </div>
-                                  <div>
-                                    <img src="images/solarwinds_orion_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
-                                  href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
-                                  aria-selected="false">
-                                  <div>
-                                    Amazon Web Services(AWS)
-                                  </div>
-                                  <div>
-                                    <img src="images/aws_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
-                                  href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
-                                  aria-selected="false">
-                                  <div>
-                                    CylancePROT
-                                  </div>
-                                  <div>
-                                    <img src="images/cylance_logo.png">
-                                  </div>
-
-
-                                </a>
-
-
-
+                              <div class="profile-picture">
+                               <img src="images/profile-pic.png">
                               </div>
+
+                              <div class="profile-name-comment-box">
+                                <div class="profile-name">Akexander</div>
+                                <div class="comments-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+
+                                <div class="profile-comment-time-stamp-box">
+                                  <div class="profile-comment-time-update">Last Updated: 2/3/20 @ 12:12am</div>
+                                  <div>Updated by: <a href="#">Ann@vinventa.com</a></div>
+                                </div>
+                              </div>
+
                             </div>
+                            
 
                           </div>
-                          <div class="col-lg-9 white-bg border-theme inner-tab-content-right-col">
-                            <div class="tab-content" id="v-pills-tabContent">
-                              <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
 
 
-                                <div class="devices-tab-right-col-heading">
-                                  <div class="circle-company">
-                                    VU
-                                  </div>
+                          <div class="col-lg-4">
 
-                                  <div class="date-from">
-                                    <div>Data From:</div>
-                                    <div> vinentauser@vinventa.ia</div>
-                                  </div>
+                            <div class="add-comment-section">
+                              <h2>
+                                Add a comment
+                              </h2>
 
-
-                                  <div class="devices-tab-right-btn-col">
-                                    <button type="button" data-toggle="modal" data-target="#query-wizard-expression-modal"
-                                      class="theme-btn graydient-primary-btn">View Advanced</button>
-                                  </div>
-                                </div>
-
-                                <div class="row">
+                              <textarea name="" id="" cols="30" rows="10" class="textarea-comment" placeholder="Add a comment"></textarea>
 
 
-                                  <div class="col-lg-4 col-4 mt-2">
-
-                                    <div class="device-tab-detail-box">
-                                        <div class="device-tab-right-heading">
-                                            Asset Name
-                                          </div>
-                                          <div class="device-tab-norman-txt">
-                                            Windows-Server-2012-R2
-                                            <br>
-                                            (For Blackberry)
-                                          </div>
-                                    </div>
-                                
-                                  </div>
-
-                                  <div class="col-lg-4 col-4 mt-2">
-                                    <div class="device-tab-detail-box">
-                                      <div class="device-tab-right-heading">
-                                        First Fetch Time
-                                      </div>
-                                      <div class="device-tab-norman-txt">
-                                        <span>01-04-2012</span> <span>16:28:42</span>
-                                      </div>
-                                    </div>
-                                
-                                  </div>
-
-                                  <div class="col-lg-4 col-4 mt-2">
-
-                                    <div class="device-tab-detail-box">
-                                      <div class="device-tab-right-heading">
-                                        Fetch Time
-                                        </div>
-                                        <div class="device-tab-norman-txt">
-                                          <span>01-04-2012</span> <span>16:28:42</span>
-                                        </div>
-                                    </div>
-                                
-                                  </div>
-
-                                </div>
-
-
-
-                                <div class="tab-inner-expand-collapse-row">
-
-                                  <div class="expand-collapse-row-btns">
-                                    <a href="#">Expand all</a>
-                                    <span class="split-pipe">|</span>
-                                    <a href="#">Collapse all</a>
-                                  </div>
-
-
-                                </div>
-
-
-
-                                <div class="row">
-                                  <div class="col-lg-4">
-
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample1" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>OS</span>
-                                        <span><img src="images/minus.png"> </span>
-                                      </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>Type:</span>
-                                            <span>Windows</span>
-                                          </div>
-                                          <div>
-                                            <span>Bitness:</span>
-                                            <span>64</span>
-                                          </div>
-                                        </div>
-
-                                      </div>
-                                    </div>
-
-
-                                  </div>
-                                  <div class="col-lg-4">
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample2" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>Adapter Properties</span>
-                                        <span><img src="images/minus.png"> </span>
-                                      </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>1</span>
-                                            <span>Endpoint_Protection_Platform</span>
-                                          </div>
-                                          <div>
-                                            <span>2</span>
-                                            <span>Agent</span>
-                                          </div>
-                                        </div>
-
-                                      </div>
-                                    </div>
-
-
-                                  </div>
-
-                                  <div class="col-lg-4">
-                                    <div class="tab-right-collapse-box">
-                                      <div class="collapse-heading-btn-row" data-toggle="collapse"
-                                        href="#multiCollapseExample3" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1">
-                                        <span>Network Interfaces</span>
-                                        <span><img src="images/minus.png"> </span>
-                                      </div>
-
-                                      <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                        <div class="collapse-devices-box">
-                                          <div>
-                                            <span>1:</span>
-                                            <span>IPS</span>
-                                          </div>
-                                          <div>
-                                            <span>2:</span>
-                                            <span>1.10.145.1</span>
-                                          </div>
-                                        </div>
-
-                                      </div>
-                                    </div>
-                                  </div>
-
-
-
-
-                                </div>
-                              </div>
-
-
-                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
-                                </div>
-
-                              </div>
-                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                aria-labelledby="v-pills-messages-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
-                                </div>
-
-                              </div>
-                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab">
-
-                                <div class="row">
-                                  <div class="col-lg-6 mt-2"> Left Section</div>
-                                  <div class="col-lg-6 mt-2"> Right Section</div>
-
-                                </div>
-
-                              </div>
+                              <button type="button" class="theme-button-small graydient-primary-btn">Comment</button>
                             </div>
+                       
+
                           </div>
+                       
                         </div>
 
 
@@ -2992,6 +2681,10 @@
 
 
   <script src="js/custom.js"> </script>
+
+  <script>
+    $('.collapse').collapse()
+  </script>
 
   <script>
 
