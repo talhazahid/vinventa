@@ -1,5 +1,27 @@
 @media screen and (max-width: 767px) {
 
+
+    
+.textarea-comment {
+    height: 130px;
+  }
+
+
+    .add-comment-section {
+        margin-top: 30px;
+    }
+    .tab-right-column-container {
+    
+        padding: 0px;
+    }
+
+
+
+    .device-tabs-wrapper .nav-tabs {
+        padding-left: 0px;
+    }
+
+
     .page-heading-with-device-list-btn {
         padding: 0px 5px;
     }
@@ -219,7 +241,7 @@
 
 
     .inner-tab-content-right-col {
-        padding: 0px 20px 30px;
+        padding: 0px 5px 30px;
         margin-top: 40px;
      
     }
