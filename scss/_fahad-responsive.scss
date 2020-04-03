@@ -1,3 +1,21 @@
-.talha {
-    display: none;
+@media screen and (max-width: 767px) {
+    .profile-box {
+        padding: 10px;
+    }
+
+    .total-comments-wraper {
+        padding-top: 50px;
+    }
+
+    .profile-comment-time-update {
+        margin-right: 0px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .profile-comment-time-stamp-box {
+        flex-direction: column;
+    }
 }
+
+/*767 screen end here*/
