@@ -3215,17 +3215,18 @@ table .bold-heading {
   position: relative;
   font-size: 18px;
   color: #776fff;
-  text-decoration: underline;
   padding-top: 10px;
-}
-
-#nav-comments .profile-box {
-  padding-left: 10px;
+  text-decoration: underline;
 }
 
 .profile-box {
   display: flex;
   padding: 30px;
+
+}
+
+#nav-comments .profile-box {
+  padding-left: 8px;
 }
 
 .profile-picture {
@@ -3234,7 +3235,7 @@ table .bold-heading {
 
 .comments-text {
   margin-bottom: 16px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .profile-comment-time-stamp-box {
@@ -3431,90 +3432,6 @@ table .bold-heading {
 
 
 .comments-left-scroll {
-  height: 450px;
+  height: 680px;
   overflow-y: scroll;
-}
-
-
-.add-tags-container {
-  display: flex;
-  padding: 20px 10px;
-}
-
-.add-tags-left-col {
-  width: 75%;
-}
-
-.add-tags-right-col {
-  flex: 1;
-  margin-left: 60px;
-  margin-top: 20px;
-
-  button {
-    width: 100px;
-  }
-
-
-}
-
-
-.table-borderless {
-  border: 0px !important;
-  white-space: nowrap;
-  width: 100%;
-
-  thead {
-    background: none;
-    color: #8c8c8c;
-    font-family: 'proxima-semi-bold';
-    border-bottom: 1px solid #dcdde1;
-
-    th {
-      padding-bottom: 20px;
-    }
-
-    td {
-      padding-bottom: 30px;
-    }
-  }
-
-
-}
-
-
-.td-bubble {
-  background: #f4f4f4;
-  padding: 12px 35px;
-  display: inline;
-  border-radius: 40px;
-}
-
-.table-icons {
-  height: 18px;
-}
-
-.empty-tag-container-div {
-  height: 15px;
-}
-
-
-
-
-.tags-table-empty-row {
-  height: 0px;
-}
-
-
-.tags-field-box {
-  display: flex;
-  flex-direction: column;
-
-  input {
-    width: 260px;
-    padding: 14px 10px;
-    border: 1px solid #bababa;
-    margin-bottom: 20px;
-  }
-
-
 }

@@ -4,18 +4,69 @@
     }
 
     .total-comments-wraper {
-        padding-top: 50px;
+        padding-top: 30px;
+    }
+
+    .profile-name {
+        font-size: 16px;
+    }
+
+    .total-comments {
+        margin-bottom: 10px !important;
+    }
+
+    .inner-tab-content-right-col {
+        margin-top: 20px !important;
+    }
+
+    .add-comment-section {
+        margin-top: 15px !important;
     }
 
     .profile-comment-time-update {
         margin-right: 0px;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 
     .profile-comment-time-stamp-box {
         flex-direction: column;
     }
+
+    .comments-text {
+        font-size: 14px !important;
+    }
+
+    .add-tags-left-col {
+        width: 100%;
+        order: 2;
+        overflow-x: auto;
+    }
+
+    .add-tags-container {
+        display: flex;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .add-tags-right-col {
+        flex: 1;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .tags-field-box {
+        display: flex;
+        flex-direction: column;
+
+        input:first-child {
+            margin-right: 20px;
+        }
+
+    }
 }
 
 /*767 screen end here*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {}

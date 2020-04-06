@@ -55,3 +55,80 @@
     padding-left: 50px !important;
     padding-right: 50px !important;
 }
+
+.table-borderless thead {
+    background: none;
+    color: #8c8c8c;
+    font-family: 'proxima-semi-bold';
+    border-bottom: 1px solid #dcdde1;
+}
+
+.table-borderless thead th {
+    padding-bottom: 20px;
+}
+
+.table-borderless {
+    border: 0px !important;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.add-tags-left-col {
+    width: 75%;
+}
+
+.add-tags-container {
+    display: flex;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.td-bubble {
+    background: #f4f4f4;
+    padding: 12px 20px;
+    display: inline;
+    border-radius: 40px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle !important;
+}
+
+.table-icons {
+    height: 18px;
+
+}
+
+.icon-td {
+    text-align: center !important;
+}
+
+.th-icon-div {
+    width: 12% !important;
+    text-align: center;
+}
+
+.table td .table-icons {
+    text-align: center;
+}
+
+.add-tags-right-col {
+    flex: 1;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.tags-field-box input {
+    width: 260px;
+    padding: 14px 10px;
+    border: 1px solid #c2c3c7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.add-tags-right-col .graydient-primary-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+}
