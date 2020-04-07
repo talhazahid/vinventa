@@ -2059,8 +2059,9 @@ th {
 
 .device-disclosure {
   display: flex;
-  overflow-x: auto;
+  overflow: hidden;
   padding: 20px;
+  position: relative;
 
   .device-box {
     display: flex;
@@ -2197,6 +2198,7 @@ th {
 
 .dashboard-top-section {
   align-items: center;
+  padding: 0px 38px 0px 24px;
 }
 
 .dashboard-search {
@@ -2220,9 +2222,10 @@ th {
 
   input {
     width: 100%;
-    padding: 13px 10px;
+    padding: 13px 20px;
     border: 0px solid #bababa;
     padding-right: 40px;
+    border-radius: 40px;
   }
 }
 
@@ -2357,7 +2360,7 @@ table .bold-heading {
 .dashboard-grid-widgets {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 320px));
   grid-auto-rows: 150px;
   margin-top: 30px;
 }
@@ -2369,7 +2372,7 @@ table .bold-heading {
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
   background: white;
   border-radius: 13px;
-
+  display: flex;
   .widget-heading {
     font-size: 23px;
     color: #4C4C4C;
@@ -2377,12 +2380,28 @@ table .bold-heading {
 
 }
 
+.widget-left-col {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+
+.widget-left-col {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
 
 
 
 .dashboard-left-section {
-  flex: 1;
-  width: 70%;
+  width: calc(100% - 300px); 
+}
+
+.width-full {
+  width: 100%;
 }
 
 .dashboard-right-section {
@@ -2395,6 +2414,10 @@ table .bold-heading {
 .cycle-widget {
   display: flex;
   justify-content: center;
+
+  img {
+    width: 230px;
+  }
 }
 
 
@@ -3435,4 +3458,22 @@ table .bold-heading {
 .comments-left-scroll {
   height: 680px;
   overflow-y: scroll;
+}
+
+
+.dashboard-container {
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+}
+
+
+
+.device-disclosure .ps__rail-x {
+  opacity: 0.6 !important;
+}
+
+
+.device-disclose-scroll-box {
+  display: flex;
 }

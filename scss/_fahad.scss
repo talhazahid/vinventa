@@ -34,7 +34,6 @@
 .tabs-aggre .nav-link button,
 .tabs-aggre .nav-link {
     border: 0px solid #dcdde1 !important;
-
 }
 
 .tabs-aggre button {
@@ -59,7 +58,7 @@
 .table-borderless thead {
     background: none;
     color: #8c8c8c;
-    font-family: 'proxima-semi-bold';
+    font-family: "proxima-semi-bold";
     border-bottom: 1px solid #dcdde1;
 }
 
@@ -97,7 +96,6 @@
 
 .table-icons {
     height: 18px;
-
 }
 
 .icon-td {
@@ -125,10 +123,33 @@
     border: 1px solid #c2c3c7;
     margin-bottom: 20px;
     border-radius: 5px;
-
 }
 
 .add-tags-right-col .graydient-primary-btn {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.scroll-div {
+    width: 95%;
+}
+
+.tree-list-div {
+    border: 1px solid #c2c3c7;
+    margin: 0px 20px 25px;
+    padding: 20px;
+    width: 700px;
+    overflow: auto;
+    max-height: 500px;
+}
+
+.tree-list-div .device-tab-right-heading,
+.tree-list-div .device-tab-norman-txt {
+    font-size: 12px !important;
+}
+
+.tree-list-div .device-tab-detail-box {
+    padding: 0px !important;
+    width: 100%;
+    max-height: 300px;
 }
