@@ -2370,6 +2370,10 @@ table .bold-heading {
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  img {
+    width: 130px;
+  }
 }
 
 
@@ -3379,8 +3383,7 @@ font-family: 'proxima-semi-bold';
 
 .active-tab-side-submenu {
   background: white;
-  padding: 20px 50px;
-  border-radius: 15px;
+  padding: 20px 50px;border-radius: 15px;
   color: black !important;
 }
 
@@ -3523,3 +3526,37 @@ font-family: 'proxima-semi-bold';
 
 
 
+.table-checkbox-col {
+  width: 50px;
+  padding-right: 0px !important;
+}
+
+
+.add-edit-connection-heading-row {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+
+  .add-edit-heading {
+    flex: 1;
+    font-weight: bold;
+  }
+  .add-edit-connection-btns {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-left: 10px;;
+    }
+  }
+}
+
+
+
+.col-box {
+  padding: 0px 50px;
+}
+
+.add-edit-connection-bottom-btn {
+  margin-left: 60px;
+}

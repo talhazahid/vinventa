@@ -1,3 +1,334 @@
+// Login page css
+.block {
+    display: block;
+}
+
+.tab-right-column-container input[type="text"] {
+    padding-left: 40px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 90px;
+}
+
+.intro-inner-div {
+    width: 1440px;
+    // min-height: 95vh;
+    background: #fff;
+    border-radius: 10px;
+    // overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    /*! display:flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //   align-items: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
+
+.slider {
+    position: relative;
+    width: 50%;
+    //   height: 100vh;
+}
+
+.slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    -webkit-transition: clip 0.7s ease-in-out, z-index 0s 0.7s;
+    transition: clip 0.7s ease-in-out, z-index 0s 0.7s;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.center-y {
+    text-align: left;
+    color: #000;
+    font-size: 1.6rem;
+    padding: 11% 0 0 4%;
+}
+
+.center-y h3 {
+    font-size: 3.8rem;
+    color: #1c9cd7;
+    margin: 1rem 0rem;
+}
+
+.center-y h3+a {
+    font-size: 1.6rem;
+    display: inline-block;
+    color: #000;
+    margin-top: 2rem;
+}
+
+.center-y h4 {
+    font-size: 2.3rem;
+    display: list-item;
+    color: #e22026;
+    margin: 1.2rem 0rem;
+}
+
+.center-y .Btn {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 30%;
+    display: inline-table;
+    text-align: center;
+    line-height: 0.9em;
+    padding: 18px !important;
+    margin: auto 10rem;
+    background: #8651ff;
+    border: none;
+    border-radius: 5px;
+}
+
+h3,
+h3+a {
+    opacity: 0;
+    -webkit-transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
+    transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
+    transition: opacity 0.7s 0s, transform 0.5s 0.2s;
+    transition: opacity 0.7s 0s, transform 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+}
+
+li.current h3,
+li.current h3+a {
+    opacity: 1;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+li.current {
+    z-index: 1;
+    clip: rect(0, 100vw, 100vh, 0);
+}
+
+li.prev {
+    clip: rect(0, 0, 100vh, 0);
+}
+
+.aad {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 70px 100px;
+}
+
+.slider nav {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.right-panel-div {
+    width: 50%;
+}
+
+.LoginPanel {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LoginPanel .logoSection {
+    width: auto;
+    padding-right: 30px;
+    border-right: 1px solid #6d6e71;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.LoginPanel .fieldsSection {
+    /*min-width: 320px;
+	padding-left: 26px;*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+.LoginPanel h1 {
+    font-size: 35px;
+    margin: 40px 0px 8px 0px;
+}
+
+.LoginPanel h3 {
+    color: #9a9a9a;
+    font-size: 18px;
+    margin: 5px 0px 40px 0px;
+    opacity: 1;
+}
+
+.LoginPanel label {
+    color: #4c4c4c;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #cdcdd6;
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 1em;
+    width: 100%;
+    color: #cbc9c9;
+}
+
+select {
+    border: 1px solid #cdcdd6;
+    padding: 5.5px;
+    color: #cbc9c9;
+    font-size: 15px;
+    line-height: 1em;
+    width: 100%;
+    -moz-appearance: none;
+    background: #fff url(../images/drop-arrow-green.png) no-repeat scroll 97% 13px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.LoginPanel .fieldsSection .userName {
+    background: #fff url(../images/icon-user.png) no-repeat 12px center;
+    margin-bottom: 55px;
+}
+
+.LoginPanel .fieldsSection .password {
+    margin-bottom: 10px;
+    background: #fff url(../images/eye.png) no-repeat center right;
+}
+
+.LoginPanel .fieldsSection .userName,
+.LoginPanel .fieldsSection .password {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.LoginPanel .fieldsBotSection input[type="checkbox"] {
+    /*border: 1px solid #b9babd;
+	background: #fff;
+	width: 12px;*/
+    display: none;
+}
+
+.remember {
+    margin-bottom: 15px;
+}
+
+.LoginPanel .fieldsBotSection label {
+    color: #4c4c4c;
+    padding: 25px 0px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    line-height: 1.1em;
+    background: url(../images/uncheckbox-img.png) no-repeat 0px center;
+    cursor: pointer;
+    padding-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LoginPanel .fieldsBotSection input[type="checkbox"]:checked+label {
+    background-image: url(../images/checkbox-img.png);
+}
+
+/*.LoginPanel .Btn{
+	margin-top: 11px;
+	padding: 8px 30px;
+}
+*/
+.or-login-div {
+    padding: 6px 0px;
+}
+
+.or-login-div span {
+    padding: 8px 8px 20px;
+}
+
+.LoginPanel .fieldsBotSection .forgotLink {
+    color: #8e8e8e;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LogoIcon {
+    background: transparent url("images/logo-icon.png") no-repeat center center;
+    background-size: 100% auto;
+    display: block;
+    width: 166px;
+    height: 186px;
+}
+
+.LogoIcon span {
+    display: none;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.text-c {
+    text-align: center;
+}
+
+.Btn,
+input[type="submit"] {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 100%;
+    line-height: 0.9em;
+    padding: 18px !important;
+    background: #8651ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.try-free-btn {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 100%;
+    line-height: 0.9em;
+    padding: 16px !important;
+    background: #a3a2a2;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+//Login css End
 .expression-heading {
     font-size: 18px !important;
     margin-top: 30px;
@@ -137,10 +468,10 @@
 .tree-list-div {
     border: 1px solid #c2c3c7;
     margin: 0px 20px 25px;
-    padding: 20px;
     width: 700px;
     overflow: auto;
     max-height: 500px;
+    padding: 20px;
 }
 
 .tree-list-div .device-tab-right-heading,
@@ -152,4 +483,194 @@
     padding: 0px !important;
     width: 100%;
     max-height: 300px;
+}
+
+.Connectors-top-searchbar-div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.Connectors-top-searchbar-div .search-wrap input {
+    width: 100%;
+    padding: 14px 10px;
+    padding-left: 10px;
+    border: 0px solid #bababa;
+    padding-left: 40px;
+}
+
+.Connectors-top-searchbar-div .search-field {
+    border-radius: 40px;
+}
+
+.Connectors-top-searchbar-div .search-wrap::before {
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    display: block;
+    background-image: url(../images/search.svg);
+    z-index: 2;
+    top: -7px;
+    margin: auto;
+    bottom: 0;
+    left: 12px;
+}
+
+.Connectors-top-searchbar-div .search-wrap {
+    display: flex;
+    width: 82%;
+    position: relative;
+}
+
+.toggle-btn-div {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-btn-div .toggle-btn {
+    margin-right: 10px;
+}
+
+//checkbox toggle css
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliders {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.sliders:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked+.sliders {
+    background-color: #2196f3;
+}
+
+input:focus+.sliders {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.sliders:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.sliders.round {
+    border-radius: 34px;
+}
+
+.sliders.round:before {
+    border-radius: 50%;
+}
+
+.connectors-wrapper table td {
+    vertical-align: middle !important;
+}
+
+.connectors-wrapper .table-innerbox {
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.c-green {
+    padding: 6px;
+    background: #70ff03;
+    border-radius: 100%;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+}
+
+.c-red {
+    padding: 6px;
+    background: #f00f00;
+    border-radius: 100%;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+}
+
+.c-orange {
+    padding: 6px;
+    background: #f9cc12;
+    border-radius: 100%;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+}
+
+.table-icon {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.table-icon span+span {
+    letter-spacing: 4px;
+}
+
+.table-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.field-large {
+    width: 360px !important;
+}
+
+.adapter-modal-field-row label {
+    display: block;
+}
+
+.no-file-chisen-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.no-file-chisen-items .choose-file-modal {
+    width: 100%;
+}
+
+.role-to-txt {
+    font-size: 20px;
+    margin-top: 20px;
 }

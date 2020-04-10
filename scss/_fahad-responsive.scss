@@ -64,6 +64,87 @@
         }
 
     }
+
+    .tree-list-div .device-tab-detail-box {
+        padding: 0px !important;
+        overflow-x: scroll;
+        width: 700px;
+    }
+
+    // login page css
+    .intro {
+        padding: 20px;
+    }
+
+    .right-panel-div {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .left {
+        width: 100%;
+        height: 30%;
+    }
+
+    .slider {
+        display: none;
+        /*width: 100%;
+		height: 70%;*/
+    }
+
+    .LoginPanel {
+        padding: 0px;
+    }
+
+    .LoginPanel .fieldsBotSection label {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .LoginPanel .fieldsBotSection .forgotLink {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .try-free-btn {
+        padding: 12px !important;
+        font-size: 13px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .Connectors-top-searchbar-div {
+        flex-direction: column;
+    }
+
+    .Connectors-top-searchbar-div .search-wrap {
+        width: 100%;
+    }
+
+    .toggle-btn-div {
+        margin-top: 15px;
+    }
+
+    .connectors-main-wrapper .inner-tab-right-section {
+        margin-top: 0px !important;
+    }
+
+    .field-large {
+        width: 100% !important;
+    }
+
+    .adapter-modal-bottom-row {
+        justify-content: inherit;
+    }
+
+    .no-file-chisen-items {
+        flex-direction: column;
+    }
+
+    .adapter-modal-field-row .region-checkbox,
+    .adapter-three-col .adapter-modal-role-row-middle {
+        padding: 0px !important;
+    }
+
 }
 
 /*767 screen end here*/

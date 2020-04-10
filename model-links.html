@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+
+  <script src="js/perfect-scrollbar.js"></script>
+
+
+
+
+  <title>Vinventa</title>
+</head>
+
+<body class="">
+
+
+
+
+
+  <div class="container-fluid main-wrapper p-0">
+
+    <div class="main-container">
+
+
+      <div class="row m-0">
+
+        <div class="col-lg-12">
+
+          <section id="content">
+            <div class="section-wrapper">
+
+
+              <div class="section-wrapper">
+
+                <div class="links-model">
+                  <br />
+                  <br />
+                  <br />
+                  <p>
+                    <button type="button" data-toggle="modal" data-target="#query-wizard-expression-modal"
+                      class="theme-button-small graydient-primary-btn">View Advanced</button>
+
+                  </p>
+                  <br />
+                  <br />
+                  <br />
+                  <p>
+                    <a href="#" data-toggle="modal" data-target="#query-wizard-modal">Expand all</a>
+                  </p>
+                  <br />
+                  <br />
+                  <br />
+                  <p>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal">Collapse all</a>
+                  </p>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div> <!-- Section ends here -->
+
+
+
+            </div>
+
+
+          </section>
+
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+  <!-- Running query wizardModal -->
+  <div class="modal fade" id="query-wizard-expression-modal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+
+      <div class="col-lg-10 col-xl-10 mx-auto">
+        <div class="modal-content">
+
+
+
+          <div class="modal-query-wizard-wrapper">
+
+
+            <button type="button" class="close no-btn modal-close-btn" data-dismiss="modal">
+              <span>
+                <img src="images/modal-close.svg">
+              </span>
+            </button>
+
+
+            <div class="modal-body">
+
+
+
+              <h3 class="query-wizard-expression-heading mb-4">
+                Query Wizard Expressions
+              </h3>
+
+              <div class="query-wizard-expension">
+
+
+                <div class="hidden query-wizard-div-box">
+                  <select id="cars" class="and-select">
+                    <option value="volvo">and</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  {
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  NOT
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="all-select">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/cisco_logo.png">
+                    </div>
+                    <!-- <div>
+                                  Big Sight
+                                </div>                     -->
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="query-wizard-dropdown-large">
+                    <option value="volvo">ID</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="exists-dropdown">
+                    <option value="volvo">exists</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="query-wizard-div-box hidden">
+                  <select id="cars" class="medium-dropdown">
+                    <option value="volvo">Windows</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+                <div class="disabled-input query-wizard-div-box">
+                  }
+                </div>
+
+
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+              <div class="query-wizard-expension">
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="and-select">
+                    <option value="volvo">and</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  {
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  NOT
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="all-select">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/cisco_logo.png">
+                    </div>
+                    <!-- <div>
+                                  Big Sight
+                                </div>                     -->
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="query-wizard-dropdown-large">
+                    <option value="volvo">ID</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="exists-dropdown">
+                    <option value="volvo">exists</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="medium-dropdown">
+                    <option value="volvo">TurendOn</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="disabled-input query-wizard-div-box">
+                  }
+                </div>
+
+
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+              <div class="query-wizard-expension">
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="and-select">
+                    <option value="volvo">and</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  {
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  NOT
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="all-select">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/cisco_logo.png">
+                    </div>
+                    <!-- <div>
+                                  Big Sight
+                                </div>                     -->
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="query-wizard-dropdown-large">
+                    <option value="volvo">ID</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="exists-dropdown">
+                    <option value="volvo">exists</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="medium-dropdown">
+                    <option value="volvo">Windows</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+                <div class="disabled-input query-wizard-div-box">
+                  }
+                </div>
+
+
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="query-wizard-expension">
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="and-select">
+                    <option value="volvo">and</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  {
+                </div>
+
+                <div class="disabled-input query-wizard-div-box">
+                  NOT
+                </div>
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="all-select">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/cisco_logo.png">
+                    </div>
+                    <!-- <div>
+                                  Big Sight
+                                </div>                     -->
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="query-wizard-dropdown-large">
+                    <option value="volvo">ID</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="query-wizard-div-box">
+                  <select id="cars" class="exists-dropdown">
+                    <option value="volvo">exists</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="query-wizard-div-box hidden">
+                  <select id="cars" class="medium-dropdown">
+                    <option value="volvo">Turnedon</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+                <div class="disabled-input query-wizard-div-box hidden">
+                  }
+                </div>
+
+
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+              <div class="add-query-btn-row">
+                <a href="#">+</a>
+              </div>
+
+
+
+              <div class="two-col-space-between">
+                <div class="query-switch-btn">
+                  <input class="mr-2" type="checkbox" value="" id="defaultCheck1">
+                  Include outdated Apater Devices in query
+                </div>
+
+
+                <div class="query-wizard-bottom-btns">
+                  <a href="#">Cancel</a>
+                  <button type="button" class="theme-btn">Search</button>
+                </div>
+
+
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="query-wizard-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+
+      <div class="col-lg-7 mx-auto">
+        <div class="modal-content">
+
+
+
+          <div class="modal-query-wizard-wrapper">
+
+
+            <button type="button" class="close no-btn" data-dismiss="modal">
+              <span>
+                <img src="images/modal-close.svg">
+              </span>
+            </button>
+
+
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                AWS instances that have not been recently scanned by Rapid7 Nexpose
+              </h5>
+
+
+            </div>
+            <div class="modal-body">
+
+              <div class="query-wizard-sub-heading-description">
+                <h3>
+                  Description
+                </h3>
+
+
+                <p>
+                  Active AWS instances that have not been scanned by Rapid7 Nexpose in the last 30 days.
+                </p>
+              </div>
+
+
+
+
+              <h3 class="modal-heading mt-4">
+                Tags
+              </h3>
+
+
+              <div class="tags">
+                <a href="#">VA Coverage</a>
+                <a href="#">AWS</a>
+                <a href="#">Cloud</a>
+                <a href="#">Rapid7 Nexpose</a>
+              </div>
+
+
+              <h3 class="query-wizard-expression-heading">
+                Query Wizard Expressions
+              </h3>
+
+
+              <div class="query-wizard-expension mt-4">
+
+                <div class="hidden">
+                  <select id="cars">
+                    <option value="volvo">AND</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+
+                <div class="disabled-input">
+                  {
+                </div>
+
+                <div class="disabled-input">
+                  NOT
+                </div>
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/bigsight-logo.png">
+                    </div>
+                    <div>
+                      Big Sight
+                    </div>
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class=" hidden">
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+                <div class="disabled-input">
+                  }
+                </div>
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+              <div class="query-wizard-expension  mt-3">
+
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">AND</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div class="disabled-input">
+                  {
+                </div>
+
+                <div class="disabled-input">
+                  NOT
+                </div>
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/cisco_logo.png">
+                    </div>
+                    <div>
+                      Big Sight
+                    </div>
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class="disabled-input">
+                  }
+                </div>
+
+
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+              <div class="query-wizard-expension mt-3">
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">AND</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+
+                <div class="disabled-input">
+                  {
+                </div>
+
+                <div class="disabled-input">
+                  NOT
+                </div>
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">ALL</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+                <div id="dd" class="dropdown-with-img" tabindex="1">
+
+                  <div class="dropdown-with-img-select">
+
+                    <div class="dropdown-logo">
+                      <img src="images/bigsight-logo.png">
+                    </div>
+                    <div>
+                      Big Sight
+                    </div>
+
+                  </div>
+
+
+
+
+                  <ul class="dropdown dropdown-with-logos">
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/bigsight-logo.png">
+                        </div>
+                        <div>
+                          Big Sight
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/cylance_logo.png">
+                        </div>
+                        <div>
+                          Cylence
+                        </div>
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        <div class="dropdown-logo">
+                          <img src="images/fortigate_logo.png">
+                        </div>
+                        <div>
+                          Fortigate
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+
+                <div>
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+                <div class=" hidden">
+                  <select id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                </div>
+
+
+
+                <div class="disabled-input">
+                  }
+                </div>
+
+                <div class="close-action">
+                  <a href="#">
+                    <img src="images/close-small.svg">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+              <div class="mt-3 add-query-btn-row">
+                <a href="#">+</a>
+              </div>
+
+              <div class="query-switch-btn mt-3">
+
+                <input class="mr-2" type="checkbox" value="" id="defaultCheck1">
+
+                Include outdated Apater Devices in query
+
+
+              </div>
+
+
+
+
+              <h3 class="modal-heading mt-4">
+                Description
+              </h3>
+
+
+
+
+              <h3 class="modal-text-row">
+                Predefined
+              </h3>
+
+
+
+
+
+            </div>
+          </div>
+
+
+
+
+          <div class="modal-footer no-border">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Clear</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Addaing a Adapter Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+
+
+
+      <div class="col-lg-10 modal-wrapper-xl mx-auto">
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+
+
+            <div class="adding-adapter-wrapper modal-query-wizard-wrapper">
+              <button type="button" class="close no-btn modal-close-btn" data-dismiss="modal">
+                <span>
+                  <img src="images/modal-close.svg">
+                </span>
+              </button>
+
+              <div class="adding-adapter-modal-header">
+                <div class="adapter-modal-logo">
+                  <img src="images/microsoft-windows-logo.svg">
+                </div>
+
+                <div class="adapter-modal-name">
+                  Microsoft Active Directory (AD)
+                </div>
+
+
+                <div class="adapter-modal-help-box">
+                  <a href="#" class="question-icon">
+                    ?
+                  </a>
+                  <a href="#" class="adapter-modal-help-link">
+                    Help
+                  </a>
+                </div>
+
+
+              </div>
+
+
+
+
+
+              <div class="adapter-modal-content-box">
+
+                <div class="adapter-modal-field-row">
+                  <div class="mr-3">
+                    <label>Region Name</label>
+                    <input type="text" class="field-large" placeholder="">
+                  </div>
+
+                  <div class="region-checkbox pt-4">
+                    <input type="checkbox">
+
+                    <div>
+                      Get All Regions
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+
+
+
+
+                <div class="adapter-modal-field-row mt-3 ">
+                  <div class="mr-3">
+                    <label>AWS Access Key ID</label>
+                    <input type="text" class="field-large" placeholder="">
+                  </div>
+
+
+                  <div>
+                    <label>AWS Access Key ID Secret</label>
+                    <input type="text" class="field-large" placeholder="">
+                  </div>
+
+                </div>
+
+
+
+                <div class="adapter-modal-field-row mt-3">
+                  <div class="mr-3">
+                    <label>Account Tag</label>
+                    <input type="text" class="field-large" placeholder="">
+                  </div>
+
+                  <div class="mr-3 role-to-txt">
+                    <h2>Roles to assume</h2>
+
+                  </div>
+
+
+
+
+                </div>
+
+                <div class="adapter-modal-field-row mt-3">
+                  <div class="mr-3">
+                    <label>Proxy</label>
+                    <input type="text" class="field-large" placeholder="">
+                  </div>
+                  <div>
+                    <label>No file chosen</label>
+                    <div class="no-file-chisen-items">
+                      <input type="text" class="field-small" placeholder="">
+
+                      <a href="#" class="choose-file-modal"> Choose File</a>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="adapter-modal-field-row mt-3 adapter-three-col">
+
+
+                  <div class="mr-3">
+                    <label>No file chosen</label>
+                    <input type="text" class="field-small" placeholder="">
+
+                    <!-- <a href="#" class="choose-file-modal"> Choose File</a> -->
+                  </div>
+
+
+                  <div class="adapter-modal-role-row-middle pt-4">
+                    <div><input type="checkbox" class="mr-2"></div>
+                    <div>Use attached IAM role</div>
+                  </div>
+
+
+                  <!-- <div>
+
+                    <input type="text" class="field-small" placeholder="Connection Label">
+                  </div> -->
+
+                </div>
+
+
+
+                <div class="adapter-modal-bottom-row">
+                  <div>
+                    <a href="#"> Cancel </a>
+                  </div>
+
+                  <div>
+                    <button type="button" class="theme-btn graydient-secondary-btn">Test Reachablity</button>
+                  </div>
+
+                  <div>
+                    <button type="button" class="theme-btn graydient-primary-btn">Test Reachablity</button>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+
+
+
+
+
+
+  <script src="js/custom.js"> </script>
+
+  <script>
+    /*
+     Slidemenu
+   */
+    (function () {
+      var $body = document.body,
+        $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+      if (typeof $menu_trigger !== 'undefined') {
+        $menu_trigger.addEventListener('click', function () {
+          $body.className = ($body.className == 'menu-active') ? '' : 'menu-active';
+        });
+      }
+
+    }).call(this);
+  </script>
+
+
+  <script type="text/javascript">
+    function DropDown(el) {
+      this.dd = el;
+      this.initEvents();
+    }
+    DropDown.prototype = {
+      initEvents: function () {
+        var obj = this;
+
+        obj.dd.on('click', function (event) {
+          $(this).toggleClass('active');
+          event.stopPropagation();
+        });
+      }
+    }
+
+    $(function () {
+
+      var dd = new DropDown($('#dd'));
+
+      $(document).click(function () {
+        // all dropdowns
+        $('.wrapper-dropdown-2').removeClass('active');
+      });
+
+    });
+  </script>
+
+  <script>
+    // Initialize the plugin
+    const demo = document.querySelector('#scroll');
+    const ps = new PerfectScrollbar(demo);
+
+    // Handle size change
+    document.querySelector('#resize').addEventListener('click', () => {
+
+      // Get updated values
+      width = document.querySelector('#width').value;
+      height = document.querySelector('#height').value;
+
+      // Set demo sizes
+      demo.style.width = `${width}px`;
+      demo.style.height = `${height}px`;
+
+      // Update Perfect Scrollbar
+      ps.update();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
