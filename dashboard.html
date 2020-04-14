@@ -183,8 +183,9 @@
 
 
       <div class="header-logo">
+        <a  href="#" class="nav-trigger">
         <img src="images/logo.svg" class="logo">
-
+      </a>
       </div>
 
 
@@ -741,6 +742,10 @@
         </div>
         <div class="dashboard-right-section">
           <aside>
+
+            <a href="#" class="close-section">
+              Menu <span></span>
+            </a>
            
             <div class="cycle-widget">
               <img src="images/Life Cycel.svg">
@@ -860,7 +865,7 @@
           1600: 4,
           1400: 3,
           940: 2,
-          600: 2,
+          768: 2,
           400: 1
       },
   });
@@ -914,6 +919,23 @@
   });
 </script>
 
+
+
+<script>
+
+
+
+
+  $(document).ready(function(){
+    $(".close-section").click(function(){
+    
+      $("body").removeClass("dashboard-right-section-slide");
+    });
+ });
+
+
+
+</script>
 
 
 </body>

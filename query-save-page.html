@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  <title>Vinventa</title>
+
+
+</head>
+
+<body>
+
+
+
+  <!-- Pushy Menu -->
+  <nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+      <ul>
+
+        <li class="pushy-link profile-section">        
+          <a href="#" class="menu-notification relative">
+            <div class="user-profile">
+              JD
+              <span>3</span>
+            </div>
+
+            <div class="profile-name-mobile">
+              John Doe
+
+              <div class="profile-category">
+                Admin
+               </div>
+            </div> 
+          </a>  
+          
+          <div class="logout-menu">
+            <a href="#">Logout</a>
+          </div>
+      </li>
+
+
+        <li class="pushy-submenu pushy-link">
+          <a href="#">
+            <div class="menu-img  dashbord-icon">  
+            </div>
+            <div>
+              Dashboard
+            </div>
+          </a>
+          <!-- <button id="first-link">Dashboard</button> -->
+          <!-- <ul>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 1</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Sub-Submenu 2</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Item 1</a></li>
+                            <li class="pushy-link"><a href="#">Item 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-link"><a href="#">Item 1</a></li>
+                    <li class="pushy-link"><a href="#">Item 2</a></li>
+                </ul> -->
+        </li>
+
+        <li class="pushy-link"> 
+          <a href="#">
+          <div class="menu-img active devices-icon">
+          </div>
+          <div class="active-menu-text">
+            Devices
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img users-icon">  
+          </div>
+          <div>
+            Users
+          </div>
+        </a>
+        </li>
+        <li class="pushy-link">
+          <a href="#">
+          <div class="menu-img policy-icon">
+          </div>
+          <div>
+            Policy Center
+          </div>  
+        </a>
+
+        
+        </li>
+        <li class="pushy-link">
+          
+            <a href="#">
+              <div class="menu-img connectors-icon"></div>
+            
+          <div>
+            Connectors
+          </div>
+            </a>
+         
+        </li>
+        <li class="pushy-link">
+        
+            <a href="#">
+              <div class="menu-img reports-icon"> </div>
+              <div>
+                Reports
+              </div>
+            </a>
+          
+        </li>
+        <li class="pushy-link">        
+            <a href="#">
+              <div class="menu-img analytic-icon">  </div>
+            <div>
+              Analytic
+            </div>
+            </a>        
+        </li>
+
+
+        <div class="mobile-menu-bottom">
+         
+            <a href="#">
+              <div class="menu-img help-icon">  </div>
+            <div>
+              Help
+            </div>
+            </a>        
+       
+    
+          <a href="#">
+            <div class="menu-img settings-icon">  </div>
+  
+         
+          <div>
+            Settings
+          </div>
+          </a>        
+
+        </div>
+      
+
+
+ 
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Site Overlay -->
+  <div class="site-overlay"></div>
+
+
+
+  <div class="container-fluid main-wrapper p-0">
+
+    <header>
+
+      <div class="menu-trigger" style="display: none;"> <img src="images/menu-button.svg"> </div>
+
+
+
+      <div class="header-logo">
+        <img src="images/logo.svg" class="logo">
+
+      </div>
+
+
+      <div class="top-menu header-menu">
+
+        <ul>
+
+          <li>
+            <div class="menu-img dashbord-icon">
+
+            </div>
+
+            <a href="#">Dashboard</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+
+          </li>
+          <li>
+            <div class="menu-img  active devices-icon">
+
+            </div>
+            <a href="#" class="active-menu-text">Devices</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img users-icon">
+
+            </div>
+            <a href="#">Users</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img policy-icon">
+
+            </div>
+            <a href="#">Policy Center</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="menu-img connectors-icon">
+
+            </div>
+            <a href="#">Connectors</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+          <li>
+            <div class="menu-img reports-icon">
+
+            </div>
+            <a href="#">Reports</a>
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+          <li>
+            <div class="menu-img analytic-icon">
+
+            </div>
+            <a href="#">Analaytic</a>
+
+            <ul class="header-submenu">
+              <li><a href="#">SubMenu 2</a></li>
+              <li><a href="#">SubMenu 3</a></li>
+              <li><a href="#">SubMenu 4</a></li>
+              <li><a href="#">SubMenu 5</a></li>
+            </ul>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="header-icons">
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+
+            <img src="images/icon_help.svg">
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+
+            <img src="images/settings.svg">
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown d-flex">
+          <a href="#" class="dropdown-toggle menu-notification" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            <div class="user-profile">
+              JD
+            </div>
+            <span>3</span>
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+
+        <div class="username-box">
+          <div class="username">
+            John Deo
+          </div>
+
+          <div class="user-role">
+            Admin
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+      <button class="menu-btn">
+        <img src="images/menu.svg">
+      </button>
+
+
+
+
+
+    </header>
+    <div class="main-container">
+
+
+
+      <div class="row m-0">
+        <div class="col-lg-12">
+          <section id="content">
+
+
+            <div class="section-wrapper">
+
+
+              <div class="page-heading">
+                Devices &gt;
+
+                <div class="breadcumb-flex">
+                  <div class="page-heading-breadcrumb"> Saved Queries </div>
+                  
+                </div>
+
+              </div>
+
+          
+              <div class="query-save-page-search-row">
+
+
+                <div class="search-wrap rounded-search-bar-full">
+                  <input type="text" placeholder="Insert your query or start typing to filter recent Queries" class="search-field">
+
+                  <a href="#" class="search-query-dropdown-btn">
+                    <img src="images/down-arrow.svg">
+                  </a>
+
+                </div>
+
+
+                <div class="select-tags-listing">
+
+                  <select id="cars" class="theme-select">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+
+                  <a href="#">Reset</a>
+                </div>
+              </div>
+
+
+
+               
+             
+
+
+
+
+              <div class="row m-0">
+
+
+
+
+
+                <div class="col-lg-12 inner-tab-right-section p-0">
+
+
+
+                  <div class="grid-table-flow">
+
+
+
+                    <div class="table-full-scroll">
+
+
+                      <div class="device-result-export-row">
+                        <div class="device-results">Saved Querries (219)<!-- <a href="#">                            
+                           <img src="images/vertical-dots.svg">
+                          </a> -->
+                        </div>
+
+
+                        
+
+
+                      </div>
+
+
+
+                      <div class="wrapper">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <th>
+                                <input type="checkbox">
+                              </th>
+                              <th class="bold-heading">Name</th>
+                              <th class="bold-heading">Tags</th>
+                              <th class="bold-heading">Last Updated</th>
+                              <th class="bold-heading">Updated By<img src="images/down-arrow.svg" class="table-heading-arrow">
+
+                              </th>
+                              <th>
+
+                              </th>
+                            </tr>
+
+                            
+
+                            
+
+                            
+
+
+                            
+
+                            
+
+
+                            <tr class="parent-row">
+
+                              <td class="border-top-left border-bottom-left"><input type="checkbox"></td>
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <div class="table-logos">
+                                    <a href="#"><img src="images/deep_security_logo.png"></a>
+                                    <a href="#"><img src="images/eset_logo.png"></a>
+                                    <a href="#"><img src="images/fortigate_logo.png"></a>
+                                    <a href="#"><img src="images/nexpose_logo.png"></a>
+                                  </div>
+
+                                </div>
+
+                              </td>
+
+
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <div class="table-innerbox">
+
+
+                                    <span>
+                                      2019-10-20:11:25:45
+                                    </span>
+
+
+                                    <span class="pipe">
+                                      |
+                                    </span>
+
+                                    <span>
+                                      2019-05-16 21 08
+                                    </span>
+
+
+                                    <span class="plus-more-data">
+                                      <div class="more-numbers">
+                                        2
+                                      </div>
+                                      <div class="dots-row">
+                                        <span class="dots">.</span>
+                                        <span class="dots">.</span>
+                                        <span class="dots">.</span>
+                                      </div>
+
+                                    </span>
+
+                                  </div>
+
+
+
+                                </div>
+
+                              </td>
+
+
+
+
+
+                              <td>
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+
+
+                                </div>
+
+                              </td>
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
+                                </div>
+
+
+                              </td>
+
+
+
+
+
+                              <td class="border-top-right border-bottom-right">
+                                <a href="#" class="acord-arrow">
+                                  <img src="images/down-arrow.svg">
+                                </a>
+
+                              </td>
+
+
+
+
+
+
+                            </tr>
+
+
+                            <tr class="empty-row">
+
+                              <td colspan="6" class="border-bottom-left border-bottom-right">
+
+
+                                <div class="empty-row-shadow"></div>
+
+                              </td>
+
+
+
+
+                            </tr>
+
+
+                            <tr class="parent-row">
+
+                              <td class="border-top-left border-bottom-left"><input type="checkbox"></td>
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <div class="table-logos">
+                                    <a href="#"><img src="images/deep_security_logo.png"></a>
+                                    <a href="#"><img src="images/eset_logo.png"></a>
+                                    <a href="#"><img src="images/fortigate_logo.png"></a>
+                                    <a href="#"><img src="images/nexpose_logo.png"></a>
+                                  </div>
+
+                                </div>
+
+                              </td>
+
+
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    <div class="table-innerbox">
+
+
+                                      <span>
+                                        2019-10-20:11:25:45
+                                      </span>
+
+
+                                      <span class="pipe">
+                                        |
+                                      </span>
+
+                                      <span>
+                                        2019-05-16 21 08
+                                      </span>
+
+
+                                      <span class="plus-more-data">
+                                        <div class="more-numbers">
+                                          2
+                                        </div>
+                                        <div class="dots-row">
+                                          <span class="dots">.</span>
+                                          <span class="dots">.</span>
+                                          <span class="dots">.</span>
+                                        </div>
+
+                                      </span>
+
+                                    </div>
+
+                                  </span>
+
+
+                                </div>
+
+                              </td>
+
+
+
+
+
+                              <td>
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
+                                </div>
+
+                              </td>
+
+                              <td>
+
+                                <div class="table-innerbox">
+
+
+                                  <span>
+                                    2019-10-20:11:25:45
+                                  </span>
+
+
+                                  <span class="pipe">
+                                    |
+                                  </span>
+
+                                  <span>
+                                    2019-05-16 21 08
+                                  </span>
+
+
+                                  <span class="plus-more-data">
+                                    <div class="more-numbers">
+                                      2
+                                    </div>
+                                    <div class="dots-row">
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                      <span class="dots">.</span>
+                                    </div>
+
+                                  </span>
+
+                                </div>
+
+
+                              </td>
+
+
+
+
+
+                              <td class="border-top-right border-bottom-right">
+                                <a href="#" class="acord-arrow">
+                                  <img src="images/down-arrow.svg">
+                                </a>
+
+                              </td>
+
+
+
+
+                            </tr>
+
+
+
+                            <tr class="empty-row">
+
+                              <td colspan="6" class="border-bottom-left border-bottom-right">
+
+
+                                <div class="empty-row-shadow"></div>
+
+                              </td>
+
+
+
+
+                            </tr>
+
+
+                            <!-- second row-->
+
+
+
+                          </tbody>
+                        </table>
+                      </div>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+                  <div class="bottom-page">
+                    <ul class="pagination table-pagination">
+                      <li class="page-item"><a class="page-link" href="#">First</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+  
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Last</a></li>
+  
+  
+                    </ul>
+
+
+                    <div class="results-per-page">
+                      <span class="mr-4 result-pg">Results Per Page</span>
+                      <a href="#" class="result-number">20</a>
+  
+                      <a href="#" class="acord-arrow result-dropdown">
+                        <img src="images/down-arrow.svg">
+                      </a>
+  
+                      
+  
+                    </div>
+  
+                  </div>
+
+                  
+
+
+
+                 
+
+
+
+
+                </div>
+
+
+
+
+              </div>
+
+
+
+
+
+
+            </div>
+
+            <!-- Section ends here -->
+
+
+
+
+
+
+          </section>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+
+  </script>
+
+
+
+  <script src="js/custom.js"> </script>
+
+
+  <script>
+    $('.toggle-table-content').click(function () {
+      $('.table-innerbox-hidden-content').toggleClass('active');
+
+    });
+  </script>
+
+
+  <script type="text/javascript">
+
+    function DropDown(el) {
+      this.dd = el;
+      this.initEvents();
+    }
+    DropDown.prototype = {
+      initEvents: function () {
+        var obj = this;
+
+        obj.dd.on('click', function (event) {
+          $(this).toggleClass('active');
+          event.stopPropagation();
+        });
+      }
+    }
+
+    $(function () {
+
+      var dd = new DropDown($('#dd'));
+
+      $(document).click(function () {
+        // all dropdowns
+        $('.wrapper-dropdown-2').removeClass('active');
+      });
+
+    });
+
+  </script>
+
+
+
+</body>
+
+</html>

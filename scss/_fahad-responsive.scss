@@ -106,6 +106,31 @@
         transition: all 0.3s ease-in-out 0s;
     }
 
+    .LoginPanel .fieldsSection .userName {
+        margin-bottom: 40px;
+    }
+
+    .LoginPanel h1 {
+        font-size: 28px;
+        margin: 40px 0px 8px 0px;
+    }
+
+    .LoginPanel h3 {
+        font-size: 16px;
+
+    }
+
+    .LoginPanel .fieldsSection .userName {
+        margin-bottom: 40px;
+    }
+
+    .LoginPanel .fieldsBotSection label {
+        padding: 16px 0px;
+        padding-left: 25px;
+
+    }
+
+
     .try-free-btn {
         padding: 12px !important;
         font-size: 13px;
@@ -132,7 +157,8 @@
         width: 100% !important;
     }
 
-    .adapter-modal-bottom-row {
+    .adapter-modal-bottom-row,
+    .modal-add-connections-wrapper .adapter-modal-bottom-row {
         justify-content: inherit;
     }
 
@@ -145,6 +171,25 @@
         padding: 0px !important;
     }
 
+    .modal-add-connections-wrapper .adapter-modal-content-box {
+        padding: 15px;
+    }
+
+    .modal-add-connections-wrapper .choose-file-modal {
+        width: 100%;
+    }
+
+    .tags {
+        flex-wrap: wrap;
+    }
+
+    .tags a {
+        text-align: center;
+    }
+
+    .modal-add-connections-wrapper .theme-btn {
+        width: 100% !important;
+    }
 }
 
 /*767 screen end here*/

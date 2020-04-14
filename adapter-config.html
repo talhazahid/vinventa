@@ -415,30 +415,31 @@
                 
 
                 <div class="table-wrap table-wrap-margin white-bg">
-                  <table class="table table-extra-padding table-fonts">
-                    <thead>
+                  <table class="table  table-fonts">
+                    <thead class="theme-bg-head">
                       <tr>
                         <th class="table-checkbox-col">
                           <input type="checkbox">
                         </th>
-                        <th class="hidden">
+                        <!-- <th class="">
                           
-                        </th>
-                        <th scope="col">Instance Name</th>
-                        <th scope="col">Connection <Label></Label></th>
-                        <th scope="col">Region Name </th>
-                        <th scope="col">Get All Regions</th>
-                        <th scope="col">AWS Access KEY ID</th>
-                        <th scope="col">Account Tag</th>
-                        <th scope="col">Proxy</th>
-                        <th scope="col">Use attached IAM role</th>
+                        </th> -->
+                        <th class="bold-heading">Instance Name</th>
+                        <th class="bold-heading">Connection Label</th>
+                        <th class="bold-heading">Region Name </th>
+                        <th class="bold-heading">Get All Regions</th>
+                        <th class="bold-heading">AWS Access KEY ID</th>
+                        <th class="bold-heading">Account Tag</th>
+                        <th class="bold-heading">Proxy</th>
+                        <th class="bold-heading">Use attached IAM role</th>
+                        <th class="bold-heading"></th>
                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td class="table-checkbox-col"><input type="checkbox"></td>
-                        <td><img src="images/green-tick.svg"></td>
+                        <!-- <td><img src="images/green-tick.svg"></td> -->
                         <td>Master</td>
                         <td></td>
                         <td>us=east-2</td>
@@ -447,11 +448,14 @@
                         <td></td>
                         <td></td>
                         <td>No</td>
+                        <td>
+                          <a href="#"> Discover Now</a>
+                        </td>
 
                       </tr>
                       <tr>
                         <td class="table-checkbox-col"><input type="checkbox"></td>
-                        <td></td>
+                        <!-- <td></td> -->
                         <td>Master</td>
                         <td></td>
                         <td>us=east-2</td>
@@ -460,6 +464,9 @@
                         <td></td>
                         <td></td>
                         <td>No</td>
+                        <td>
+                          <a href="#"> Discover Now</a>
+                        </td>
 
                       </tr>
                      
@@ -483,7 +490,7 @@
                   <nav class="header-menu">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                       <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
-                        role="tab" aria-controls="nav-home" aria-selected="true">Adapter Configuration</a>
+                        role="tab" aria-controls="nav-home" aria-selected="true">Connector Configuration</a>
                       <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
                         aria-controls="nav-profile" aria-selected="false">AWS Configuration</a>
                     
@@ -495,12 +502,12 @@
 
                       <div class="inner-tab-content">
 
-                        <div class="row m-0">
+                        <div class="row m-0 connector-config-row">
                           
 
                          <div class="col-lg-6">
                           <div class="col-box">
-     <div class="form-group">
+                           <div class="form-group">
                             <label>Do not fetch device if not seen by source in last X hours</label>
                             <input type="text" class="form-control"  placeholder="">                           
                           </div>
@@ -518,13 +525,17 @@
                           </div>
 
                           <div>
-                            Run as a real-time adapter
+                            <div class="checkbox-with-text-row">
+                              <input type="checkbox">
+                              <div>
+                                Run as a real-time adapter
+                              </div>    
+                            </div>
+                                                  
                           </div>
 
 
-                          <div class="mt-2">
-                            <input type="checkbox">
-                          </div>
+                       
                           </div>
                      
 
@@ -548,15 +559,20 @@
                               <input type="text" class="form-control"  placeholder="">                           
                             </div>
                           
-  
+                            <div class="checkbox-with-text-row">
+
+                              
                             <div>
-                             Discard entity data if 'Last Seen' fetched is older than 'Last Seen' saved
-                            </div>
-  
-  
-                            <div class="mt-2">
                               <input type="checkbox">
                             </div>
+                            <div>
+                              Discard entity data if 'Last Seen' fetched is older than 'Last Seen' saved
+                             </div>
+
+                            </div>
+                         
+  
+  
 
 
                           </div>
@@ -566,12 +582,12 @@
                          </div>
 
 
-                         <div class="mt-3">
+                         <div class="col text-right mt-3">
 
                           <div class="add-edit-connection-bottom-btn"> 
 
                             <button type="button" class="theme-button-small graydient-primary-btn">
-                              Save Config
+                              Save Configuration
                             </button>
                           </div>
                        

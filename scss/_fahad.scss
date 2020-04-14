@@ -100,22 +100,22 @@
 
 h3,
 h3+a {
-    opacity: 0;
-    -webkit-transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
-    transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
-    transition: opacity 0.7s 0s, transform 0.5s 0.2s;
-    transition: opacity 0.7s 0s, transform 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
-    -webkit-transform: translate3d(0, 50%, 0);
-    transform: translate3d(0, 50%, 0);
+    // opacity: 0;
+    // -webkit-transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
+    // transition: opacity 0.7s 0s, -webkit-transform 0.5s 0.2s;
+    // transition: opacity 0.7s 0s, transform 0.5s 0.2s;
+    // transition: opacity 0.7s 0s, transform 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
+    // -webkit-transform: translate3d(0, 50%, 0);
+    // transform: translate3d(0, 50%, 0);
 }
 
 li.current h3,
 li.current h3+a {
-    opacity: 1;
-    -webkit-transition-delay: 1s;
-    transition-delay: 1s;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    // opacity: 1;
+    // -webkit-transition-delay: 1s;
+    // transition-delay: 1s;
+    // -webkit-transform: translate3d(0, 0, 0);
+    // transform: translate3d(0, 0, 0);
 }
 
 li.current {
@@ -186,29 +186,35 @@ li.prev {
     color: #4c4c4c;
 }
 
-input[type="text"],
-input[type="password"],
-textarea {
-    border: 1px solid #cdcdd6;
-    padding: 16px;
-    font-size: 15px;
-    border-radius: 5px;
-    line-height: 1em;
-    width: 100%;
-    color: #cbc9c9;
-}
+.modal-add-connections-wrapper,
+.LoginPanel {
 
-select {
-    border: 1px solid #cdcdd6;
-    padding: 5.5px;
-    color: #cbc9c9;
-    font-size: 15px;
-    line-height: 1em;
-    width: 100%;
-    -moz-appearance: none;
-    background: #fff url(../images/drop-arrow-green.png) no-repeat scroll 97% 13px;
-    box-sizing: border-box;
-    cursor: pointer;
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+        border: 1px solid #cdcdd6;
+        padding: 16px;
+        font-size: 15px;
+        border-radius: 5px;
+        line-height: 1em;
+        width: 100%;
+        color: #4c4c4c;
+    }
+
+    select {
+        border: 1px solid #cdcdd6;
+        padding: 5.5px;
+        font-size: 15px;
+        line-height: 1em;
+        width: 100%;
+        -moz-appearance: none;
+        background: #fff url(../images/drop-arrow-green.png) no-repeat scroll 97% 13px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+
 }
 
 .LoginPanel .fieldsSection .userName {
@@ -218,7 +224,7 @@ select {
 
 .LoginPanel .fieldsSection .password {
     margin-bottom: 10px;
-    background: #fff url(../images/eye.png) no-repeat center right;
+    // background: #fff url(../images/eye.png) no-repeat center right;
 }
 
 .LoginPanel .fieldsSection .userName,
@@ -230,15 +236,20 @@ select {
     -moz-box-sizing: border-box;
 }
 
-.LoginPanel .fieldsBotSection input[type="checkbox"] {
+.LoginPanel .fieldsBotSection input[type="checkbox"],
+.LoginPanel .login-pass-div input[type="checkbox"] {
     /*border: 1px solid #b9babd;
-	background: #fff;
-	width: 12px;*/
+    background: #fff;
+    width: 12px;*/
     display: none;
 }
 
 .remember {
     margin-bottom: 15px;
+}
+
+.login-pass-div {
+    position: relative;
 }
 
 .LoginPanel .fieldsBotSection label {
@@ -255,7 +266,23 @@ select {
 
 .LoginPanel .fieldsBotSection input[type="checkbox"]:checked+label {
     background-image: url(../images/checkbox-img.png);
+
 }
+
+.LoginPanel .login-pass-div label.show-password-icon {
+    background: url(../images/eye.png) no-repeat 0px center;
+    cursor: pointer;
+    padding-left: 23px;
+    position: absolute;
+    top: 41px;
+    right: 22px;
+}
+
+.LoginPanel .login-pass-div input[type="checkbox"]:checked+label {
+    background-image: url(../images/eye-dark.png);
+
+}
+
 
 /*.LoginPanel .Btn{
 	margin-top: 11px;
@@ -355,7 +382,7 @@ input[type="submit"] {
 
 .dropdown-with-img {
     margin-right: -2px !important;
-    min-height: 47px;
+
 }
 
 .ID-Field {
@@ -652,8 +679,14 @@ input:checked+.sliders:before {
     margin: 0px 10px;
 }
 
+
+// .field-large {
+//     width: 360px !important;
+// }
+
+
 .field-large {
-    width: 360px !important;
+    width: 100% !important;
 }
 
 .adapter-modal-field-row label {
@@ -673,4 +706,75 @@ input:checked+.sliders:before {
 .role-to-txt {
     font-size: 20px;
     margin-top: 20px;
+}
+
+.modal-add-connections-wrapper {
+
+    padding: 0px !important;
+
+}
+
+.modal-add-connections-wrapper .adding-adapter-modal-header .adapter-modal-logo {
+    height: 55px !important;
+    width: 55px !important;
+}
+
+.modal-add-connections-wrapper .adding-adapter-modal-header .adapter-modal-name {
+    font-size: 20px !important;
+}
+
+.modal-add-connections-wrapper input[type="text"] {
+    padding: 9px 16px;
+}
+
+.modal-add-connections-wrapper .adapter-modal-bottom-row {
+    justify-content: right;
+    width: 100%;
+}
+
+.modal-add-connections-wrapper .adapter-modal-bottom-row div+div {
+    margin-right: 0px;
+}
+
+.modal-add-connections-wrapper .adapter-modal-content-box {
+    margin-bottom: 0px;
+}
+
+.modal-add-connections-wrapper .adding-adapter-modal-header {
+    border-bottom: 1px solid #dcdde1;
+    padding: 20px;
+
+}
+
+.modal-add-connections-wrapper .modal-close-btn {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.modal-add-connections-wrapper .adapter-modal-content-box {
+    padding: 40px;
+}
+
+.modal-add-connections-wrapper .adapter-modal-field-row div {
+    width: 100% !important;
+
+}
+
+.modal-add-connections-wrapper .adding-adapter-modal-header {
+    margin-bottom: 10px;
+}
+
+.modal-add-connections-wrapper .adapter-modal-role-row-middle div {
+    width: auto !important;
+}
+
+.modal-add-connections-wrapper .choose-file-modal {
+    width: 30%;
+}
+
+.td-wrapper {
+    margin-bottom: 20px;
 }
