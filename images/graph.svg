@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="269" height="187" viewBox="0 0 269 187">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#43ddc7"/>
+      <stop offset="1" stop-color="#4cc0f5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1_copy" data-name="Group 1 copy" transform="translate(3 -67.676)">
+    <g id="Chart" transform="translate(-2 70.676)">
+      <g id="bg" transform="translate(3)">
+        <path id="lines" d="M0,161v-1H240v1Zm0-40v-1H240v1ZM0,81V80H240v1ZM0,41V40H240v1ZM0,1V0H240V1Z" transform="translate(0 4.324)" fill="#9da6af" opacity="0.102"/>
+        <g id="numbers" transform="translate(252)">
+          <text id="_0" data-name="0" transform="translate(0 167)" fill="#9da6af" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.16em" opacity="0.702"><tspan x="0" y="0">0</tspan></text>
+          <text id="_5" data-name="5" transform="translate(0 128)" fill="#9da6af" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.16em" opacity="0.702"><tspan x="0" y="0">5</tspan></text>
+          <text id="_10" data-name="10" transform="translate(0 88)" fill="#9da6af" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.16em" opacity="0.702"><tspan x="0" y="0">10</tspan></text>
+          <text id="_15" data-name="15" transform="translate(0 48)" fill="#9da6af" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.16em" opacity="0.702"><tspan x="0" y="0">15</tspan></text>
+          <text id="_20" data-name="20" transform="translate(0 8)" fill="#9da6af" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.16em" opacity="0.702"><tspan x="0" y="0">20</tspan></text>
+        </g>
+        <g id="Months" transform="translate(33.148 173)" opacity="0.702">
+          <text id="FEB" transform="translate(8 8)" fill="#9da6af" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.16em"><tspan x="-9.144" y="0">FEB</tspan></text>
+          <text id="MAR" transform="translate(55.045 8)" fill="#9da6af" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.16em"><tspan x="-11.685" y="0">MAR</tspan></text>
+          <text id="APR" transform="translate(101.414 8)" fill="#9da6af" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.16em"><tspan x="-10.24" y="0">APR</tspan></text>
+          <text id="MAY" transform="translate(147.953 8)" fill="#9da6af" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.16em"><tspan x="-11.029" y="0">MAY</tspan></text>
+          <text id="JUN" transform="translate(194.492 8)" fill="#9da6af" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.16em"><tspan x="-10.006" y="0">JUN</tspan></text>
+        </g>
+      </g>
+      <g id="chart-2" data-name="chart" transform="translate(0 11.324)">
+        <path id="chart_line_copy_2" data-name="chart line copy 2" d="M-2,170c14.246,0,14.434-36,27.425-36s12.991,61,25.981,61S64.4,141,77.387,141s12.991-44,25.981-44,12.991,40,26.7,40,13.712-17,27.425-17,13.712,20,27.425,20,13.712-58,27.425-58,14.434,35,28.146,35V235H-.557" transform="translate(2 -82)" opacity="0.702" fill="url(#linear-gradient)"/>
+        <path id="chart_border" data-name="chart border" d="M239.492,119c-13.7,0-13.7-35-27.393-35s-13.7,58-27.393,58-13.7-20-27.393-20-13.7,17-27.393,17-13.7-40-26.672-40S90.272,143,77.3,143,64.32,197,51.344,197s-12.976-61-25.951-61S12.23,172-2,172" transform="translate(2 -82)" fill="none" stroke="#2ea6e2" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <rect id="current_line" data-name="current line" width="1" height="160" transform="translate(106 4.324)" fill="#fff" opacity="0.2"/>
+      <g id="cursor" transform="translate(100.543 20.324)">
+        <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" cx="7" cy="7" r="7" transform="translate(0.457)" fill="#d43232" opacity="0.2"/>
+        <path id="Ellipse_1" data-name="Ellipse 1" d="M4,8A4,4,0,1,1,8,4,4,4,0,0,1,4,8ZM4,3A1,1,0,1,0,5,4,1,1,0,0,0,4,3Z" transform="translate(3.457 3)" fill="#d43232"/>
+      </g>
+    </g>
+  </g>
+</svg>

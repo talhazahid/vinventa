@@ -143,14 +143,20 @@
 
     .Connectors-top-searchbar-div .search-wrap {
         width: 100%;
+        margin-bottom: 8px !important;
     }
 
     .toggle-btn-div {
         margin-top: 15px;
+        flex-basis: inherit;
     }
 
     .connectors-main-wrapper .inner-tab-right-section {
         margin-top: 0px !important;
+    }
+
+    .connectors-wrapper .table-innerbox {
+        margin-right: 5px !important;
     }
 
     .field-large {
@@ -189,6 +195,33 @@
 
     .modal-add-connections-wrapper .theme-btn {
         width: 100% !important;
+    }
+
+    .adapter-config-wrapper .inner-tab-right-section {
+        margin-top: 10px;
+    }
+
+    .add-edit-connection-heading-row {
+        display: flex;
+        align-items: inherit;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .add-edit-connection-heading-row .add-edit-heading {
+        order: 2;
+        margin: 50px 0px 0px;
+    }
+
+    .add-edit-connection-heading-row .add-edit-connection-btns {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .last-td-p {
+        padding-right: 15px;
     }
 }
 

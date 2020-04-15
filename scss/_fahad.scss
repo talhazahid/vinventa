@@ -189,7 +189,6 @@ li.prev {
 .modal-add-connections-wrapper,
 .LoginPanel {
 
-
     input[type="text"],
     input[type="password"],
     textarea {
@@ -213,8 +212,6 @@ li.prev {
         box-sizing: border-box;
         cursor: pointer;
     }
-
-
 }
 
 .LoginPanel .fieldsSection .userName {
@@ -266,7 +263,6 @@ li.prev {
 
 .LoginPanel .fieldsBotSection input[type="checkbox"]:checked+label {
     background-image: url(../images/checkbox-img.png);
-
 }
 
 .LoginPanel .login-pass-div label.show-password-icon {
@@ -280,9 +276,7 @@ li.prev {
 
 .LoginPanel .login-pass-div input[type="checkbox"]:checked+label {
     background-image: url(../images/eye-dark.png);
-
 }
-
 
 /*.LoginPanel .Btn{
 	margin-top: 11px;
@@ -382,7 +376,6 @@ input[type="submit"] {
 
 .dropdown-with-img {
     margin-right: -2px !important;
-
 }
 
 .ID-Field {
@@ -523,7 +516,7 @@ input[type="submit"] {
 .Connectors-top-searchbar-div .search-wrap input {
     width: 100%;
     padding: 14px 10px;
-    padding-left: 10px;
+    margin-right: 12px;
     border: 0px solid #bababa;
     padding-left: 40px;
 }
@@ -548,13 +541,14 @@ input[type="submit"] {
 
 .Connectors-top-searchbar-div .search-wrap {
     display: flex;
-    width: 82%;
+    width: 100%;
     position: relative;
 }
 
 .toggle-btn-div {
     display: flex;
     align-items: center;
+    flex-basis: 250px;
 }
 
 .toggle-btn-div .toggle-btn {
@@ -629,7 +623,7 @@ input:checked+.sliders:before {
 
 .connectors-wrapper .table-innerbox {
     display: flex;
-    margin-right: 25px;
+    margin-right: -3px;
     align-items: center;
 }
 
@@ -655,7 +649,7 @@ input:checked+.sliders:before {
 
 .c-orange {
     padding: 6px;
-    background: #f9cc12;
+    background: #ff8003;
     border-radius: 100%;
     display: block;
     width: 14px;
@@ -679,11 +673,9 @@ input:checked+.sliders:before {
     margin: 0px 10px;
 }
 
-
 // .field-large {
 //     width: 360px !important;
 // }
-
 
 .field-large {
     width: 100% !important;
@@ -709,9 +701,15 @@ input:checked+.sliders:before {
 }
 
 .modal-add-connections-wrapper {
-
     padding: 0px !important;
+}
 
+.modal-add-connections-wrapper .mr-3 {
+    margin-right: 2.3rem !important;
+}
+
+.role-to-txt h2 {
+    padding-left: 35px;
 }
 
 .modal-add-connections-wrapper .adding-adapter-modal-header .adapter-modal-logo {
@@ -743,7 +741,6 @@ input:checked+.sliders:before {
 .modal-add-connections-wrapper .adding-adapter-modal-header {
     border-bottom: 1px solid #dcdde1;
     padding: 20px;
-
 }
 
 .modal-add-connections-wrapper .modal-close-btn {
@@ -760,7 +757,6 @@ input:checked+.sliders:before {
 
 .modal-add-connections-wrapper .adapter-modal-field-row div {
     width: 100% !important;
-
 }
 
 .modal-add-connections-wrapper .adding-adapter-modal-header {
@@ -772,9 +768,53 @@ input:checked+.sliders:before {
 }
 
 .modal-add-connections-wrapper .choose-file-modal {
-    width: 30%;
+    width: 45%;
 }
 
 .td-wrapper {
     margin-bottom: 20px;
+}
+
+.adapter-config-wrapper .add-edit-connection-btns a {
+    margin-right: 20px;
+}
+
+.adapter-config-wrapper .parent-row .table-innerbox {
+    padding-bottom: 3px;
+}
+
+.head-input {
+    position: relative;
+    height: 18px;
+    width: 18px;
+
+    input {
+        top: 3px;
+        position: absolute;
+        left: 12px;
+    }
+}
+
+.connector-config-row {
+    border-radius: 15px;
+}
+
+.add-edit-connection-heading-row .add-edit-heading {
+    font-weight: normal !important;
+}
+
+.connector-config-row .form-control {
+    height: calc(1.5em + 0.5rem + 2px) !important;
+}
+
+.connectors-main-wrapper .parent-row td:nth-child(1) {
+    padding: 8px 0px 8px 10px !important;
+}
+
+.connectors-wrapper-full {
+    margin-top: 0px !important;
+}
+
+.red-text {
+    color: #f00f00;
 }

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="220" viewBox="0 0 230 220">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#43ddc7"/>
+      <stop offset="1" stop-color="#4cc0f5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_54" data-name="Group 54" transform="translate(-315 -705)">
+    <g id="Group_49" data-name="Group 49" transform="translate(0 148)">
+      <g id="Group_50" data-name="Group 50">
+        <text id="_10" data-name="10" transform="translate(323 756)" fill="#4c4c4c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">10</tspan></text>
+        <rect id="Rectangle_31" data-name="Rectangle 31" width="13" height="141" rx="6.5" transform="translate(318 584)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_50-2" data-name="Group 50" transform="translate(53 24)">
+        <text id="_7" data-name="7" transform="translate(323 732)" fill="#4c4c4c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-3.773" y="0">7</tspan></text>
+        <rect id="Rectangle_31-2" data-name="Rectangle 31" width="13" height="130" rx="6.5" transform="translate(318 571)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_50-3" data-name="Group 50" transform="translate(106)">
+        <text id="Server_2012" data-name="Server
+2012" transform="translate(323 756)" fill="#4c4c4c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-19.26" y="0">Server</tspan><tspan x="-15.094" y="17">2012</tspan></text>
+        <rect id="Rectangle_31-3" data-name="Rectangle 31" width="13" height="99" rx="6.5" transform="translate(318 626)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_50-4" data-name="Group 50" transform="translate(159)">
+        <text id="Server_2016" data-name="Server
+2016" transform="translate(323 756)" fill="#4c4c4c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-19.26" y="0">Server</tspan><tspan x="-15.094" y="17">2016</tspan></text>
+        <rect id="Rectangle_31-4" data-name="Rectangle 31" width="13" height="81" rx="6.5" transform="translate(318 644)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_50-5" data-name="Group 50" transform="translate(212)">
+        <text id="_8.1" data-name="8.1" transform="translate(323 756)" fill="#4c4c4c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-9.064" y="0">8.1</tspan></text>
+        <rect id="Rectangle_31-5" data-name="Rectangle 31" width="13" height="34" rx="6.5" transform="translate(318 691)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="_99" data-name="99" transform="translate(323 720)" fill="#9da6af" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">99</tspan></text>
+    <text id="_50" data-name="50" transform="translate(377 720)" fill="#9da6af" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">50</tspan></text>
+    <text id="_28" data-name="28" transform="translate(431 720)" fill="#9da6af" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">28</tspan></text>
+    <text id="_22" data-name="22" transform="translate(481 720)" fill="#9da6af" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">22</tspan></text>
+    <text id="_10-2" data-name="10" transform="translate(535 720)" fill="#9da6af" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">10</tspan></text>
+  </g>
+</svg>
