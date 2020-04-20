@@ -595,11 +595,11 @@ input[type="submit"] {
 }
 
 input:checked+.sliders {
-    background-color: #2196f3;
+    background-color: #776fff;
 }
 
 input:focus+.sliders {
-    box-shadow: 0 0 1px #2196f3;
+    box-shadow: 0 0 1px #776fff;
 }
 
 input:checked+.sliders:before {
@@ -663,8 +663,10 @@ input:checked+.sliders:before {
     justify-content: center;
 }
 
+.table-icon span,
 .table-icon span+span {
     letter-spacing: 4px;
+    font-size: 18px;
 }
 
 .table-icon img {
@@ -740,7 +742,7 @@ input:checked+.sliders:before {
 
 .modal-add-connections-wrapper .adding-adapter-modal-header {
     border-bottom: 1px solid #dcdde1;
-    padding: 20px;
+    padding: 12px 20px;
 }
 
 .modal-add-connections-wrapper .modal-close-btn {
@@ -753,6 +755,7 @@ input:checked+.sliders:before {
 
 .modal-add-connections-wrapper .adapter-modal-content-box {
     padding: 40px;
+    padding-top: 11px;
 }
 
 .modal-add-connections-wrapper .adapter-modal-field-row div {
@@ -811,10 +814,22 @@ input:checked+.sliders:before {
     padding: 8px 0px 8px 10px !important;
 }
 
+.connectors-main-wrapper .parent-row td:nth-child(2) {
+    padding-left: 0px !important;
+}
+
 .connectors-wrapper-full {
     margin-top: 0px !important;
 }
 
 .red-text {
     color: #f00f00;
+}
+
+.user-analysis .heading-medium {
+    font-size: 16px !important;
+}
+
+.dashboard-dropdown-menu {
+    margin-bottom: 30px;
 }

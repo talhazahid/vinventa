@@ -1,26 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
-  <defs>
-    <clipPath id="clip-_Reports_off">
-      <rect width="26" height="26"/>
-    </clipPath>
-  </defs>
-  <g id="_Reports_off" data-name=" Reports_off" clip-path="url(#clip-_Reports_off)">
-    <g id="Vector_Smart_Object1" data-name="Vector Smart Object1" transform="translate(-9.806 2)" opacity="0.4" style="isolation: isolate">
-      <g id="Group_2" data-name="Group 2">
-        <path id="Path_35" data-name="Path 35" d="M29.524,22.3H16.733a1.956,1.956,0,0,1-1.927-1.982V5.452a1.956,1.956,0,0,1,1.927-1.983h12.79a1.956,1.956,0,0,1,1.927,1.983V20.321A1.956,1.956,0,0,1,29.524,22.3Z" fill="#9a9a9a" stroke="#000" stroke-miterlimit="10" stroke-width="1.374"/>
-      </g>
-      <g id="Group_3" data-name="Group 3">
-        <path id="Path_36" data-name="Path 36" d="M25.538,17.842H20.719a1.487,1.487,0,0,1,0-2.974h4.818a1.487,1.487,0,0,1,0,2.974Z"/>
-      </g>
-      <g id="Group_4" data-name="Group 4">
-        <path id="Path_37" data-name="Path 37" d="M25.538,11.895H20.719a1.487,1.487,0,0,1,0-2.974h4.818a1.487,1.487,0,0,1,0,2.974Z"/>
-      </g>
-      <g id="Group_5" data-name="Group 5" style="isolation: isolate">
-        <path id="Path_38" data-name="Path 38" d="M26.02,5.947a1.467,1.467,0,0,1-1.446-1.487V1.487a1.446,1.446,0,1,1,2.891,0V4.461A1.467,1.467,0,0,1,26.02,5.947Z"/>
-      </g>
-      <g id="Group_6" data-name="Group 6" style="isolation: isolate">
-        <path id="Path_39" data-name="Path 39" d="M20.237,5.947a1.467,1.467,0,0,1-1.446-1.487V1.487a1.446,1.446,0,1,1,2.891,0V4.461A1.467,1.467,0,0,1,20.237,5.947Z"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#E2E2E2;stroke:#888888;stroke-width:1.374;stroke-miterlimit:10;}
+	.st2{fill:#60B9EE;stroke:#888888;stroke-width:1.374;stroke-miterlimit:10;}
+	.st3{fill:#E2E2E2;}
+	.st4{fill:#888888;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="26" height="26"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="_Reports_on" class="st0">
+		<g id="Vector_Smart_Object1_1_" transform="translate(-9.806 2)">
+			<g id="Group_2_1_">
+				<path id="Path_35_1_" class="st1" d="M29.5,22.3H16.7c-1.1,0-1.9-0.9-1.9-2V5.5c0-1.1,0.8-2,1.9-2h12.8c1.1,0,1.9,0.9,1.9,2
+					v14.9C31.5,21.4,30.6,22.3,29.5,22.3z"/>
+			</g>
+			<g id="Group_3_2_">
+				<path id="Path_36_2_" class="st2" d="M25.5,17.8h-4.8c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5h4.8c0.8,0,1.5,0.7,1.5,1.5
+					C27,17.2,26.4,17.8,25.5,17.8L25.5,17.8z"/>
+			</g>
+			<g id="Group_3_1_">
+				<path id="Path_36_1_" class="st3" d="M25.2,17.6h-4c-0.7,0-1.2-0.6-1.2-1.2c0-0.7,0.6-1.2,1.2-1.2h4c0.7,0,1.2,0.6,1.2,1.2
+					C26.4,17,25.8,17.6,25.2,17.6L25.2,17.6z"/>
+			</g>
+			<g id="Group_4_2_">
+				<path id="Path_37_2_" class="st2" d="M25.5,11.9h-4.8c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5h4.8c0.8,0,1.5,0.7,1.5,1.5
+					C27,11.2,26.4,11.9,25.5,11.9L25.5,11.9z"/>
+			</g>
+			<g id="Group_4_1_">
+				<path id="Path_37_1_" class="st3" d="M25.2,11.7h-4.1c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3h4.1c0.7,0,1.3,0.6,1.3,1.3
+					C26.4,11.1,25.9,11.7,25.2,11.7L25.2,11.7z"/>
+			</g>
+			<g id="Group_5_1_">
+				<path id="Path_38_1_" class="st4" d="M26,5.9c-0.8,0-1.5-0.7-1.4-1.5v-3C24.6,0.7,25.2,0,26,0c0.8,0,1.5,0.6,1.5,1.4
+					c0,0,0,0.1,0,0.1v3C27.5,5.3,26.8,5.9,26,5.9z"/>
+			</g>
+			<g id="Group_6_1_">
+				<path id="Path_39_1_" class="st4" d="M20.2,5.9c-0.8,0-1.5-0.7-1.4-1.5v-3c0-0.8,0.6-1.5,1.4-1.5c0.8,0,1.5,0.6,1.5,1.4
+					c0,0,0,0.1,0,0.1v3C21.7,5.3,21,5.9,20.2,5.9z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
